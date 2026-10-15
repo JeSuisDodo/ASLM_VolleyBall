@@ -381,6 +381,31 @@ footer{border-top:6px solid var(--reed)}
 .eyebrow::before{content:"";display:inline-block;width:14px;height:3px;background:var(--reed);margin-right:8px;vertical-align:middle;border-radius:2px}
 .burger[aria-expanded="true"]{background:var(--reed);border-color:var(--reed)}
 .burger[aria-expanded="true"] span{background:var(--sun-ink)}
+
+/* ===== Bleu roi (maillots) ===== */
+:root{--royal:#1b5cb3;--royal-soft:#e4edfa;--lake:#1b5cb3}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--royal:#1f56a3;--royal-soft:#1a2d55;--lake:#7fb0f0}}
+:root[data-theme="dark"]{--royal:#1f56a3;--royal-soft:#1a2d55;--lake:#7fb0f0}
+.hero{background:var(--royal)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .hero{background:var(--royal)}}
+:root[data-theme="dark"] .hero{background:var(--royal)}
+.hero p{color:#eef3fc}
+.btn-navy{background:var(--royal);color:#fff}
+.btn-navy:hover{filter:brightness(1.08)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn-navy{background:var(--royal);color:#fff}}
+:root[data-theme="dark"] .btn-navy{background:var(--royal);color:#fff}
+.mteams .vs .us{color:var(--royal)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mteams .vs .us{color:var(--lake)}}
+:root[data-theme="dark"] .mteams .vs .us{color:var(--lake)}
+.standing tr.us td{background:var(--royal-soft)}
+nav a:hover{background:var(--royal-soft)}
+nav a[aria-current="page"]{background:var(--royal-soft)}
+.price strong{color:var(--royal)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .price strong{color:var(--lake)}}
+:root[data-theme="dark"] .price strong{color:var(--lake)}
+.pill.next{background:var(--royal-soft)}
+.ct button{background:var(--royal-soft)}
+.tphoto{background:repeating-linear-gradient(-8deg,var(--royal-soft) 0 16px,var(--bg) 16px 21px)}
 </style>
 </head>
 <body>
