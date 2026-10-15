@@ -1,0 +1,18 @@
+# Site ASLM Volley-Ball (remplace l'ancien WordPress)
+DirectoryIndex index.html
+
+RewriteEngine On
+
+# Forcer le HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Anciennes adresses WordPress -> nouvelles pages
+RewriteRule ^index\.php/informations/?$ /#informations [R=301,NE,L]
+RewriteRule ^index\.php/le-bureau-2/?$ /#contact [R=301,NE,L]
+RewriteRule ^index\.php/contact/?$ /#contact [R=301,NE,L]
+
+# matchs.json : toujours la version du jour
+<Files "matchs.json">
+  Header set Cache-Control "no-cache"
+</Files>

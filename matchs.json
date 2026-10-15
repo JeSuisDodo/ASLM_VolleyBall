@@ -1,0 +1,1789 @@
+{
+ "maj": "2026-10-15T14:00:00+02:00",
+ "saison": "2026/2027",
+ "poules": [
+  {
+   "code": "DSM",
+   "nom": "Division de semaine masculine",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&poule=DSM",
+   "classement": [
+    {
+     "rang": 1,
+     "equipe": "ASLM 2",
+     "pts": 6,
+     "j": 2,
+     "g": 2,
+     "p": 0,
+     "sp": 6,
+     "sc": 1
+    },
+    {
+     "rang": 2,
+     "equipe": "ASLM 1",
+     "pts": 3,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 0
+    },
+    {
+     "rang": 3,
+     "equipe": "ASPTT 1",
+     "pts": 2,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 2
+    },
+    {
+     "rang": 4,
+     "equipe": "USAC 1",
+     "pts": 1,
+     "j": 2,
+     "g": 0,
+     "p": 2,
+     "sp": 2,
+     "sc": 6
+    },
+    {
+     "rang": 5,
+     "equipe": "ENOA 1",
+     "pts": 0,
+     "j": 1,
+     "g": 0,
+     "p": 1,
+     "sp": 1,
+     "sc": 3
+    },
+    {
+     "rang": 6,
+     "equipe": "LE LION 1",
+     "pts": 0,
+     "j": 1,
+     "g": 0,
+     "p": 1,
+     "sp": 0,
+     "sc": 3
+    },
+    {
+     "rang": 7,
+     "equipe": "MURS ERIGNE 1",
+     "pts": 0,
+     "j": 0,
+     "g": 0,
+     "p": 0,
+     "sp": 0,
+     "sc": 0
+    }
+   ],
+   "matchs": [
+    {
+     "code": "DSMA002",
+     "date": "2026-10-05",
+     "heure": "20:30",
+     "dom": "ASLM 1",
+     "ext": "LE LION 1",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:13, 25:17, 26:24",
+     "salle": ""
+    },
+    {
+     "code": "DSMA003",
+     "date": "2026-10-08",
+     "heure": "20:30",
+     "dom": "ASLM 2",
+     "ext": "ENOA 1",
+     "sd": 3,
+     "se": 1,
+     "sets": "24:26, 25:15, 25:23, 25:22",
+     "salle": ""
+    },
+    {
+     "code": "DSMA006",
+     "date": "2026-10-14",
+     "heure": "20:45",
+     "dom": "USAC 1",
+     "ext": "ASLM 2",
+     "sd": 0,
+     "se": 3,
+     "sets": "20:25, 10:25, 15:25",
+     "salle": ""
+    },
+    {
+     "code": "DSMA007",
+     "date": "2026-10-12",
+     "heure": "20:30",
+     "dom": "ASLM 1",
+     "ext": "ENOA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DSMA011",
+     "date": "2026-11-02",
+     "heure": "20:30",
+     "dom": "ASLM 1",
+     "ext": "USAC 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DSMA012",
+     "date": "2026-11-05",
+     "heure": "20:30",
+     "dom": "ASLM 2",
+     "ext": "ASPTT 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DSMA014",
+     "date": "2026-11-17",
+     "heure": "20:30",
+     "dom": "ASPTT 1",
+     "ext": "ASLM 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DSMA020",
+     "date": "2026-11-23",
+     "heure": "20:30",
+     "dom": "ASLM 1",
+     "ext": "ASLM 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DSMA022",
+     "date": "2026-12-03",
+     "heure": "20:30",
+     "dom": "ASLM 2",
+     "ext": "MURS ERIGNE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DSMA027",
+     "date": "2026-12-17",
+     "heure": "20:30",
+     "dom": "LE LION 1",
+     "ext": "ASLM 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES TILLEULS"
+    },
+    {
+     "code": "DSMA028",
+     "date": "2026-12-16",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 1",
+     "ext": "ASLM 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
+     "code": "DSMR030",
+     "date": "2027-01-14",
+     "heure": "20:30",
+     "dom": "LE LION 1",
+     "ext": "ASLM 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES TILLEULS"
+    },
+    {
+     "code": "DSMR031",
+     "date": "2027-01-15",
+     "heure": "20:30",
+     "dom": "ENOA 1",
+     "ext": "ASLM 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DSMR034",
+     "date": "2027-01-21",
+     "heure": "20:30",
+     "dom": "ASLM 2",
+     "ext": "USAC 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DSMR035",
+     "date": "2027-01-22",
+     "heure": "20:30",
+     "dom": "ENOA 1",
+     "ext": "ASLM 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DSMR039",
+     "date": "2027-01-27",
+     "heure": "20:45",
+     "dom": "USAC 1",
+     "ext": "ASLM 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DSMR040",
+     "date": "2027-01-28",
+     "heure": "20:30",
+     "dom": "ASPTT 1",
+     "ext": "ASLM 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DSMR042",
+     "date": "2027-02-08",
+     "heure": "20:30",
+     "dom": "ASLM 1",
+     "ext": "ASPTT 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DSMR048",
+     "date": "2027-02-18",
+     "heure": "20:30",
+     "dom": "ASLM 2",
+     "ext": "ASLM 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DSMR050",
+     "date": "2027-03-10",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 1",
+     "ext": "ASLM 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
+     "code": "DSMR055",
+     "date": "2027-03-18",
+     "heure": "20:30",
+     "dom": "ASLM 2",
+     "ext": "LE LION 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DSMR056",
+     "date": "2027-03-15",
+     "heure": "20:30",
+     "dom": "ASLM 1",
+     "ext": "MURS ERIGNE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    }
+   ]
+  },
+  {
+   "code": "DS1",
+   "nom": "Championnat départemental mixte, 1re division",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&poule=DS1",
+   "classement": [
+    {
+     "rang": 1,
+     "equipe": "ASCCHU 1",
+     "pts": 5,
+     "j": 2,
+     "g": 2,
+     "p": 0,
+     "sp": 6,
+     "sc": 2
+    },
+    {
+     "rang": 2,
+     "equipe": "ASLM 4",
+     "pts": 4,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 5,
+     "sc": 3
+    },
+    {
+     "rang": 3,
+     "equipe": "SCO 2",
+     "pts": 3,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 0
+    },
+    {
+     "rang": 4,
+     "equipe": "ASPTT 3",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 5,
+     "sc": 5
+    },
+    {
+     "rang": 5,
+     "equipe": "ASPTT 4",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 3,
+     "sc": 4
+    },
+    {
+     "rang": 6,
+     "equipe": "BAUGE 1",
+     "pts": 2,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 2
+    },
+    {
+     "rang": 7,
+     "equipe": "VCA 1",
+     "pts": 1,
+     "j": 2,
+     "g": 0,
+     "p": 2,
+     "sp": 3,
+     "sc": 6
+    },
+    {
+     "rang": 8,
+     "equipe": "SCO 1",
+     "pts": 0,
+     "j": 1,
+     "g": 0,
+     "p": 1,
+     "sp": 0,
+     "sc": 3
+    },
+    {
+     "rang": 9,
+     "equipe": "LONGUE 1",
+     "pts": 0,
+     "j": 1,
+     "g": 0,
+     "p": 1,
+     "sp": 0,
+     "sc": 3
+    }
+   ],
+   "matchs": [
+    {
+     "code": "DS1A002",
+     "date": "2026-10-06",
+     "heure": "20:45",
+     "dom": "ASLM 4",
+     "ext": "BAUGE 1",
+     "sd": 2,
+     "se": 3,
+     "sets": "22:25, 25:15, 26:24, 19:25, 11:15",
+     "salle": ""
+    },
+    {
+     "code": "DS1A010",
+     "date": "2026-10-13",
+     "heure": "20:30",
+     "dom": "ASLM 4",
+     "ext": "SCO 1",
+     "sd": 3,
+     "se": 0,
+     "sets": "26:24, 25:8, 29:27",
+     "salle": ""
+    },
+    {
+     "code": "DS1A020",
+     "date": "2026-11-16",
+     "heure": "20:30",
+     "dom": "SCO 2",
+     "ext": "ASLM 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1A022",
+     "date": "2026-11-24",
+     "heure": "20:30",
+     "dom": "ASLM 4",
+     "ext": "VCA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS1A029",
+     "date": "2026-11-30",
+     "heure": "20:45",
+     "dom": "ASCCHU 1",
+     "ext": "ASLM 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS1A033",
+     "date": "2026-12-15",
+     "heure": "20:30",
+     "dom": "ASLM 4",
+     "ext": "LONGUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS1A038",
+     "date": "2027-01-12",
+     "heure": "20:00",
+     "dom": "ASPTT 3",
+     "ext": "ASLM 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS1A044",
+     "date": "2027-01-19",
+     "heure": "20:30",
+     "dom": "ASLM 4",
+     "ext": "ASPTT 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS1R047",
+     "date": "2027-01-27",
+     "heure": "20:30",
+     "dom": "BAUGE 1",
+     "ext": "ASLM 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS1R055",
+     "date": "2027-02-09",
+     "heure": "20:30",
+     "dom": "SCO 1",
+     "ext": "ASLM 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1R065",
+     "date": "2027-03-09",
+     "heure": "20:30",
+     "dom": "ASLM 4",
+     "ext": "SCO 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS1R067",
+     "date": "2027-03-17",
+     "heure": "20:45",
+     "dom": "VCA 1",
+     "ext": "ASLM 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS1R074",
+     "date": "2027-03-30",
+     "heure": "20:30",
+     "dom": "ASLM 4",
+     "ext": "ASCCHU 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS1R078",
+     "date": "2027-04-08",
+     "heure": "20:45",
+     "dom": "LONGUE 1",
+     "ext": "ASLM 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA TÊTE NOIRE"
+    },
+    {
+     "code": "DS1R083",
+     "date": "2027-05-04",
+     "heure": "20:30",
+     "dom": "ASLM 4",
+     "ext": "ASPTT 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS1R089",
+     "date": "2027-05-13",
+     "heure": "20:30",
+     "dom": "ASPTT 4",
+     "ext": "ASLM 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    }
+   ]
+  },
+  {
+   "code": "DS2",
+   "nom": "Championnat départemental mixte, 2e division",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&poule=DS2",
+   "classement": [
+    {
+     "rang": 1,
+     "equipe": "ASPTT 2",
+     "pts": 4,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 5,
+     "sc": 4
+    },
+    {
+     "rang": 2,
+     "equipe": "ASLM 7",
+     "pts": 4,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 5,
+     "sc": 4
+    },
+    {
+     "rang": 3,
+     "equipe": "MURS ERIGNE 2",
+     "pts": 4,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 5,
+     "sc": 4
+    },
+    {
+     "rang": 4,
+     "equipe": "ASPTT 5",
+     "pts": 3,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 1
+    },
+    {
+     "rang": 5,
+     "equipe": "ASLM 6",
+     "pts": 2,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 2
+    },
+    {
+     "rang": 6,
+     "equipe": "ENOA 2",
+     "pts": 2,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 2
+    },
+    {
+     "rang": 7,
+     "equipe": "ASLM 3",
+     "pts": 2,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 4,
+     "sc": 5
+    },
+    {
+     "rang": 8,
+     "equipe": "SCO 6",
+     "pts": 0,
+     "j": 2,
+     "g": 0,
+     "p": 2,
+     "sp": 2,
+     "sc": 6
+    },
+    {
+     "rang": 9,
+     "equipe": "ASCCHU 2",
+     "pts": 0,
+     "j": 1,
+     "g": 0,
+     "p": 1,
+     "sp": 1,
+     "sc": 3
+    }
+   ],
+   "matchs": [
+    {
+     "code": "DS2A002",
+     "date": "2026-10-06",
+     "heure": "20:30",
+     "dom": "ASLM 6",
+     "ext": "ASPTT 2",
+     "sd": 3,
+     "se": 2,
+     "sets": "21:25, 17:25, 25:13, 25:20, 15:11",
+     "salle": ""
+    },
+    {
+     "code": "DS2A004",
+     "date": "2026-10-06",
+     "heure": "20:30",
+     "dom": "ASLM 3",
+     "ext": "ASLM 7",
+     "sd": 3,
+     "se": 2,
+     "sets": "22:25, 25:21, 25:21, 31:33, 15:10",
+     "salle": ""
+    },
+    {
+     "code": "DS2A007",
+     "date": "2026-10-14",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 2",
+     "ext": "ASLM 3",
+     "sd": 3,
+     "se": 1,
+     "sets": "26:24, 23:25, 25:20, 25:19",
+     "salle": ""
+    },
+    {
+     "code": "DS2A008",
+     "date": "2026-10-13",
+     "heure": "20:45",
+     "dom": "ASLM 7",
+     "ext": "SCO 6",
+     "sd": 3,
+     "se": 1,
+     "sets": "25:18, 25:22, 20:25, 25:12",
+     "salle": ""
+    },
+    {
+     "code": "DS2A009",
+     "date": "2026-10-15",
+     "heure": "20:30",
+     "dom": "ASPTT 5",
+     "ext": "ASLM 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS2A013",
+     "date": "2026-11-03",
+     "heure": "20:30",
+     "dom": "ASLM 6",
+     "ext": "ASLM 7",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2A015",
+     "date": "2026-11-03",
+     "heure": "20:30",
+     "dom": "ASLM 3",
+     "ext": "ENOA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2A018",
+     "date": "2026-11-18",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 2",
+     "ext": "ASLM 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
+     "code": "DS2A019",
+     "date": "2026-11-17",
+     "heure": "20:30",
+     "dom": "ASLM 7",
+     "ext": "ASCCHU 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2A022",
+     "date": "2026-11-24",
+     "heure": "20:30",
+     "dom": "ASPTT 2",
+     "ext": "ASLM 7",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS2A024",
+     "date": "2026-11-24",
+     "heure": "20:45",
+     "dom": "ASLM 6",
+     "ext": "ENOA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2A025",
+     "date": "2026-11-24",
+     "heure": "19:30",
+     "dom": "SCO 6",
+     "ext": "ASLM 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SPORTING CLUB BELLE BEILLE"
+    },
+    {
+     "code": "DS2A027",
+     "date": "2026-12-01",
+     "heure": "20:45",
+     "dom": "ASLM 3",
+     "ext": "ASLM 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2A030",
+     "date": "2026-12-01",
+     "heure": "20:30",
+     "dom": "ASLM 7",
+     "ext": "ASPTT 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2A034",
+     "date": "2026-12-14",
+     "heure": "20:45",
+     "dom": "ASCCHU 2",
+     "ext": "ASLM 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2A035",
+     "date": "2026-12-15",
+     "heure": "20:30",
+     "dom": "ASLM 6",
+     "ext": "SCO 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2A038",
+     "date": "2027-01-12",
+     "heure": "20:30",
+     "dom": "ASLM 3",
+     "ext": "ASPTT 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2A040",
+     "date": "2027-01-13",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 2",
+     "ext": "ASLM 7",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
+     "code": "DS2A042",
+     "date": "2027-01-19",
+     "heure": "20:45",
+     "dom": "ASLM 7",
+     "ext": "ENOA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2A043",
+     "date": "2027-01-21",
+     "heure": "20:30",
+     "dom": "ASPTT 5",
+     "ext": "ASLM 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS2A045",
+     "date": "2027-01-18",
+     "heure": "20:45",
+     "dom": "ASCCHU 2",
+     "ext": "ASLM 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2R047",
+     "date": "2027-01-26",
+     "heure": "20:30",
+     "dom": "ASPTT 2",
+     "ext": "ASLM 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS2R049",
+     "date": "2027-01-26",
+     "heure": "20:30",
+     "dom": "ASLM 7",
+     "ext": "ASLM 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2R052",
+     "date": "2027-02-09",
+     "heure": "20:45",
+     "dom": "ASLM 3",
+     "ext": "MURS ERIGNE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2R053",
+     "date": "2027-02-09",
+     "heure": "19:30",
+     "dom": "SCO 6",
+     "ext": "ASLM 7",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SPORTING CLUB BELLE BEILLE"
+    },
+    {
+     "code": "DS2R054",
+     "date": "2027-02-09",
+     "heure": "20:30",
+     "dom": "ASLM 6",
+     "ext": "ASPTT 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2R058",
+     "date": "2027-02-16",
+     "heure": "20:30",
+     "dom": "ASLM 7",
+     "ext": "ASLM 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2R060",
+     "date": "2027-02-16",
+     "heure": "20:45",
+     "dom": "ENOA 2",
+     "ext": "ASLM 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DS2R063",
+     "date": "2027-03-09",
+     "heure": "20:45",
+     "dom": "ASLM 6",
+     "ext": "MURS ERIGNE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2R064",
+     "date": "2027-03-08",
+     "heure": "20:45",
+     "dom": "ASCCHU 2",
+     "ext": "ASLM 7",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2R067",
+     "date": "2027-03-16",
+     "heure": "20:30",
+     "dom": "ASLM 7",
+     "ext": "ASPTT 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2R069",
+     "date": "2027-03-16",
+     "heure": "20:45",
+     "dom": "ENOA 2",
+     "ext": "ASLM 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DS2R070",
+     "date": "2027-03-16",
+     "heure": "20:45",
+     "dom": "ASLM 3",
+     "ext": "SCO 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2R072",
+     "date": "2027-03-30",
+     "heure": "20:30",
+     "dom": "ASLM 6",
+     "ext": "ASLM 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2R075",
+     "date": "2027-04-01",
+     "heure": "20:30",
+     "dom": "ASPTT 5",
+     "ext": "ASLM 7",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS2R079",
+     "date": "2027-04-06",
+     "heure": "20:30",
+     "dom": "ASLM 3",
+     "ext": "ASCCHU 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2R080",
+     "date": "2027-04-06",
+     "heure": "19:30",
+     "dom": "SCO 6",
+     "ext": "ASLM 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SPORTING CLUB BELLE BEILLE"
+    },
+    {
+     "code": "DS2R083",
+     "date": "2027-05-04",
+     "heure": "20:30",
+     "dom": "ASPTT 2",
+     "ext": "ASLM 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS2R085",
+     "date": "2027-05-04",
+     "heure": "20:30",
+     "dom": "ASLM 7",
+     "ext": "MURS ERIGNE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2R087",
+     "date": "2027-05-11",
+     "heure": "20:45",
+     "dom": "ENOA 2",
+     "ext": "ASLM 7",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DS2R088",
+     "date": "2027-05-11",
+     "heure": "20:45",
+     "dom": "ASLM 3",
+     "ext": "ASPTT 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2R090",
+     "date": "2027-05-11",
+     "heure": "20:30",
+     "dom": "ASLM 6",
+     "ext": "ASCCHU 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    }
+   ]
+  },
+  {
+   "code": "DS3",
+   "nom": "Championnat départemental mixte, 3e division",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&poule=DS3",
+   "classement": [
+    {
+     "rang": 1,
+     "equipe": "DOUE 1",
+     "pts": 5,
+     "j": 2,
+     "g": 2,
+     "p": 0,
+     "sp": 6,
+     "sc": 2
+    },
+    {
+     "rang": 2,
+     "equipe": "STE GEMMES 1",
+     "pts": 4,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 5,
+     "sc": 3
+    },
+    {
+     "rang": 3,
+     "equipe": "ASLM 8",
+     "pts": 3,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 0
+    },
+    {
+     "rang": 4,
+     "equipe": "ASLM 5",
+     "pts": 3,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 1
+    },
+    {
+     "rang": 5,
+     "equipe": "VCA 2",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 5,
+     "sc": 5
+    },
+    {
+     "rang": 6,
+     "equipe": "SCO 4",
+     "pts": 2,
+     "j": 1,
+     "g": 1,
+     "p": 0,
+     "sp": 3,
+     "sc": 2
+    },
+    {
+     "rang": 7,
+     "equipe": "SCO 3",
+     "pts": 2,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 3,
+     "sc": 5
+    },
+    {
+     "rang": 8,
+     "equipe": "LE LION 2",
+     "pts": 1,
+     "j": 1,
+     "g": 0,
+     "p": 1,
+     "sp": 2,
+     "sc": 3
+    },
+    {
+     "rang": 9,
+     "equipe": "BAUGE 2",
+     "pts": 1,
+     "j": 2,
+     "g": 0,
+     "p": 2,
+     "sp": 2,
+     "sc": 6
+    },
+    {
+     "rang": 10,
+     "equipe": "ST BARTH 1",
+     "pts": 0,
+     "j": 2,
+     "g": 0,
+     "p": 2,
+     "sp": 1,
+     "sc": 6
+    }
+   ],
+   "matchs": [
+    {
+     "code": "DS3A002",
+     "date": "2026-10-06",
+     "heure": "20:45",
+     "dom": "ASLM 5",
+     "ext": "ST BARTH 1",
+     "sd": 3,
+     "se": 1,
+     "sets": "21:25, 25:18, 31:29, 25:20",
+     "salle": ""
+    },
+    {
+     "code": "DS3A004",
+     "date": "2026-10-07",
+     "heure": "20:30",
+     "dom": "BAUGE 2",
+     "ext": "ASLM 8",
+     "sd": 0,
+     "se": 3,
+     "sets": "15:25, 19:25, 14:25",
+     "salle": ""
+    },
+    {
+     "code": "DS3A008",
+     "date": "2026-10-13",
+     "heure": "20:30",
+     "dom": "ASLM 8",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3A009",
+     "date": "2026-10-15",
+     "heure": "20:30",
+     "dom": "LE LION 2",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA MARE AUX COQS"
+    },
+    {
+     "code": "DS3A013",
+     "date": "2026-11-03",
+     "heure": "20:45",
+     "dom": "ASLM 5",
+     "ext": "ASLM 8",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS3A018",
+     "date": "2026-11-17",
+     "heure": "20:30",
+     "dom": "SCO 3",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3A019",
+     "date": "2026-11-17",
+     "heure": "20:30",
+     "dom": "ASLM 8",
+     "ext": "STE GEMMES 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3A022",
+     "date": "2026-11-23",
+     "heure": "20:30",
+     "dom": "ST BARTH 1",
+     "ext": "ASLM 8",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE"
+    },
+    {
+     "code": "DS3A024",
+     "date": "2026-11-24",
+     "heure": "20:30",
+     "dom": "ASLM 5",
+     "ext": "DOUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3A027",
+     "date": "2026-12-02",
+     "heure": "20:30",
+     "dom": "BAUGE 2",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS3A030",
+     "date": "2026-12-01",
+     "heure": "20:30",
+     "dom": "ASLM 8",
+     "ext": "LE LION 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3A031",
+     "date": "2026-12-17",
+     "heure": "20:30",
+     "dom": "VCA 2",
+     "ext": "ASLM 8",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS3A035",
+     "date": "2026-12-15",
+     "heure": "20:45",
+     "dom": "ASLM 5",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS3A036",
+     "date": "2027-01-12",
+     "heure": "20:30",
+     "dom": "ASLM 5",
+     "ext": "VCA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3A040",
+     "date": "2027-01-12",
+     "heure": "20:30",
+     "dom": "SCO 3",
+     "ext": "ASLM 8",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3A042",
+     "date": "2027-01-19",
+     "heure": "20:30",
+     "dom": "ASLM 8",
+     "ext": "DOUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3A045",
+     "date": "2027-01-18",
+     "heure": "20:35",
+     "dom": "STE GEMMES 1",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES BOULAYS"
+    },
+    {
+     "code": "DS3R047",
+     "date": "2027-01-25",
+     "heure": "20:30",
+     "dom": "ST BARTH 1",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE"
+    },
+    {
+     "code": "DS3R049",
+     "date": "2027-01-26",
+     "heure": "20:30",
+     "dom": "ASLM 8",
+     "ext": "BAUGE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3R053",
+     "date": "2027-02-08",
+     "heure": "20:30",
+     "dom": "SCO 4",
+     "ext": "ASLM 8",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3R054",
+     "date": "2027-02-09",
+     "heure": "20:30",
+     "dom": "ASLM 5",
+     "ext": "LE LION 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3R058",
+     "date": "2027-02-16",
+     "heure": "20:30",
+     "dom": "ASLM 8",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3R063",
+     "date": "2027-03-09",
+     "heure": "20:30",
+     "dom": "ASLM 5",
+     "ext": "SCO 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3R064",
+     "date": "2027-03-08",
+     "heure": "20:35",
+     "dom": "STE GEMMES 1",
+     "ext": "ASLM 8",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES BOULAYS"
+    },
+    {
+     "code": "DS3R067",
+     "date": "2027-03-16",
+     "heure": "20:30",
+     "dom": "ASLM 8",
+     "ext": "ST BARTH 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3R069",
+     "date": "2027-03-17",
+     "heure": "20:30",
+     "dom": "DOUE 1",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE OMNISPORTS HENRI CHATENA"
+    },
+    {
+     "code": "DS3R072",
+     "date": "2027-03-30",
+     "heure": "20:45",
+     "dom": "ASLM 5",
+     "ext": "BAUGE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS3R075",
+     "date": "2027-04-01",
+     "heure": "20:30",
+     "dom": "LE LION 2",
+     "ext": "ASLM 8",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA MARE AUX COQS"
+    },
+    {
+     "code": "DS3R076",
+     "date": "2027-04-06",
+     "heure": "20:30",
+     "dom": "ASLM 8",
+     "ext": "VCA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3R080",
+     "date": "2027-04-05",
+     "heure": "20:30",
+     "dom": "SCO 4",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3R081",
+     "date": "2027-05-06",
+     "heure": "20:30",
+     "dom": "VCA 2",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS3R085",
+     "date": "2027-05-04",
+     "heure": "20:45",
+     "dom": "ASLM 8",
+     "ext": "SCO 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS3R087",
+     "date": "2027-05-12",
+     "heure": "20:30",
+     "dom": "DOUE 1",
+     "ext": "ASLM 8",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE OMNISPORTS HENRI CHATENA"
+    },
+    {
+     "code": "DS3R090",
+     "date": "2027-05-11",
+     "heure": "20:30",
+     "dom": "ASLM 5",
+     "ext": "STE GEMMES 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    }
+   ]
+  }
+ ],
+ "coupes": [
+  {
+   "code": "COF",
+   "nom": "Coupe de l'Anjou féminine",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&division=COF",
+   "matchs": [
+    {
+     "code": "COFA008",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "VCA DEP 1",
+     "ext": "ASLM DS",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT",
+     "tour": "1er tour Coupe"
+    }
+   ]
+  },
+  {
+   "code": "CDM",
+   "nom": "Coupe de l'Anjou mixte",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&division=CDM",
+   "matchs": [
+    {
+     "code": "mixA005",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "ASLM 7",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY",
+     "tour": "1er tour Coupe"
+    },
+    {
+     "code": "mixA007",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "ASLM 8",
+     "ext": "SCO 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY",
+     "tour": "1er tour Coupe"
+    },
+    {
+     "code": "mixA011",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "ASLM 4",
+     "ext": "ST BARTH 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY",
+     "tour": "1er tour Coupe"
+    },
+    {
+     "code": "mixA012",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "VCA 3",
+     "ext": "ASLM 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT",
+     "tour": "1er tour Coupe"
+    },
+    {
+     "code": "mixA014",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "BAUGE 2",
+     "ext": "ASLM 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour Coupe"
+    }
+   ]
+  },
+  {
+   "code": "COM",
+   "nom": "Coupe de l'Anjou masculine",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&division=COM",
+   "matchs": [
+    {
+     "code": "COMA008",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ASLM 1",
+     "ext": "SCO DEP 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY",
+     "tour": "1er tour Coupe"
+    },
+    {
+     "code": "COMA010",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ASLM 9",
+     "ext": "ENOA DEP",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY",
+     "tour": "1er tour Coupe"
+    },
+    {
+     "code": "COMA011",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ASLM 10",
+     "ext": "VBCM DEP",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY",
+     "tour": "1er tour Coupe"
+    },
+    {
+     "code": "COMA012",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ASLM 2",
+     "ext": "ECVB DEP",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY",
+     "tour": "1er tour Coupe"
+    }
+   ]
+  }
+ ]
+}
