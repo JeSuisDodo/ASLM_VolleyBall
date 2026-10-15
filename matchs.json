@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T14:00:00+02:00",
+ "maj": "2026-10-15T15:54:30+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -102,6 +102,17 @@
      "salle": ""
     },
     {
+     "code": "DSMA004",
+     "date": "2026-10-06",
+     "heure": "20:30",
+     "dom": "ASPTT 1",
+     "ext": "USAC 1",
+     "sd": 3,
+     "se": 2,
+     "sets": "25:15, 24:26, 20:25, 30:28, 15:10",
+     "salle": ""
+    },
+    {
      "code": "DSMA006",
      "date": "2026-10-14",
      "heure": "20:45",
@@ -122,6 +133,28 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DSMA008",
+     "date": "2026-11-12",
+     "heure": "20:30",
+     "dom": "LE LION 1",
+     "ext": "MURS ERIGNE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES TILLEULS"
+    },
+    {
+     "code": "DSMA010",
+     "date": "2026-11-04",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 1",
+     "ext": "ENOA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
     },
     {
      "code": "DSMA011",
@@ -157,6 +190,50 @@
      "salle": "SALLE MERMOZ"
     },
     {
+     "code": "DSMA015",
+     "date": "2026-11-18",
+     "heure": "20:45",
+     "dom": "USAC 1",
+     "ext": "MURS ERIGNE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DSMA016",
+     "date": "2026-11-20",
+     "heure": "20:30",
+     "dom": "ENOA 1",
+     "ext": "LE LION 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DSMA018",
+     "date": "2026-11-26",
+     "heure": "20:30",
+     "dom": "LE LION 1",
+     "ext": "USAC 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES TILLEULS"
+    },
+    {
+     "code": "DSMA019",
+     "date": "2026-11-25",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 1",
+     "ext": "ASPTT 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
      "code": "DSMA020",
      "date": "2026-11-23",
      "heure": "20:30",
@@ -177,6 +254,39 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DSMA023",
+     "date": "2026-12-01",
+     "heure": "20:30",
+     "dom": "ASPTT 1",
+     "ext": "LE LION 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DSMA024",
+     "date": "2026-12-02",
+     "heure": "20:45",
+     "dom": "USAC 1",
+     "ext": "ENOA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DSMA026",
+     "date": "2026-12-18",
+     "heure": "20:30",
+     "dom": "ENOA 1",
+     "ext": "ASPTT 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
     },
     {
      "code": "DSMA027",
@@ -223,6 +333,17 @@
      "salle": "SALLE DE ST LAMBERT LA POTHERI"
     },
     {
+     "code": "DSMR032",
+     "date": "2027-01-13",
+     "heure": "20:45",
+     "dom": "USAC 1",
+     "ext": "ASPTT 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
      "code": "DSMR034",
      "date": "2027-01-21",
      "heure": "20:30",
@@ -239,6 +360,28 @@
      "heure": "20:30",
      "dom": "ENOA 1",
      "ext": "ASLM 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DSMR036",
+     "date": "2027-01-20",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 1",
+     "ext": "LE LION 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
+     "code": "DSMR038",
+     "date": "2027-01-29",
+     "heure": "20:30",
+     "dom": "ENOA 1",
+     "ext": "MURS ERIGNE 1",
      "sd": null,
      "se": null,
      "sets": "",
@@ -278,6 +421,50 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DSMR043",
+     "date": "2027-02-10",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 1",
+     "ext": "USAC 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
+     "code": "DSMR044",
+     "date": "2027-02-11",
+     "heure": "20:30",
+     "dom": "LE LION 1",
+     "ext": "ENOA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES TILLEULS"
+    },
+    {
+     "code": "DSMR046",
+     "date": "2027-02-17",
+     "heure": "20:45",
+     "dom": "USAC 1",
+     "ext": "LE LION 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DSMR047",
+     "date": "2027-02-16",
+     "heure": "20:30",
+     "dom": "ASPTT 1",
+     "ext": "MURS ERIGNE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
      "code": "DSMR048",
      "date": "2027-02-18",
      "heure": "20:30",
@@ -298,6 +485,39 @@
      "se": null,
      "sets": "",
      "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
+     "code": "DSMR051",
+     "date": "2027-03-11",
+     "heure": "20:30",
+     "dom": "LE LION 1",
+     "ext": "ASPTT 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES TILLEULS"
+    },
+    {
+     "code": "DSMR052",
+     "date": "2027-03-12",
+     "heure": "20:30",
+     "dom": "ENOA 1",
+     "ext": "USAC 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DSMR054",
+     "date": "2027-03-16",
+     "heure": "20:30",
+     "dom": "ASPTT 1",
+     "ext": "ENOA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
     },
     {
      "code": "DSMR055",
@@ -432,6 +652,72 @@
      "salle": ""
     },
     {
+     "code": "DS1A003",
+     "date": "2026-10-08",
+     "heure": "20:30",
+     "dom": "ASPTT 4",
+     "ext": "SCO 2",
+     "sd": 0,
+     "se": 3,
+     "sets": "26:28, 21:25, 23:25",
+     "salle": ""
+    },
+    {
+     "code": "DS1A004",
+     "date": "2026-10-06",
+     "heure": "20:00",
+     "dom": "ASPTT 3",
+     "ext": "VCA 1",
+     "sd": 3,
+     "se": 2,
+     "sets": "25:16, 16:25, 25:21, 14:25, 15:9",
+     "salle": ""
+    },
+    {
+     "code": "DS1A005",
+     "date": "2026-10-07",
+     "heure": "20:30",
+     "dom": "LONGUE 1",
+     "ext": "ASCCHU 1",
+     "sd": 0,
+     "se": 3,
+     "sets": "12:25, 17:25, 18:25",
+     "salle": ""
+    },
+    {
+     "code": "DS1A007",
+     "date": "2026-10-12",
+     "heure": "20:45",
+     "dom": "ASCCHU 1",
+     "ext": "ASPTT 3",
+     "sd": 3,
+     "se": 2,
+     "sets": "18:25, 25:15, 25:19, 19:25, 18:16",
+     "salle": ""
+    },
+    {
+     "code": "DS1A008",
+     "date": "2026-10-14",
+     "heure": "20:45",
+     "dom": "VCA 1",
+     "ext": "ASPTT 4",
+     "sd": 1,
+     "se": 3,
+     "sets": "22:25, 25:23, 17:25, 16:25",
+     "salle": ""
+    },
+    {
+     "code": "DS1A009",
+     "date": "2026-10-12",
+     "heure": "20:30",
+     "dom": "SCO 2",
+     "ext": "BAUGE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
      "code": "DS1A010",
      "date": "2026-10-13",
      "heure": "20:30",
@@ -441,6 +727,83 @@
      "se": 0,
      "sets": "26:24, 25:8, 29:27",
      "salle": ""
+    },
+    {
+     "code": "DS1A012",
+     "date": "2026-11-03",
+     "heure": "20:30",
+     "dom": "SCO 1",
+     "ext": "SCO 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1A013",
+     "date": "2026-11-04",
+     "heure": "20:30",
+     "dom": "BAUGE 1",
+     "ext": "VCA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS1A014",
+     "date": "2026-11-05",
+     "heure": "20:30",
+     "dom": "ASPTT 4",
+     "ext": "ASCCHU 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS1A015",
+     "date": "2026-11-03",
+     "heure": "20:00",
+     "dom": "ASPTT 3",
+     "ext": "LONGUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS1A017",
+     "date": "2026-11-19",
+     "heure": "20:45",
+     "dom": "LONGUE 1",
+     "ext": "ASPTT 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA TÊTE NOIRE"
+    },
+    {
+     "code": "DS1A018",
+     "date": "2026-11-16",
+     "heure": "20:45",
+     "dom": "ASCCHU 1",
+     "ext": "BAUGE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS1A019",
+     "date": "2026-11-18",
+     "heure": "20:45",
+     "dom": "VCA 1",
+     "ext": "SCO 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
     },
     {
      "code": "DS1A020",
@@ -465,6 +828,61 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS1A023",
+     "date": "2026-11-24",
+     "heure": "20:30",
+     "dom": "SCO 1",
+     "ext": "ASCCHU 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1A024",
+     "date": "2026-11-25",
+     "heure": "20:30",
+     "dom": "BAUGE 1",
+     "ext": "LONGUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS1A025",
+     "date": "2026-11-26",
+     "heure": "20:30",
+     "dom": "ASPTT 4",
+     "ext": "ASPTT 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS1A027",
+     "date": "2026-12-01",
+     "heure": "20:00",
+     "dom": "ASPTT 3",
+     "ext": "BAUGE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS1A028",
+     "date": "2026-12-03",
+     "heure": "20:45",
+     "dom": "LONGUE 1",
+     "ext": "SCO 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA TÊTE NOIRE"
+    },
+    {
      "code": "DS1A029",
      "date": "2026-11-30",
      "heure": "20:45",
@@ -474,6 +892,28 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS1A030",
+     "date": "2026-12-02",
+     "heure": "20:45",
+     "dom": "VCA 1",
+     "ext": "SCO 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS1A032",
+     "date": "2026-12-14",
+     "heure": "20:30",
+     "dom": "SCO 2",
+     "ext": "ASCCHU 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
     },
     {
      "code": "DS1A033",
@@ -487,6 +927,39 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS1A034",
+     "date": "2026-12-15",
+     "heure": "20:30",
+     "dom": "SCO 1",
+     "ext": "ASPTT 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1A035",
+     "date": "2026-12-16",
+     "heure": "20:30",
+     "dom": "BAUGE 1",
+     "ext": "ASPTT 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES MAUCARDIERES VIEIL"
+    },
+    {
+     "code": "DS1A037",
+     "date": "2027-01-14",
+     "heure": "20:30",
+     "dom": "ASPTT 4",
+     "ext": "SCO 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
      "code": "DS1A038",
      "date": "2027-01-12",
      "heure": "20:00",
@@ -496,6 +969,50 @@
      "se": null,
      "sets": "",
      "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS1A039",
+     "date": "2027-01-14",
+     "heure": "20:45",
+     "dom": "LONGUE 1",
+     "ext": "SCO 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA TÊTE NOIRE"
+    },
+    {
+     "code": "DS1A040",
+     "date": "2027-01-11",
+     "heure": "20:45",
+     "dom": "ASCCHU 1",
+     "ext": "VCA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS1A042",
+     "date": "2027-01-20",
+     "heure": "20:45",
+     "dom": "VCA 1",
+     "ext": "LONGUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS1A043",
+     "date": "2027-01-18",
+     "heure": "20:30",
+     "dom": "SCO 2",
+     "ext": "ASPTT 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
     },
     {
      "code": "DS1A044",
@@ -509,6 +1026,17 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS1A045",
+     "date": "2027-01-19",
+     "heure": "20:30",
+     "dom": "SCO 1",
+     "ext": "BAUGE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
      "code": "DS1R047",
      "date": "2027-01-27",
      "heure": "20:30",
@@ -520,11 +1048,154 @@
      "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
     },
     {
+     "code": "DS1R048",
+     "date": "2027-01-25",
+     "heure": "20:30",
+     "dom": "SCO 2",
+     "ext": "ASPTT 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1R049",
+     "date": "2027-01-27",
+     "heure": "20:45",
+     "dom": "VCA 1",
+     "ext": "ASPTT 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS1R050",
+     "date": "2027-01-25",
+     "heure": "20:45",
+     "dom": "ASCCHU 1",
+     "ext": "LONGUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS1R052",
+     "date": "2027-02-09",
+     "heure": "20:00",
+     "dom": "ASPTT 3",
+     "ext": "ASCCHU 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS1R053",
+     "date": "2027-02-11",
+     "heure": "20:30",
+     "dom": "ASPTT 4",
+     "ext": "VCA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS1R054",
+     "date": "2027-02-10",
+     "heure": "20:30",
+     "dom": "BAUGE 1",
+     "ext": "SCO 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES MAUCARDIERES VIEIL"
+    },
+    {
      "code": "DS1R055",
      "date": "2027-02-09",
      "heure": "20:30",
      "dom": "SCO 1",
      "ext": "ASLM 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1R057",
+     "date": "2027-02-15",
+     "heure": "20:30",
+     "dom": "SCO 2",
+     "ext": "SCO 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1R058",
+     "date": "2027-02-17",
+     "heure": "20:45",
+     "dom": "VCA 1",
+     "ext": "BAUGE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS1R059",
+     "date": "2027-02-15",
+     "heure": "20:45",
+     "dom": "ASCCHU 1",
+     "ext": "ASPTT 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS1R060",
+     "date": "2027-02-18",
+     "heure": "20:45",
+     "dom": "LONGUE 1",
+     "ext": "ASPTT 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA TÊTE NOIRE"
+    },
+    {
+     "code": "DS1R062",
+     "date": "2027-03-11",
+     "heure": "20:30",
+     "dom": "ASPTT 4",
+     "ext": "LONGUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS1R063",
+     "date": "2027-03-10",
+     "heure": "20:30",
+     "dom": "BAUGE 1",
+     "ext": "ASCCHU 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS1R064",
+     "date": "2027-03-09",
+     "heure": "20:30",
+     "dom": "SCO 1",
+     "ext": "VCA 1",
      "sd": null,
      "se": null,
      "sets": "",
@@ -550,7 +1221,62 @@
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "SALLE FRANÇOIS CEVERT"
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS1R068",
+     "date": "2027-03-15",
+     "heure": "20:45",
+     "dom": "ASCCHU 1",
+     "ext": "SCO 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS1R069",
+     "date": "2027-03-18",
+     "heure": "20:45",
+     "dom": "LONGUE 1",
+     "ext": "BAUGE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA TÊTE NOIRE"
+    },
+    {
+     "code": "DS1R070",
+     "date": "2027-03-16",
+     "heure": "20:00",
+     "dom": "ASPTT 3",
+     "ext": "ASPTT 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS1R072",
+     "date": "2027-03-31",
+     "heure": "20:30",
+     "dom": "BAUGE 1",
+     "ext": "ASPTT 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES MAUCARDIERES VIEIL"
+    },
+    {
+     "code": "DS1R073",
+     "date": "2027-03-30",
+     "heure": "20:30",
+     "dom": "SCO 1",
+     "ext": "LONGUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
     },
     {
      "code": "DS1R074",
@@ -564,6 +1290,28 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS1R075",
+     "date": "2027-03-29",
+     "heure": "20:30",
+     "dom": "SCO 2",
+     "ext": "VCA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1R077",
+     "date": "2027-04-05",
+     "heure": "20:45",
+     "dom": "ASCCHU 1",
+     "ext": "SCO 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
      "code": "DS1R078",
      "date": "2027-04-08",
      "heure": "20:45",
@@ -573,6 +1321,39 @@
      "se": null,
      "sets": "",
      "salle": "SALLE DE LA TÊTE NOIRE"
+    },
+    {
+     "code": "DS1R079",
+     "date": "2027-04-06",
+     "heure": "20:00",
+     "dom": "ASPTT 3",
+     "ext": "SCO 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS1R080",
+     "date": "2027-04-08",
+     "heure": "20:30",
+     "dom": "ASPTT 4",
+     "ext": "BAUGE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS1R082",
+     "date": "2027-05-04",
+     "heure": "20:30",
+     "dom": "SCO 1",
+     "ext": "ASPTT 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
     },
     {
      "code": "DS1R083",
@@ -586,6 +1367,50 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS1R084",
+     "date": "2027-05-03",
+     "heure": "20:30",
+     "dom": "SCO 2",
+     "ext": "LONGUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS1R085",
+     "date": "2027-05-05",
+     "heure": "20:45",
+     "dom": "VCA 1",
+     "ext": "ASCCHU 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS1R087",
+     "date": "2027-05-13",
+     "heure": "20:45",
+     "dom": "LONGUE 1",
+     "ext": "VCA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA TÊTE NOIRE"
+    },
+    {
+     "code": "DS1R088",
+     "date": "2027-05-11",
+     "heure": "20:00",
+     "dom": "ASPTT 3",
+     "ext": "SCO 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
      "code": "DS1R089",
      "date": "2027-05-13",
      "heure": "20:30",
@@ -595,6 +1420,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS1R090",
+     "date": "2027-05-12",
+     "heure": "20:30",
+     "dom": "BAUGE 1",
+     "ext": "SCO 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
     }
    ]
   },
@@ -707,6 +1543,17 @@
      "salle": ""
     },
     {
+     "code": "DS2A003",
+     "date": "2026-10-06",
+     "heure": "19:30",
+     "dom": "SCO 6",
+     "ext": "ASPTT 5",
+     "sd": 1,
+     "se": 3,
+     "sets": "14:25, 22:25, 25:20, 22:25",
+     "salle": ""
+    },
+    {
      "code": "DS2A004",
      "date": "2026-10-06",
      "heure": "20:30",
@@ -715,6 +1562,17 @@
      "sd": 3,
      "se": 2,
      "sets": "22:25, 25:21, 25:21, 31:33, 15:10",
+     "salle": ""
+    },
+    {
+     "code": "DS2A005",
+     "date": "2026-10-06",
+     "heure": "20:45",
+     "dom": "ENOA 2",
+     "ext": "MURS ERIGNE 2",
+     "sd": 3,
+     "se": 2,
+     "sets": "25:23, 23:25, 22:25, 25:20, 15:13",
      "salle": ""
     },
     {
@@ -751,6 +1609,28 @@
      "salle": "SALLE VOLTAIRE"
     },
     {
+     "code": "DS2A010",
+     "date": "2026-10-13",
+     "heure": "20:30",
+     "dom": "ASPTT 2",
+     "ext": "ASCCHU 2",
+     "sd": 3,
+     "se": 1,
+     "sets": "22:25, 25:20, 25:20, 25:12",
+     "salle": ""
+    },
+    {
+     "code": "DS2A012",
+     "date": "2026-11-02",
+     "heure": "20:45",
+     "dom": "ASCCHU 2",
+     "ext": "ASPTT 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
      "code": "DS2A013",
      "date": "2026-11-03",
      "heure": "20:30",
@@ -762,6 +1642,17 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS2A014",
+     "date": "2026-11-03",
+     "heure": "19:30",
+     "dom": "SCO 6",
+     "ext": "MURS ERIGNE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SPORTING CLUB BELLE BEILLE"
+    },
+    {
      "code": "DS2A015",
      "date": "2026-11-03",
      "heure": "20:30",
@@ -771,6 +1662,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2A017",
+     "date": "2026-11-17",
+     "heure": "20:45",
+     "dom": "ENOA 2",
+     "ext": "SCO 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
     },
     {
      "code": "DS2A018",
@@ -795,6 +1697,17 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS2A020",
+     "date": "2026-11-19",
+     "heure": "20:30",
+     "dom": "ASPTT 5",
+     "ext": "ASPTT 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
      "code": "DS2A022",
      "date": "2026-11-24",
      "heure": "20:30",
@@ -804,6 +1717,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS2A023",
+     "date": "2026-11-23",
+     "heure": "20:45",
+     "dom": "ASCCHU 2",
+     "ext": "MURS ERIGNE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
     },
     {
      "code": "DS2A024",
@@ -839,6 +1763,28 @@
      "salle": "SALLE JEAN MONNET"
     },
     {
+     "code": "DS2A028",
+     "date": "2026-12-01",
+     "heure": "20:45",
+     "dom": "ENOA 2",
+     "ext": "ASCCHU 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DS2A029",
+     "date": "2026-12-02",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 2",
+     "ext": "ASPTT 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
      "code": "DS2A030",
      "date": "2026-12-01",
      "heure": "20:30",
@@ -848,6 +1794,28 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2A032",
+     "date": "2026-12-17",
+     "heure": "20:30",
+     "dom": "ASPTT 5",
+     "ext": "MURS ERIGNE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS2A033",
+     "date": "2026-12-15",
+     "heure": "20:30",
+     "dom": "ASPTT 2",
+     "ext": "ENOA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
     },
     {
      "code": "DS2A034",
@@ -872,6 +1840,17 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS2A037",
+     "date": "2027-01-12",
+     "heure": "19:30",
+     "dom": "SCO 6",
+     "ext": "ASCCHU 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SPORTING CLUB BELLE BEILLE"
+    },
+    {
      "code": "DS2A038",
      "date": "2027-01-12",
      "heure": "20:30",
@@ -881,6 +1860,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2A039",
+     "date": "2027-01-12",
+     "heure": "20:45",
+     "dom": "ENOA 2",
+     "ext": "ASPTT 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
     },
     {
      "code": "DS2A040",
@@ -916,6 +1906,17 @@
      "salle": "SALLE VOLTAIRE"
     },
     {
+     "code": "DS2A044",
+     "date": "2027-01-19",
+     "heure": "20:30",
+     "dom": "ASPTT 2",
+     "ext": "SCO 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
      "code": "DS2A045",
      "date": "2027-01-18",
      "heure": "20:45",
@@ -938,6 +1939,17 @@
      "salle": "SALLE MERMOZ"
     },
     {
+     "code": "DS2R048",
+     "date": "2027-01-28",
+     "heure": "20:30",
+     "dom": "ASPTT 5",
+     "ext": "SCO 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
      "code": "DS2R049",
      "date": "2027-01-26",
      "heure": "20:30",
@@ -947,6 +1959,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2R050",
+     "date": "2027-01-27",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 2",
+     "ext": "ENOA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
     },
     {
      "code": "DS2R052",
@@ -982,6 +2005,28 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS2R055",
+     "date": "2027-02-08",
+     "heure": "20:45",
+     "dom": "ASCCHU 2",
+     "ext": "ASPTT 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2R057",
+     "date": "2027-02-18",
+     "heure": "20:30",
+     "dom": "ASPTT 5",
+     "ext": "ASCCHU 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
+    },
+    {
      "code": "DS2R058",
      "date": "2027-02-16",
      "heure": "20:30",
@@ -993,6 +2038,17 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS2R059",
+     "date": "2027-02-17",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 2",
+     "ext": "SCO 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
      "code": "DS2R060",
      "date": "2027-02-16",
      "heure": "20:45",
@@ -1002,6 +2058,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE DE ST LAMBERT LA POTHERI"
+    },
+    {
+     "code": "DS2R062",
+     "date": "2027-03-09",
+     "heure": "19:30",
+     "dom": "SCO 6",
+     "ext": "ENOA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SPORTING CLUB BELLE BEILLE"
     },
     {
      "code": "DS2R063",
@@ -1026,6 +2093,17 @@
      "salle": "SALLE JEAN MONNET"
     },
     {
+     "code": "DS2R065",
+     "date": "2027-03-09",
+     "heure": "20:30",
+     "dom": "ASPTT 2",
+     "ext": "ASPTT 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
      "code": "DS2R067",
      "date": "2027-03-16",
      "heure": "20:30",
@@ -1035,6 +2113,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS2R068",
+     "date": "2027-03-17",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 2",
+     "ext": "ASCCHU 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
     },
     {
      "code": "DS2R069",
@@ -1070,6 +2159,28 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS2R073",
+     "date": "2027-03-29",
+     "heure": "20:45",
+     "dom": "ASCCHU 2",
+     "ext": "ENOA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2R074",
+     "date": "2027-03-30",
+     "heure": "20:30",
+     "dom": "ASPTT 2",
+     "ext": "MURS ERIGNE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ"
+    },
+    {
      "code": "DS2R075",
      "date": "2027-04-01",
      "heure": "20:30",
@@ -1079,6 +2190,28 @@
      "se": null,
      "sets": "",
      "salle": "SALLE VOLTAIRE"
+    },
+    {
+     "code": "DS2R077",
+     "date": "2027-04-07",
+     "heure": "20:30",
+     "dom": "MURS ERIGNE 2",
+     "ext": "ASPTT 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS"
+    },
+    {
+     "code": "DS2R078",
+     "date": "2027-04-06",
+     "heure": "20:45",
+     "dom": "ENOA 2",
+     "ext": "ASPTT 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE ST LAMBERT LA POTHERI"
     },
     {
      "code": "DS2R079",
@@ -1103,6 +2236,17 @@
      "salle": "SPORTING CLUB BELLE BEILLE"
     },
     {
+     "code": "DS2R082",
+     "date": "2027-05-03",
+     "heure": "20:45",
+     "dom": "ASCCHU 2",
+     "ext": "SCO 6",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN MONNET"
+    },
+    {
      "code": "DS2R083",
      "date": "2027-05-04",
      "heure": "20:30",
@@ -1112,6 +2256,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE MERMOZ"
+    },
+    {
+     "code": "DS2R084",
+     "date": "2027-05-06",
+     "heure": "20:30",
+     "dom": "ASPTT 5",
+     "ext": "ENOA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE VOLTAIRE"
     },
     {
      "code": "DS2R085",
@@ -1145,6 +2300,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS2R089",
+     "date": "2027-05-11",
+     "heure": "19:30",
+     "dom": "SCO 6",
+     "ext": "ASPTT 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SPORTING CLUB BELLE BEILLE"
     },
     {
      "code": "DS2R090",
@@ -1267,6 +2433,17 @@
    ],
    "matchs": [
     {
+     "code": "DS3A001",
+     "date": "2026-10-05",
+     "heure": "20:35",
+     "dom": "STE GEMMES 1",
+     "ext": "VCA 2",
+     "sd": 2,
+     "se": 3,
+     "sets": "23:25, 25:14, 25:17, 15:25, 10:15",
+     "salle": ""
+    },
+    {
      "code": "DS3A002",
      "date": "2026-10-06",
      "heure": "20:45",
@@ -1278,6 +2455,17 @@
      "salle": ""
     },
     {
+     "code": "DS3A003",
+     "date": "2026-10-05",
+     "heure": "20:30",
+     "dom": "SCO 4",
+     "ext": "LE LION 2",
+     "sd": 3,
+     "se": 2,
+     "sets": "22:25, 24:26, 25:14, 25:17, 15:8",
+     "salle": ""
+    },
+    {
      "code": "DS3A004",
      "date": "2026-10-07",
      "heure": "20:30",
@@ -1286,6 +2474,39 @@
      "sd": 0,
      "se": 3,
      "sets": "15:25, 19:25, 14:25",
+     "salle": ""
+    },
+    {
+     "code": "DS3A005",
+     "date": "2026-10-07",
+     "heure": "20:30",
+     "dom": "DOUE 1",
+     "ext": "SCO 3",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:18, 25:16, 25:18",
+     "salle": ""
+    },
+    {
+     "code": "DS3A006",
+     "date": "2026-10-14",
+     "heure": "20:30",
+     "dom": "DOUE 1",
+     "ext": "VCA 2",
+     "sd": 3,
+     "se": 2,
+     "sets": "25:21, 18:25, 25:16, 16:25, 15:11",
+     "salle": ""
+    },
+    {
+     "code": "DS3A007",
+     "date": "2026-10-13",
+     "heure": "20:30",
+     "dom": "SCO 3",
+     "ext": "BAUGE 2",
+     "sd": 3,
+     "se": 2,
+     "sets": "25:22, 23:25, 25:20, 13:25, 15:13",
      "salle": ""
     },
     {
@@ -1311,6 +2532,39 @@
      "salle": "SALLE DE LA MARE AUX COQS"
     },
     {
+     "code": "DS3A010",
+     "date": "2026-10-12",
+     "heure": "20:30",
+     "dom": "ST BARTH 1",
+     "ext": "STE GEMMES 1",
+     "sd": 0,
+     "se": 3,
+     "sets": "20:25, 28:30, 17:25",
+     "salle": ""
+    },
+    {
+     "code": "DS3A011",
+     "date": "2026-11-05",
+     "heure": "20:30",
+     "dom": "VCA 2",
+     "ext": "ST BARTH 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS3A012",
+     "date": "2026-11-02",
+     "heure": "20:35",
+     "dom": "STE GEMMES 1",
+     "ext": "LE LION 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES BOULAYS"
+    },
+    {
      "code": "DS3A013",
      "date": "2026-11-03",
      "heure": "20:45",
@@ -1320,6 +2574,50 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS3A014",
+     "date": "2026-11-02",
+     "heure": "20:30",
+     "dom": "SCO 4",
+     "ext": "SCO 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3A015",
+     "date": "2026-11-04",
+     "heure": "20:30",
+     "dom": "BAUGE 2",
+     "ext": "DOUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES MAUCARDIERES VIEIL"
+    },
+    {
+     "code": "DS3A016",
+     "date": "2026-11-18",
+     "heure": "20:30",
+     "dom": "BAUGE 2",
+     "ext": "VCA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS3A017",
+     "date": "2026-11-18",
+     "heure": "20:30",
+     "dom": "DOUE 1",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE OMNISPORTS HENRI CHATENA"
     },
     {
      "code": "DS3A018",
@@ -1344,6 +2642,28 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS3A020",
+     "date": "2026-11-19",
+     "heure": "20:30",
+     "dom": "LE LION 2",
+     "ext": "ST BARTH 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA MARE AUX COQS"
+    },
+    {
+     "code": "DS3A021",
+     "date": "2026-11-26",
+     "heure": "20:30",
+     "dom": "VCA 2",
+     "ext": "LE LION 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
      "code": "DS3A022",
      "date": "2026-11-23",
      "heure": "20:30",
@@ -1353,6 +2673,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE DE LA GEMMETRIE"
+    },
+    {
+     "code": "DS3A023",
+     "date": "2026-11-23",
+     "heure": "20:35",
+     "dom": "STE GEMMES 1",
+     "ext": "SCO 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES BOULAYS"
     },
     {
      "code": "DS3A024",
@@ -1366,6 +2697,28 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS3A025",
+     "date": "2026-11-23",
+     "heure": "20:30",
+     "dom": "SCO 4",
+     "ext": "BAUGE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3A026",
+     "date": "2026-11-30",
+     "heure": "20:30",
+     "dom": "SCO 4",
+     "ext": "VCA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
      "code": "DS3A027",
      "date": "2026-12-02",
      "heure": "20:30",
@@ -1375,6 +2728,28 @@
      "se": null,
      "sets": "",
      "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS3A028",
+     "date": "2026-12-02",
+     "heure": "20:30",
+     "dom": "DOUE 1",
+     "ext": "STE GEMMES 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE OMNISPORTS HENRI CHATENA"
+    },
+    {
+     "code": "DS3A029",
+     "date": "2026-12-01",
+     "heure": "20:30",
+     "dom": "SCO 3",
+     "ext": "ST BARTH 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
     },
     {
      "code": "DS3A030",
@@ -1399,6 +2774,39 @@
      "salle": "FRANÇOIS CEVERT"
     },
     {
+     "code": "DS3A032",
+     "date": "2026-12-17",
+     "heure": "20:30",
+     "dom": "LE LION 2",
+     "ext": "SCO 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA MARE AUX COQS"
+    },
+    {
+     "code": "DS3A033",
+     "date": "2026-12-14",
+     "heure": "20:30",
+     "dom": "ST BARTH 1",
+     "ext": "DOUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE"
+    },
+    {
+     "code": "DS3A034",
+     "date": "2026-12-14",
+     "heure": "20:35",
+     "dom": "STE GEMMES 1",
+     "ext": "BAUGE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES BOULAYS"
+    },
+    {
      "code": "DS3A035",
      "date": "2026-12-15",
      "heure": "20:45",
@@ -1421,6 +2829,39 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS3A037",
+     "date": "2027-01-11",
+     "heure": "20:30",
+     "dom": "SCO 4",
+     "ext": "STE GEMMES 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3A038",
+     "date": "2027-01-13",
+     "heure": "20:30",
+     "dom": "BAUGE 2",
+     "ext": "ST BARTH 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS3A039",
+     "date": "2027-01-13",
+     "heure": "20:30",
+     "dom": "DOUE 1",
+     "ext": "LE LION 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE OMNISPORTS HENRI CHATENA"
+    },
+    {
      "code": "DS3A040",
      "date": "2027-01-12",
      "heure": "20:30",
@@ -1430,6 +2871,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3A041",
+     "date": "2027-01-21",
+     "heure": "20:30",
+     "dom": "VCA 2",
+     "ext": "SCO 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
     },
     {
      "code": "DS3A042",
@@ -1443,6 +2895,28 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS3A043",
+     "date": "2027-01-21",
+     "heure": "20:30",
+     "dom": "LE LION 2",
+     "ext": "BAUGE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA MARE AUX COQS"
+    },
+    {
+     "code": "DS3A044",
+     "date": "2027-01-18",
+     "heure": "20:30",
+     "dom": "ST BARTH 1",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE"
+    },
+    {
      "code": "DS3A045",
      "date": "2027-01-18",
      "heure": "20:35",
@@ -1452,6 +2926,17 @@
      "se": null,
      "sets": "",
      "salle": "GYMNASE DES BOULAYS"
+    },
+    {
+     "code": "DS3R046",
+     "date": "2027-01-28",
+     "heure": "20:30",
+     "dom": "VCA 2",
+     "ext": "STE GEMMES 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
     },
     {
      "code": "DS3R047",
@@ -1465,6 +2950,17 @@
      "salle": "SALLE DE LA GEMMETRIE"
     },
     {
+     "code": "DS3R048",
+     "date": "2027-01-28",
+     "heure": "20:30",
+     "dom": "LE LION 2",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA MARE AUX COQS"
+    },
+    {
      "code": "DS3R049",
      "date": "2027-01-26",
      "heure": "20:30",
@@ -1474,6 +2970,39 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3R050",
+     "date": "2027-01-26",
+     "heure": "20:30",
+     "dom": "SCO 3",
+     "ext": "DOUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3R051",
+     "date": "2027-02-11",
+     "heure": "20:30",
+     "dom": "VCA 2",
+     "ext": "DOUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS3R052",
+     "date": "2027-02-10",
+     "heure": "20:30",
+     "dom": "BAUGE 2",
+     "ext": "SCO 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
     },
     {
      "code": "DS3R053",
@@ -1498,6 +3027,39 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS3R055",
+     "date": "2027-02-08",
+     "heure": "20:35",
+     "dom": "STE GEMMES 1",
+     "ext": "ST BARTH 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES BOULAYS"
+    },
+    {
+     "code": "DS3R056",
+     "date": "2027-02-15",
+     "heure": "20:30",
+     "dom": "ST BARTH 1",
+     "ext": "VCA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE"
+    },
+    {
+     "code": "DS3R057",
+     "date": "2027-02-18",
+     "heure": "20:30",
+     "dom": "LE LION 2",
+     "ext": "STE GEMMES 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA MARE AUX COQS"
+    },
+    {
      "code": "DS3R058",
      "date": "2027-02-16",
      "heure": "20:30",
@@ -1507,6 +3069,50 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3R059",
+     "date": "2027-02-16",
+     "heure": "20:30",
+     "dom": "SCO 3",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3R060",
+     "date": "2027-02-17",
+     "heure": "20:30",
+     "dom": "DOUE 1",
+     "ext": "BAUGE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE OMNISPORTS HENRI CHATENA"
+    },
+    {
+     "code": "DS3R061",
+     "date": "2027-03-11",
+     "heure": "20:30",
+     "dom": "VCA 2",
+     "ext": "BAUGE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
+     "code": "DS3R062",
+     "date": "2027-03-08",
+     "heure": "20:30",
+     "dom": "SCO 4",
+     "ext": "DOUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
     },
     {
      "code": "DS3R063",
@@ -1531,6 +3137,28 @@
      "salle": "GYMNASE DES BOULAYS"
     },
     {
+     "code": "DS3R065",
+     "date": "2027-03-08",
+     "heure": "20:30",
+     "dom": "ST BARTH 1",
+     "ext": "LE LION 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE"
+    },
+    {
+     "code": "DS3R066",
+     "date": "2027-03-18",
+     "heure": "20:30",
+     "dom": "LE LION 2",
+     "ext": "VCA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA MARE AUX COQS"
+    },
+    {
      "code": "DS3R067",
      "date": "2027-03-16",
      "heure": "20:30",
@@ -1540,6 +3168,17 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY"
+    },
+    {
+     "code": "DS3R068",
+     "date": "2027-03-16",
+     "heure": "20:30",
+     "dom": "SCO 3",
+     "ext": "STE GEMMES 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
     },
     {
      "code": "DS3R069",
@@ -1553,6 +3192,28 @@
      "salle": "SALLE OMNISPORTS HENRI CHATENA"
     },
     {
+     "code": "DS3R070",
+     "date": "2027-03-17",
+     "heure": "20:30",
+     "dom": "BAUGE 2",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS3R071",
+     "date": "2027-04-01",
+     "heure": "20:30",
+     "dom": "VCA 2",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT"
+    },
+    {
      "code": "DS3R072",
      "date": "2027-03-30",
      "heure": "20:45",
@@ -1562,6 +3223,28 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN MONNET"
+    },
+    {
+     "code": "DS3R073",
+     "date": "2027-03-29",
+     "heure": "20:35",
+     "dom": "STE GEMMES 1",
+     "ext": "DOUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES BOULAYS"
+    },
+    {
+     "code": "DS3R074",
+     "date": "2027-03-29",
+     "heure": "20:30",
+     "dom": "ST BARTH 1",
+     "ext": "SCO 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE"
     },
     {
      "code": "DS3R075",
@@ -1586,6 +3269,39 @@
      "salle": "SALLE JEAN LEHAY"
     },
     {
+     "code": "DS3R077",
+     "date": "2027-04-06",
+     "heure": "20:30",
+     "dom": "SCO 3",
+     "ext": "LE LION 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
+     "code": "DS3R078",
+     "date": "2027-04-07",
+     "heure": "20:30",
+     "dom": "DOUE 1",
+     "ext": "ST BARTH 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE OMNISPORTS HENRI CHATENA"
+    },
+    {
+     "code": "DS3R079",
+     "date": "2027-04-07",
+     "heure": "20:30",
+     "dom": "BAUGE 2",
+     "ext": "STE GEMMES 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
      "code": "DS3R080",
      "date": "2027-04-05",
      "heure": "20:30",
@@ -1608,6 +3324,39 @@
      "salle": "FRANÇOIS CEVERT"
     },
     {
+     "code": "DS3R082",
+     "date": "2027-05-03",
+     "heure": "20:35",
+     "dom": "STE GEMMES 1",
+     "ext": "SCO 4",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE DES BOULAYS"
+    },
+    {
+     "code": "DS3R083",
+     "date": "2027-05-03",
+     "heure": "20:30",
+     "dom": "ST BARTH 1",
+     "ext": "BAUGE 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE"
+    },
+    {
+     "code": "DS3R084",
+     "date": "2027-05-10",
+     "heure": "20:30",
+     "dom": "LE LION 2",
+     "ext": "DOUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA MARE AUX COQS"
+    },
+    {
      "code": "DS3R085",
      "date": "2027-05-04",
      "heure": "20:45",
@@ -1619,6 +3368,17 @@
      "salle": "SALLE JEAN MONNET"
     },
     {
+     "code": "DS3R086",
+     "date": "2027-05-11",
+     "heure": "20:30",
+     "dom": "SCO 3",
+     "ext": "VCA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
+    },
+    {
      "code": "DS3R087",
      "date": "2027-05-12",
      "heure": "20:30",
@@ -1628,6 +3388,28 @@
      "se": null,
      "sets": "",
      "salle": "SALLE OMNISPORTS HENRI CHATENA"
+    },
+    {
+     "code": "DS3R088",
+     "date": "2027-05-12",
+     "heure": "20:30",
+     "dom": "BAUGE 2",
+     "ext": "LE LION 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+    },
+    {
+     "code": "DS3R089",
+     "date": "2027-05-10",
+     "heure": "20:30",
+     "dom": "SCO 4",
+     "ext": "ST BARTH 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU"
     },
     {
      "code": "DS3R090",
@@ -1650,6 +3432,90 @@
    "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&division=COF",
    "matchs": [
     {
+     "code": "COFA001",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ST BARTH DEP 2",
+     "ext": "AC LONGUE DEP 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COFA002",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ENOA DEP 1",
+     "ext": "ECVB R2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "ESPACE LONGUENÉE",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COFA003",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "VCA DEP 2",
+     "ext": "ASPTT DS",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COFA004",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "SAUMUR DEP 1",
+     "ext": "VBCM DEP",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE GOUZY",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COFA005",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "SMVB DEP",
+     "ext": "LA CHRISTINA",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "THOMAS DUPOUET",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COFA006",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ST BARTH DEP 1",
+     "ext": "VBCM R2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COFA007",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ECVB DEP",
+     "ext": "VCA DS",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "DEMIANNAY",
+     "tour": "1er tour de COUPE"
+    },
+    {
      "code": "COFA008",
      "date": "2026-11-15",
      "heure": "20:00",
@@ -1659,7 +3525,427 @@
      "se": null,
      "sets": "",
      "salle": "FRANÇOIS CEVERT",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COFA009",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "SMVB R2",
+     "ext": "SCO DEP",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "THOMAS DUPOUET",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COFA010",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "SAUMUR DEP 2",
+     "ext": "VVB DEP",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "GYMNASE GOUZY",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COFA011",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF006",
+     "ext": "SCO PNF",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COFA012",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF001",
+     "ext": "AC LONGUE R1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COFA013",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF002",
+     "ext": "GAGNANT MATCH COF005",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COFA014",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF003",
+     "ext": "GAGNANT MATCH COF004",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COFA015",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "1er meilleur perdant 1er tour de Coupe",
+     "ext": "ST BARTH PNF",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COFA016",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "2ème meilleur perdant 1er tour de Coupe",
+     "ext": "SCO R1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COFA017",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF007",
+     "ext": "GAGNANT MATCH COF010",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COFA018",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF008",
+     "ext": "GAGNANT MATCH COF009",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COFA019",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "PERDANT MATCH COF001",
+     "ext": "PERDANT MATCH COF006",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COFA020",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "PERDANT MATCH COF002",
+     "ext": "PERDANT MATCH COF007",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COFA021",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "PERDANT MATCH COF003",
+     "ext": "PERDANT MATCH COF008",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COFA022",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "PERDANT MATCH COF004",
+     "ext": "PERDANT MATCH COF009",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COFA023",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "PERDANT MATCH COF005",
+     "ext": "PERDANT MATCH COF010",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COFA024",
+     "date": "2027-02-14",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF019",
+     "ext": "PERDANT MATCH COF014",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COFA025",
+     "date": "2027-02-14",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF020",
+     "ext": "PERDANT MATCH COF015",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COFA026",
+     "date": "2027-02-14",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF021",
+     "ext": "PERDANT MATCH COF016",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COFA027",
+     "date": "2027-02-14",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF022",
+     "ext": "PERDANT MATCH COF017",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COFA028",
+     "date": "2027-02-14",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF023",
+     "ext": "PERDANT MATCH COF018",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COFA029",
+     "date": "2027-02-14",
+     "heure": "20:00",
+     "dom": "PERDANT MATCH COF011",
+     "ext": "1er meilleur perdant 1er tour Challenge",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COFA030",
+     "date": "2027-02-14",
+     "heure": "20:00",
+     "dom": "PERDANT MATCH COF012",
+     "ext": "2ème meilleur perdant 1er tour Challenge",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COFA031",
+     "date": "2027-02-14",
+     "heure": "20:00",
+     "dom": "PERDANT MATCH COF013",
+     "ext": "3ème meilleur perdant 1er tour Challenge",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COFA032",
+     "date": "2027-03-28",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF011",
+     "ext": "GAGNANT MATCH COF014",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COFA033",
+     "date": "2027-03-28",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF012",
+     "ext": "GAGNANT MATCH COF013",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COFA034",
+     "date": "2027-03-28",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF015",
+     "ext": "GAGNANT MATCH COF018",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COFA035",
+     "date": "2027-03-28",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF016",
+     "ext": "GAGNANT MATCH COF017",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COFA036",
+     "date": "2027-03-28",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF024",
+     "ext": "GAGNANT MATCH COF028",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COFA037",
+     "date": "2027-03-28",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF025",
+     "ext": "GAGNANT MATCH COF029",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COFA038",
+     "date": "2027-03-28",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF026",
+     "ext": "GAGNANT MATCH COF030",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COFA039",
+     "date": "2027-03-28",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF027",
+     "ext": "GAGNANT MATCH COF031",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COFA040",
+     "date": "2027-05-02",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF032",
+     "ext": "GAGNANT MATCH COF033",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COFA041",
+     "date": "2027-05-02",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF034",
+     "ext": "GAGNANT MATCH COF035",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COFA042",
+     "date": "2027-05-02",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF036",
+     "ext": "GAGNANT MATCH COF037",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COFA043",
+     "date": "2027-05-02",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COF038",
+     "ext": "GAGNANT MATCH COF039",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F CHALLENGE DE L'ANJOU"
     }
    ]
   },
@@ -1668,6 +3954,54 @@
    "nom": "Coupe de l'Anjou mixte",
    "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&division=CDM",
    "matchs": [
+    {
+     "code": "mixA001",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "STE GEMMES 1",
+     "ext": "ASPTT 5",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA002",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "ASCCHU 2",
+     "ext": "OMBREE D'ANJOU",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA003",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "LE LION 2",
+     "ext": "ASPTT 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES TILLEULS",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA004",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "SCO 6",
+     "ext": "VCA 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU",
+     "tour": "1er tour de COUPE"
+    },
     {
      "code": "mixA005",
      "date": "2026-11-13",
@@ -1678,7 +4012,19 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA006",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "SCO 5",
+     "ext": "BAUGE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU",
+     "tour": "1er tour de COUPE"
     },
     {
      "code": "mixA007",
@@ -1690,7 +4036,43 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA008",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "DOUE 1",
+     "ext": "SCO 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA009",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "MURS ERIGNE 2",
+     "ext": "BAUGE 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA010",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "ST BARTH 1",
+     "ext": "VCA 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DE LA GEMMETRIE",
+     "tour": "1er tour de COUPE"
     },
     {
      "code": "mixA011",
@@ -1702,7 +4084,7 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
     },
     {
      "code": "mixA012",
@@ -1714,7 +4096,19 @@
      "se": null,
      "sets": "",
      "salle": "FRANÇOIS CEVERT",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA013",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "ASPTT 3",
+     "ext": "LE LION 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ",
+     "tour": "1er tour de COUPE"
     },
     {
      "code": "mixA014",
@@ -1726,7 +4120,391 @@
      "se": null,
      "sets": "",
      "salle": "",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA015",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "ASPTT 4",
+     "ext": "LONGUE 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA016",
+     "date": "2026-11-13",
+     "heure": "20:00",
+     "dom": "ASCCHU 1",
+     "ext": "ST BARTH 3",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "mixA017",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "GAGNANT mix001",
+     "ext": "GAGNANT mix002",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "mixA018",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "GAGNANT mix003",
+     "ext": "GAGNANT mix004",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "mixA019",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "GAGNANT mix005",
+     "ext": "GAGNANT mix006",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "mixA020",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "GAGNANT mix007",
+     "ext": "GAGNANT mix008",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "mixA021",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "GAGNANT mix009",
+     "ext": "GAGNANT mix010",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "mixA022",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "GAGNANT mix011",
+     "ext": "GAGNANT mix012",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "mixA023",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "GAGNANT mix013",
+     "ext": "GAGNANT mix014",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "mixA024",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "GAGNANT mix015",
+     "ext": "GAGNANT mix016",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "mixA025",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "PERDANT mix001",
+     "ext": "PERDANT mix002",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "mixA026",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "PERDANT mix003",
+     "ext": "PERDANT mix004",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "mixA027",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "PERDANT mix005",
+     "ext": "PERDANT mix006",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "mixA028",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "PERDANT mix007",
+     "ext": "PERDANT mix008",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "mixA029",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "PERDANT mix009",
+     "ext": "PERDANT mix010",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "mixA030",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "PERDANT mix011",
+     "ext": "PERDANT mix012",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "mixA031",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "PERDANT mix013",
+     "ext": "PERDANT mix014",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "mixA032",
+     "date": "2027-02-05",
+     "heure": "20:00",
+     "dom": "PERDANT mix015",
+     "ext": "PERDANT mix016",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "mixA033",
+     "date": "2027-03-26",
+     "heure": "20:00",
+     "dom": "GAGNANT mix017",
+     "ext": "GAGNANT mix018",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE"
+    },
+    {
+     "code": "mixA034",
+     "date": "2027-03-26",
+     "heure": "20:00",
+     "dom": "GAGNANT mix019",
+     "ext": "GAGNANT mix020",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE"
+    },
+    {
+     "code": "mixA035",
+     "date": "2027-03-26",
+     "heure": "20:00",
+     "dom": "GAGNANT mix021",
+     "ext": "GAGNANT mix022",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE"
+    },
+    {
+     "code": "mixA036",
+     "date": "2027-03-26",
+     "heure": "20:00",
+     "dom": "GAGNANT mix023",
+     "ext": "GAGNANT mix024",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE"
+    },
+    {
+     "code": "mixA037",
+     "date": "2027-03-26",
+     "heure": "20:00",
+     "dom": "GAGNANT mix025",
+     "ext": "GAGNANT mix026",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE"
+    },
+    {
+     "code": "mixA038",
+     "date": "2027-03-26",
+     "heure": "20:00",
+     "dom": "GAGNANT mix027",
+     "ext": "GAGNANT mix028",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE"
+    },
+    {
+     "code": "mixA039",
+     "date": "2027-03-26",
+     "heure": "20:00",
+     "dom": "GAGNANT mix029",
+     "ext": "GAGNANT mix030",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE"
+    },
+    {
+     "code": "mixA040",
+     "date": "2027-03-26",
+     "heure": "20:00",
+     "dom": "GAGNANT mix031",
+     "ext": "GAGNANT mix032",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE"
+    },
+    {
+     "code": "mixA041",
+     "date": "2027-04-16",
+     "heure": "20:00",
+     "dom": "GAGNANT mix033",
+     "ext": "GAGNANT mix034",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F COUPE"
+    },
+    {
+     "code": "mixA042",
+     "date": "2027-04-16",
+     "heure": "20:00",
+     "dom": "GAGNANT mix035",
+     "ext": "GAGNANT mix36",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F COUPE"
+    },
+    {
+     "code": "mixA043",
+     "date": "2027-04-16",
+     "heure": "20:00",
+     "dom": "GAGNANT mix037",
+     "ext": "GAGNANT mix038",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F CHALLENGE"
+    },
+    {
+     "code": "mixA044",
+     "date": "2027-04-16",
+     "heure": "20:00",
+     "dom": "GAGNANT mix039",
+     "ext": "GAGNANT mix040",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F CHALLENGE"
+    },
+    {
+     "code": "mixA045",
+     "date": "2027-05-30",
+     "heure": "20:00",
+     "dom": "GAGNANT mix041",
+     "ext": "GAGNANT mix042",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "FINALE COUPE MIXTE"
+    },
+    {
+     "code": "mixA046",
+     "date": "2027-05-30",
+     "heure": "20:00",
+     "dom": "GAGNANT mix043",
+     "ext": "GAGNANT mix044",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "FINALE CHALLENGE MIXTE"
     }
    ]
   },
@@ -1735,6 +4513,90 @@
    "nom": "Coupe de l'Anjou masculine",
    "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&division=COM",
    "matchs": [
+    {
+     "code": "COMA001",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ASPTT DSM",
+     "ext": "VVB DEP 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COMA002",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ENOA DSM",
+     "ext": "SAUMUR DEP 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "ESPACE LONGUENÉE",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COMA003",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "LE LION DSM",
+     "ext": "ST BARTH DEP 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES TILLEULS",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COMA004",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "ASCCHU DSM",
+     "ext": "SAUMUR DEP 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COMA005",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "MURS ERIGNE DSM",
+     "ext": "VVB DEP 2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE DES GRANDS MOULINS",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COMA006",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "VCA DS",
+     "ext": "SCO R2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT",
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COMA007",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "SCO DS",
+     "ext": "SMVB DEP",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE JEAN ROUSSEAU",
+     "tour": "1er tour de COUPE"
+    },
     {
      "code": "COMA008",
      "date": "2026-11-15",
@@ -1745,7 +4607,19 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COMA009",
+     "date": "2026-11-15",
+     "heure": "20:00",
+     "dom": "VCA DEP",
+     "ext": "ST BARTH DEP 1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "FRANÇOIS CEVERT",
+     "tour": "1er tour de COUPE"
     },
     {
      "code": "COMA010",
@@ -1757,7 +4631,7 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
     },
     {
      "code": "COMA011",
@@ -1769,7 +4643,7 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
     },
     {
      "code": "COMA012",
@@ -1781,7 +4655,403 @@
      "se": null,
      "sets": "",
      "salle": "SALLE JEAN LEHAY",
-     "tour": "1er tour Coupe"
+     "tour": "1er tour de COUPE"
+    },
+    {
+     "code": "COMA013",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COMA006",
+     "ext": "SCO PNM",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COMA014",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COMA002",
+     "ext": "EVCB R1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COMA015",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COMA001",
+     "ext": "GAGNANT MATCH COMA004",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COMA016",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COMA003",
+     "ext": "GAGNANT MATCH COMA005",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COMA017",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COMA007",
+     "ext": "AC LONGUE R1",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COMA018",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COMA010",
+     "ext": "ST BARTH R2",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COMA019",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COMA008",
+     "ext": "GAGNANT MATCH COMA012",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COMA020",
+     "date": "2027-01-03",
+     "heure": "20:00",
+     "dom": "GAGNANT MATCH COMA009",
+     "ext": "GAGNANT MATCH COMA011",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COM022",
+     "date": "2027-01-03",
+     "heure": "15:00",
+     "dom": "PERDANT MATCH COMA002",
+     "ext": "PERDANT MATCH COMA007",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COM023",
+     "date": "2027-01-03",
+     "heure": "15:00",
+     "dom": "PERDANT MATCH COMA003",
+     "ext": "PERDANT MATCH COMA008",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COM024",
+     "date": "2027-01-03",
+     "heure": "15:00",
+     "dom": "PERDANT MATCH COMA004",
+     "ext": "PERDANT MATCH COMA009",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COM025",
+     "date": "2027-01-03",
+     "heure": "15:00",
+     "dom": "PERDANT MATCH COMA005",
+     "ext": "PERDANT MATCH COMA010",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COM026",
+     "date": "2027-01-03",
+     "heure": "15:00",
+     "dom": "PERDANT MATCH COMA011",
+     "ext": "PERDANT MATCH COMA012",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1er tour de CHALLENGE"
+    },
+    {
+     "code": "COM027",
+     "date": "2027-02-14",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM021",
+     "ext": "PERDANT MATCH COM015",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COM028",
+     "date": "2027-02-14",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM022",
+     "ext": "PERDANT MATCH COM016",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COM029",
+     "date": "2027-02-14",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM023",
+     "ext": "PERDANT MATCH COM017",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COM030",
+     "date": "2027-02-14",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM024",
+     "ext": "PERDANT MATCH COM018",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COM031",
+     "date": "2027-02-14",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM025",
+     "ext": "PERDANT MATCH COM019",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COM032",
+     "date": "2027-02-14",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM026",
+     "ext": "PERDANT MATCH COM020",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COM033",
+     "date": "2027-02-14",
+     "heure": "15:00",
+     "dom": "PERDANT MATCH COM013",
+     "ext": "1er meilleur perdant 1er tour Challenge",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COM034",
+     "date": "2027-02-14",
+     "heure": "15:00",
+     "dom": "PERDANT MATCH COM014",
+     "ext": "2ème meilleur perdant 1er tour Challenge",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "2ème tour de CHALLENGE"
+    },
+    {
+     "code": "COM035",
+     "date": "2027-03-28",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM013",
+     "ext": "GAGNANT MATCH COM020",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COM036",
+     "date": "2027-03-28",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM014",
+     "ext": "GAGNANT MATCH COM019",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COM037",
+     "date": "2027-03-28",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM015",
+     "ext": "GAGNANT MATCH COM018",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COM038",
+     "date": "2027-03-28",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM016",
+     "ext": "GAGNANT MATCH COM017",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COM039",
+     "date": "2027-03-28",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM027",
+     "ext": "GAGNANT MATCH COM031",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COM040",
+     "date": "2027-03-28",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM028",
+     "ext": "GAGNANT MATCH COM032",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COM041",
+     "date": "2027-03-28",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM029",
+     "ext": "GAGNANT MATCH COM033",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COM042",
+     "date": "2027-03-28",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM030",
+     "ext": "GAGNANT MATCH COM034",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/4 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COM043",
+     "date": "2027-05-02",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM035",
+     "ext": "GAGNANT MATCH COM036",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COM044",
+     "date": "2027-05-02",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM037",
+     "ext": "GAGNANT MATCH COM038",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F COUPE DE L'ANJOU"
+    },
+    {
+     "code": "COM045",
+     "date": "2027-05-02",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM039",
+     "ext": "GAGNANT MATCH COM040",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F CHALLENGE DE L'ANJOU"
+    },
+    {
+     "code": "COM046",
+     "date": "2027-05-02",
+     "heure": "15:00",
+     "dom": "GAGNANT MATCH COM041",
+     "ext": "GAGNANT MATCH COM042",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "",
+     "tour": "1/2 F CHALLENGE DE L'ANJOU"
     }
    ]
   }
