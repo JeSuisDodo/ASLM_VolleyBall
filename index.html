@@ -406,6 +406,31 @@ nav a[aria-current="page"]{background:var(--royal-soft)}
 .pill.next{background:var(--royal-soft)}
 .ct button{background:var(--royal-soft)}
 .tphoto{background:repeating-linear-gradient(-8deg,var(--royal-soft) 0 16px,var(--bg) 16px 21px)}
+
+/* ===== Plus de bleu roi sur les pages ===== */
+section[data-page]{padding-top:0}
+section[data-page] > .wrap > .head{background:var(--royal);color:#fff;box-shadow:0 0 0 100vmax var(--royal);clip-path:inset(0 -100vmax);padding-block:clamp(26px,5vw,44px) clamp(20px,4vw,30px);margin-bottom:clamp(8px,2vw,16px);border-bottom:0}
+section[data-page] > .wrap > .head .eyebrow{color:var(--reed)}
+section[data-page] > .wrap > .head h2{color:#fff}
+section[data-page] > .wrap > .head + p, section[data-page] > .wrap > .head + .maj{margin-top:4px}
+section[data-page]{position:relative}
+section[data-page]::before{content:"";position:absolute;left:0;right:0;top:0;height:0}
+#matchs h3, #informations h3:not(.formule h3), #equipes > .wrap > h3{display:flex;align-items:center;gap:10px}
+#matchs .mcol h3::before, #matchs > .wrap > h3::before, .cups-head h3::before, #informations > .wrap > h3::before, .h-row h3::before{content:"";width:6px;height:1.05em;background:var(--royal);border-radius:2px}
+.match{border-left:4px solid var(--royal)}
+.mdate .dn{color:var(--royal)}
+.mdate .dm{color:var(--royal)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mdate .dn,:root:not([data-theme="light"]) .mdate .dm{color:var(--lake)}}
+:root[data-theme="dark"] .mdate .dn,:root[data-theme="dark"] .mdate .dm{color:var(--lake)}
+.standing thead th{background:var(--royal);color:#fff}
+.standing .table-box{border-color:var(--royal)}
+.cup .stitle b::before{background:var(--royal)}
+.filters button{border-color:var(--royal);color:var(--fg)}
+.filters button:hover{background:var(--royal-soft)}
+#informations thead th{background:var(--royal);color:#fff}
+.formule{border-top:4px solid var(--royal)}
+.note{border-left-color:var(--royal);background:var(--royal-soft)}
+.empty{border-color:var(--royal)}
 </style>
 </head>
 <body>
