@@ -15,18 +15,18 @@
 /* Layout : bandeau bleu nuit aux lignes de lac (repris du blason), colonne de lecture, sections ancrées dont la boutique en grille */
 :root{
   --bg:#f3f4f9; --surface:#ffffff; --fg:#121338; --muted:#555874;
-  --navy:#15164e; --lake:#3b6fb0; --mist:#e3e6f3; --line:#d6d9e8; --reed:#c9a227;
+  --navy:#15164e; --lake:#3b6fb0; --mist:#e3e6f3; --line:#d6d9e8; --reed:#f2c21b;
   --todo:#fff3c4; --todo-fg:#6b5200; --win:#1d7a46; --win-bg:#e2f3e8; --loss:#b3261e; --loss-bg:#fbe5e3;
   --display:"Teko","Arial Narrow",system-ui,sans-serif;
   --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#0c0d24; --surface:#15173a; --fg:#eceef9; --muted:#a6a9c8;
-  --navy:#0f1040; --lake:#8db4ea; --mist:#1d2050; --line:#2a2d5e; --reed:#e2bf4c;
+  --navy:#0f1040; --lake:#8db4ea; --mist:#1d2050; --line:#2a2d5e; --reed:#f6cc3a;
   --todo:#3a3112; --todo-fg:#f3dc8a; --win:#7fd6a0; --win-bg:#173a27; --loss:#ff9a90; --loss-bg:#47201d; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0c0d24; --surface:#15173a; --fg:#eceef9; --muted:#a6a9c8;
-  --navy:#0f1040; --lake:#8db4ea; --mist:#1d2050; --line:#2a2d5e; --reed:#e2bf4c;
+  --navy:#0f1040; --lake:#8db4ea; --mist:#1d2050; --line:#2a2d5e; --reed:#f6cc3a;
   --todo:#3a3112; --todo-fg:#f3dc8a; --win:#7fd6a0; --win-bg:#173a27; --loss:#ff9a90; --loss-bg:#47201d; color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -346,6 +346,41 @@ footer a{color:#fff}
 .legal{font-size:.92rem;display:grid;gap:6px;color:#b9c3e6}
 .legal h3{font-size:1.3rem;color:#fff}
 .legal .todo{color:#6b5200}
+
+/* ===== Accents jaunes (couleur des maillots) ===== */
+:root{--sun-ink:#15164e}
+h2{position:relative;padding-bottom:.18em}
+h2::after{content:"";display:block;width:2.2em;height:.12em;min-height:4px;background:var(--reed);border-radius:2px;margin-top:.12em}
+.hero h2::after{display:none}
+.hero .kicker{color:var(--reed)}
+.hero h1 em{color:var(--reed)}
+.hero{border-bottom:6px solid var(--reed)}
+.btn-ghost{background:var(--reed);border-color:var(--reed);color:var(--sun-ink)}
+.btn-ghost:hover{background:#ffd84a}
+nav a[aria-current="page"]{box-shadow:inset 0 -3px 0 var(--reed)}
+nav a.shop,nav a.shop[aria-current="page"]{background:var(--reed);color:var(--sun-ink);box-shadow:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) nav a.shop,:root:not([data-theme="light"]) nav a.shop[aria-current="page"]{background:var(--reed);color:var(--sun-ink)}}
+:root[data-theme="dark"] nav a.shop,:root[data-theme="dark"] nav a.shop[aria-current="page"]{background:var(--reed);color:var(--sun-ink)}
+.filters button[aria-pressed="true"]{background:var(--reed);border-color:var(--reed);color:var(--sun-ink)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .filters button[aria-pressed="true"]{background:var(--reed);border-color:var(--reed);color:var(--sun-ink)}}
+:root[data-theme="dark"] .filters button[aria-pressed="true"]{background:var(--reed);border-color:var(--reed);color:var(--sun-ink)}
+.steps li::before{background:var(--reed);color:var(--sun-ink)}
+.perks li::before{background:var(--reed);box-shadow:0 5px 0 var(--reed),0 -5px 0 var(--reed);opacity:1}
+.price{border-left:6px solid var(--reed)}
+.tgroup-h,.tgroup-h.masc{border-left-color:var(--reed)}
+.tcard{border-top:4px solid var(--reed)}
+.product .ph{border-bottom:3px solid var(--reed)}
+.bureau li{border-left:4px solid var(--reed)}
+.ct .tag{color:var(--fg)}
+.ct .tag::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--reed);margin-right:6px;vertical-align:middle}
+.standing tr.us td:first-child{box-shadow:inset 4px 0 0 var(--reed)}
+.match:has(.pill.next) .mdate .dm{color:var(--lake)}
+footer{border-top:6px solid var(--reed)}
+.foot-top b{color:#fff}
+.legal h3{color:var(--reed)}
+.eyebrow::before{content:"";display:inline-block;width:14px;height:3px;background:var(--reed);margin-right:8px;vertical-align:middle;border-radius:2px}
+.burger[aria-expanded="true"]{background:var(--reed);border-color:var(--reed)}
+.burger[aria-expanded="true"] span{background:var(--sun-ink)}
 </style>
 </head>
 <body>
