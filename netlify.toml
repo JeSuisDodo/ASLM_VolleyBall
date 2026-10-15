@@ -1,0 +1,24 @@
+# Réglages Netlify : site statique, aucune compilation
+[build]
+  publish = "."
+  command = ""
+
+# Les résultats doivent toujours être lus dans leur version du jour
+[[headers]]
+  for = "/matchs.json"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# Anciennes adresses WordPress
+[[redirects]]
+  from = "/index.php/informations/*"
+  to = "/#informations"
+  status = 301
+[[redirects]]
+  from = "/index.php/le-bureau-2/*"
+  to = "/#contact"
+  status = 301
+[[redirects]]
+  from = "/index.php/contact/*"
+  to = "/#contact"
+  status = 301
