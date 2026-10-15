@@ -195,13 +195,13 @@ td.h{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
 .mdate .dn{font-family:var(--display);font-size:2rem;font-weight:600}
 .mdate .dm{font-size:.78rem;text-transform:uppercase;font-weight:700;color:var(--lake)}
 .mteams{display:grid;gap:2px;min-width:0}
-.mteams .vs{font-weight:600;overflow-wrap:normal}
+.mteams .vs{font-weight:600;overflow-wrap:break-word;display:flex;flex-wrap:wrap;column-gap:.3em;align-items:baseline}
+.mteams .vs > span{min-width:0}
 .mteams .vs .sep{white-space:nowrap}
 .mteams .vs .us{color:var(--navy);font-weight:700}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mteams .vs .us{color:var(--lake)}}
 :root[data-theme="dark"] .mteams .vs .us{color:var(--lake)}
-.mteams .vs > span:not(.sep){white-space:nowrap}
-.mteams .vs .sep{color:var(--muted);font-weight:400;padding:0 .3em}
+.mteams .vs .sep{color:var(--muted);font-weight:400}
 .mteams small{color:var(--muted);font-size:.85rem;overflow-wrap:anywhere}
 .mres{display:grid;justify-items:end;gap:3px}
 .pill{font-family:var(--display);font-size:1.35rem;line-height:1;padding:6px 10px 3px;border-radius:6px;font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -281,7 +281,6 @@ td.h{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
   .mres{grid-column:2;display:flex;justify-content:flex-start;align-items:center;gap:8px}
   .pill{font-size:1.15rem}
   .mteams .vs{font-size:.98rem}
-  .mteams .vs > span:not(.sep){white-space:nowrap}
   .standing table{min-width:0}
   .standing td,.standing th{padding:7px 6px;font-size:.92rem}
   /* boutique : 2 colonnes */
@@ -308,7 +307,7 @@ td.h{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
 
 
 .cups-head{display:grid;gap:4px}
-.cups{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr));gap:16px;align-items:start}
+.cups{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,24rem),1fr));gap:16px;align-items:start}
 .cup{display:grid;gap:8px;min-width:0}
 .cup .stitle{display:flex;flex-direction:column;align-items:flex-start;gap:2px}
 .cup .stitle b{display:flex;align-items:center;gap:8px}
