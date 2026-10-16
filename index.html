@@ -632,6 +632,11 @@ header .wrap{max-width:80rem}
 .ititle{margin:0;align-self:stretch;font-family:var(--display);font-weight:600;font-size:1.4rem;text-transform:uppercase;border-left:4px solid var(--reed);padding-left:10px;line-height:1.1}
 .iembed .instagram-media{min-width:0!important;width:100%!important;max-width:540px!important;margin:0!important}
 @media (max-width:900px){.insta{grid-template-columns:1fr}.insta .iembed:nth-child(3){display:flex}}
+
+.insta{align-items:start}
+.iembed{justify-content:flex-start}
+.ititle{min-height:2.3em;display:flex;align-items:flex-end}
+@media (max-width:900px){.ititle{min-height:0}}
 </style>
 </head>
 <body>
@@ -1090,11 +1095,13 @@ window.INSTA_POSTS=[
   {url:'https://www.instagram.com/p/DZnq3T1Cii6/',titre:'Phase finale de la Coupe de France mixte'}
 ];
 (function(){
-  var box=document.getElementById('insta');
   var P=(window.INSTA_POSTS||[]).map(function(p){if(typeof p==='string')p={url:p};return {u:p.url.split('?')[0].replace(/\/?$/,'/'),t:p.titre||''}});
+  function card(x,cap){return '<div class="iembed"><h4 class="ititle">'+(x.t||'&nbsp;')+'</h4><blockquote class="instagram-media"'+(cap?' data-instgrm-captioned':'')+' data-instgrm-permalink="'+x.u+'" data-instgrm-version="14"><a href="'+x.u+'" target="_blank" rel="noopener">Voir cette publication sur Instagram</a></blockquote></div>'}
+  var box=document.getElementById('insta'), teaser=document.getElementById('vie-teaser');
   if(!P.length){box.innerHTML='<div class="events-empty"><b>Les dernières publications du club s\'afficheront ici.</b><span>Retrouvez-les dès maintenant sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">@aslmvolley</a>.</span></div>';box.style.display='block';return}
   var g=document.getElementById('gallery');if(g&&!(window.VIE||[]).length)g.innerHTML='';
-  box.innerHTML=P.map(function(x){var u=x.u;return '<div class="iembed">'+(x.t?'<h4 class="ititle">'+x.t+'</h4>':'')+'<blockquote class="instagram-media" data-instgrm-permalink="'+u+'" data-instgrm-version="14"><a href="'+u+'" target="_blank" rel="noopener">Voir cette publication sur Instagram</a></blockquote></div>'}).join('');
+  box.innerHTML=P.map(function(x){return card(x,true)}).join('');
+  if(teaser&&!(window.VIE||[]).length){teaser.className='insta';teaser.innerHTML=P.map(function(x){return card(x,true)}).join('');}
   var sc=document.createElement('script');sc.async=true;sc.src='https://www.instagram.com/embed.js';document.body.appendChild(sc);
 })();
 </script>
