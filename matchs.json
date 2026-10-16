@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T15:54:30+00:00",
+ "maj": "2026-10-16T09:49:22+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -708,7 +708,7 @@
     },
     {
      "code": "DS1A009",
-     "date": "2026-10-12",
+     "date": "2026-10-19",
      "heure": "20:30",
      "dom": "SCO 2",
      "ext": "BAUGE 1",
@@ -1441,6 +1441,16 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "ASLM 6",
+     "pts": 5,
+     "j": 2,
+     "g": 2,
+     "p": 0,
+     "sp": 6,
+     "sc": 3
+    },
+    {
+     "rang": 2,
      "equipe": "ASPTT 2",
      "pts": 4,
      "j": 2,
@@ -1450,7 +1460,7 @@
      "sc": 4
     },
     {
-     "rang": 2,
+     "rang": 3,
      "equipe": "ASLM 7",
      "pts": 4,
      "j": 2,
@@ -1460,7 +1470,7 @@
      "sc": 4
     },
     {
-     "rang": 3,
+     "rang": 4,
      "equipe": "MURS ERIGNE 2",
      "pts": 4,
      "j": 2,
@@ -1470,24 +1480,14 @@
      "sc": 4
     },
     {
-     "rang": 4,
+     "rang": 5,
      "equipe": "ASPTT 5",
      "pts": 3,
-     "j": 1,
+     "j": 2,
      "g": 1,
-     "p": 0,
-     "sp": 3,
-     "sc": 1
-    },
-    {
-     "rang": 5,
-     "equipe": "ASLM 6",
-     "pts": 2,
-     "j": 1,
-     "g": 1,
-     "p": 0,
-     "sp": 3,
-     "sc": 2
+     "p": 1,
+     "sp": 4,
+     "sc": 4
     },
     {
      "rang": 6,
@@ -1603,10 +1603,10 @@
      "heure": "20:30",
      "dom": "ASPTT 5",
      "ext": "ASLM 6",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE VOLTAIRE"
+     "sd": 1,
+     "se": 3,
+     "sets": "25:18, 20:25, 20:25, 12:25",
+     "salle": ""
     },
     {
      "code": "DS2A010",
@@ -2332,6 +2332,26 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "ASLM 8",
+     "pts": 6,
+     "j": 2,
+     "g": 2,
+     "p": 0,
+     "sp": 6,
+     "sc": 0
+    },
+    {
+     "rang": 2,
+     "equipe": "ASLM 5",
+     "pts": 6,
+     "j": 2,
+     "g": 2,
+     "p": 0,
+     "sp": 6,
+     "sc": 1
+    },
+    {
+     "rang": 3,
      "equipe": "DOUE 1",
      "pts": 5,
      "j": 2,
@@ -2341,7 +2361,7 @@
      "sc": 2
     },
     {
-     "rang": 2,
+     "rang": 4,
      "equipe": "STE GEMMES 1",
      "pts": 4,
      "j": 2,
@@ -2349,26 +2369,6 @@
      "p": 1,
      "sp": 5,
      "sc": 3
-    },
-    {
-     "rang": 3,
-     "equipe": "ASLM 8",
-     "pts": 3,
-     "j": 1,
-     "g": 1,
-     "p": 0,
-     "sp": 3,
-     "sc": 0
-    },
-    {
-     "rang": 4,
-     "equipe": "ASLM 5",
-     "pts": 3,
-     "j": 1,
-     "g": 1,
-     "p": 0,
-     "sp": 3,
-     "sc": 1
     },
     {
      "rang": 5,
@@ -2384,15 +2384,15 @@
      "rang": 6,
      "equipe": "SCO 4",
      "pts": 2,
-     "j": 1,
+     "j": 2,
      "g": 1,
-     "p": 0,
+     "p": 1,
      "sp": 3,
-     "sc": 2
+     "sc": 5
     },
     {
      "rang": 7,
-     "equipe": "SCO 3",
+     "equipe": "BAUGE 2",
      "pts": 2,
      "j": 2,
      "g": 1,
@@ -2402,17 +2402,17 @@
     },
     {
      "rang": 8,
-     "equipe": "LE LION 2",
+     "equipe": "SCO 3",
      "pts": 1,
-     "j": 1,
+     "j": 2,
      "g": 0,
-     "p": 1,
+     "p": 2,
      "sp": 2,
-     "sc": 3
+     "sc": 6
     },
     {
      "rang": 9,
-     "equipe": "BAUGE 2",
+     "equipe": "LE LION 2",
      "pts": 1,
      "j": 2,
      "g": 0,
@@ -2504,9 +2504,9 @@
      "heure": "20:30",
      "dom": "SCO 3",
      "ext": "BAUGE 2",
-     "sd": 3,
-     "se": 2,
-     "sets": "25:22, 23:25, 25:20, 13:25, 15:13",
+     "sd": 2,
+     "se": 3,
+     "sets": "25:22, 23:25, 25:20, 13:25, 15:17",
      "salle": ""
     },
     {
@@ -2515,10 +2515,10 @@
      "heure": "20:30",
      "dom": "ASLM 8",
      "ext": "SCO 4",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY"
+     "sd": 3,
+     "se": 0,
+     "sets": "25:19, 25:22, 25:15",
+     "salle": ""
     },
     {
      "code": "DS3A009",
@@ -2526,10 +2526,10 @@
      "heure": "20:30",
      "dom": "LE LION 2",
      "ext": "ASLM 5",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DE LA MARE AUX COQS"
+     "sd": 0,
+     "se": 3,
+     "sets": "22:25, 13:25, 23:25",
+     "salle": ""
     },
     {
      "code": "DS3A010",
@@ -3457,8 +3457,8 @@
     },
     {
      "code": "COFA003",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-10-21",
+     "heure": "21:00",
      "dom": "VCA DEP 2",
      "ext": "ASPTT DS",
      "sd": null,
@@ -3980,8 +3980,8 @@
     },
     {
      "code": "mixA003",
-     "date": "2026-11-13",
-     "heure": "20:00",
+     "date": "2026-11-12",
+     "heure": "20:30",
      "dom": "LE LION 2",
      "ext": "ASPTT 2",
      "sd": null,
@@ -3992,14 +3992,14 @@
     },
     {
      "code": "mixA004",
-     "date": "2026-11-13",
-     "heure": "20:00",
+     "date": "2026-11-28",
+     "heure": "19:30",
      "dom": "SCO 6",
      "ext": "VCA 1",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "SALLE JEAN ROUSSEAU",
+     "salle": "GYMNASE DE BELLE BEILLE",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4040,20 +4040,20 @@
     },
     {
      "code": "mixA008",
-     "date": "2026-11-13",
-     "heure": "20:00",
+     "date": "2026-10-21",
+     "heure": "20:30",
      "dom": "DOUE 1",
      "ext": "SCO 2",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE HENRY CHATENAY",
      "tour": "1er tour de COUPE"
     },
     {
      "code": "mixA009",
-     "date": "2026-11-13",
-     "heure": "20:00",
+     "date": "2026-11-09",
+     "heure": "20:30",
      "dom": "MURS ERIGNE 2",
      "ext": "BAUGE 3",
      "sd": null,
@@ -4124,8 +4124,8 @@
     },
     {
      "code": "mixA015",
-     "date": "2026-11-13",
-     "heure": "20:00",
+     "date": "2026-10-29",
+     "heure": "20:30",
      "dom": "ASPTT 4",
      "ext": "LONGUE 1",
      "sd": null,
@@ -4587,8 +4587,8 @@
     },
     {
      "code": "COMA007",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-11-10",
+     "heure": "19:30",
      "dom": "SCO DS",
      "ext": "SMVB DEP",
      "sd": null,
