@@ -1090,6 +1090,7 @@ var GROUPS=[
     box.style.display='';
     box.innerHTML=d.posts.map(function(p){var dt=new Date(p.date+'T12:00:00');
       return '<a class="ipost" href="'+esc(p.url)+'" target="_blank" rel="noopener"><span class="iimg"><img src="'+esc(p.image)+'" alt="Publication Instagram du club" loading="lazy">'+(p.video?'<span class="ivid">Vidéo</span>':'')+'</span><span class="itxt"><p>'+esc(p.legende||'')+'</p><small>'+dt.getDate()+' '+M[dt.getMonth()]+' '+dt.getFullYear()+'</small></span></a>'}).join('');
+    if(!(window.VIE||[]).length){var g=document.getElementById('gallery');if(g)g.innerHTML='';}
     if(!(window.VIE||[]).length&&teaser){teaser.innerHTML=d.posts.slice(0,3).map(function(p){return '<a href="#vie"><img src="'+esc(p.image)+'" alt="Publication Instagram du club" loading="lazy"></a>'}).join('');}
   }).catch(function(){})}catch(e){}
 })();
