@@ -637,6 +637,25 @@ header .wrap{max-width:80rem}
 .iembed{justify-content:flex-start}
 .ititle{min-height:2.3em;display:flex;align-items:flex-end}
 @media (max-width:900px){.ititle{min-height:0}}
+
+.event{align-items:start;padding:18px 20px}
+.edate{min-width:72px;padding:8px 6px;border-radius:10px;background:var(--royal);color:#fff}
+.edate b{color:#fff}
+.edate small{font-size:.75rem;opacity:.8}
+.edate-tba{display:grid;place-items:center;text-align:center;font-weight:700;font-size:.85rem;line-height:1.2;background:var(--reed);color:#15164e;min-height:72px}
+.ebody{display:grid;gap:6px;min-width:0}
+.ebody h3{font-size:1.6rem}
+.ebody > p{color:var(--muted)}
+.elink{font-weight:600;justify-self:start}
+.epart{display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;align-items:center;margin-top:8px;padding:14px;border-radius:12px;background:var(--royal-soft)}
+.eplogo{display:grid;place-items:center;aspect-ratio:1;background:#fff;border-radius:10px;padding:8px;text-align:center;font-family:var(--display);font-weight:600;font-size:1.05rem;line-height:1;color:#15164e;text-transform:uppercase}
+.eplogo img{max-width:100%;max-height:100%}
+.epk{display:block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--royal)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .epk{color:var(--lake)}}
+:root[data-theme="dark"] .epk{color:var(--lake)}
+.epart b{font-size:1.1rem}
+.epart p{font-size:.93rem;color:var(--fg);margin-top:2px}
+@media (max-width:560px){.event{grid-template-columns:1fr}.edate{justify-self:start}.epart{grid-template-columns:1fr}.eplogo{max-width:110px}}
 </style>
 </head>
 <body>
@@ -1057,17 +1076,29 @@ var GROUPS=[
   ];
   window.PARTENAIRES=[
     {nom:'Comité de volley-ball du Maine-et-Loire',lien:'https://comitevolley49.com/',logo:cd&&cd.src,texte:'Organise les championnats et les coupes du département.'},
-    {nom:'Fédération française de volley',lien:'https://www.ffvb.org/',logo:ff&&ff.src,texte:'Fédération à laquelle le club est affilié.'}
+    {nom:'Fédération française de volley',lien:'https://www.ffvb.org/',logo:ff&&ff.src,texte:'Fédération à laquelle le club est affilié.'},
+    {nom:'Égoïstes Ensemble',lien:'https://www.helloasso.com/associations/egoistes-ensemble',logo:'',texte:"Association pour l'inclusion par le sport, partenaire du tournoi du 4 décembre."}
   ];
   function initials(n){return n.replace(/&/g,' ').split(/\s+/).filter(Boolean).map(function(w){return w[0]}).join('').slice(0,3)}
   document.getElementById('sponsors-grid').innerHTML=window.SPONSORS.map(function(p){var tag=p.lien?'a':'div';return '<'+tag+' class="scard"'+(p.lien?' href="'+p.lien+'" target="_blank" rel="noopener"':'')+'><span class="slogo">'+(p.logo?'<img src="'+p.logo+'" alt="Logo '+p.nom+'">':'<span class="smono">'+p.nom+'</span>')+'</span><div class="sbody"><span class="smetier">'+p.metier+'</span><h3>'+p.nom+'</h3><p>'+p.texte+'</p></div></'+tag+'>'}).join('');
-  document.getElementById('partners-grid').innerHTML=window.PARTENAIRES.map(function(p){return '<a class="pcard" href="'+p.lien+'" target="_blank" rel="noopener"><span class="plogo">'+(p.logo?'<img src="'+p.logo+'" alt="">':'')+'</span><b>'+p.nom+'</b><span>'+p.texte+'</span></a>'}).join('')+'<a class="pcard pcard-empty" href="#contact"><span class="plogo">+</span><b>Votre entreprise ?</b><span>Rejoignez nos partenaires.</span></a>';
+  document.getElementById('partners-grid').innerHTML=window.PARTENAIRES.map(function(p){return '<a class="pcard" href="'+p.lien+'" target="_blank" rel="noopener"><span class="plogo">'+(p.logo?'<img src="'+p.logo+'" alt="">':'<span class="smono" style="font-size:1.5rem;text-align:center">'+p.nom+'</span>')+'</span><b>'+p.nom+'</b><span>'+p.texte+'</span></a>'}).join('')+'<a class="pcard pcard-empty" href="#contact"><span class="plogo">+</span><b>Votre entreprise ?</b><span>Rejoignez nos partenaires.</span></a>';
   document.getElementById('part-strip').innerHTML=window.SPONSORS.concat(window.PARTENAIRES).map(function(p){return '<a href="#partenaires" class="pmini">'+(p.logo?'<img src="'+p.logo+'" alt="'+p.nom+'">':p.nom)+'</a>'}).join('')+'<a href="#partenaires" class="pmini pmini-add">Devenir partenaire</a>';
   /* Événements : ajouter ici -> {date:'2026-12-12', titre:'Tournoi de Noël', lieu:'Salle Jean Lehay', texte:'...'} */
-  window.EVENTS=window.EVENTS||[];
+  window.EVENTS=[
+    {date:'2026-12-04',titre:'Tournoi du 4 décembre',lieu:'',texte:"Un tournoi organisé en partenariat avec l'association Égoïstes Ensemble.",
+     partenaire:{nom:'Égoïstes Ensemble',logo:'',lien:'https://www.helloasso.com/associations/egoistes-ensemble',texte:"Égoïstes Ensemble œuvre pour l'inclusion des personnes en situation de handicap par le sport et l'activité physique adaptée, en réunissant personnes valides et en situation de handicap autour de défis sportifs. L'ASLM Volley s'associe à elle pour faire de ce tournoi un moment de partage où la mixité devient une force collective."}},
+    {date:'',quand:'Printemps 2027',titre:'Tournoi du printemps',lieu:'',texte:"Le rendez-vous convivial du club : une soirée de matchs, de rires et de bonne humeur, ouverte aux joueurs, supporters et partenaires. La date de la prochaine édition sera annoncée ici.",lien:'https://www.instagram.com/p/DYq8kuziqBv/',lienTexte:"Revoir l'édition précédente"}
+  ];
   var M=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
-  var ev=window.EVENTS.slice().sort(function(a,b){return a.date.localeCompare(b.date)});
-  document.getElementById('events').innerHTML=ev.length?ev.map(function(e){var d=new Date(e.date+'T12:00:00');return '<article class="event"><div class="edate"><b>'+d.getDate()+'</b><span>'+M[d.getMonth()]+'</span></div><div><h3>'+e.titre+'</h3><p>'+(e.lieu?e.lieu+' · ':'')+(e.texte||'')+'</p></div></article>'}).join('')
+  var ev=window.EVENTS.slice().sort(function(a,b){return (a.date||'9999').localeCompare(b.date||'9999')});
+  function evHTML(e){
+    var d=e.date?new Date(e.date+'T12:00:00'):null;
+    var dt=d?'<div class="edate"><b>'+d.getDate()+'</b><span>'+M[d.getMonth()]+'</span><small>'+d.getFullYear()+'</small></div>':'<div class="edate edate-tba"><span>'+(e.quand||'À venir')+'</span></div>';
+    var p=e.partenaire;
+    var part=p?'<div class="epart"><span class="eplogo">'+(p.logo?'<img src="'+p.logo+'" alt="Logo '+p.nom+'">':'<span>'+p.nom+'</span>')+'</span><div><span class="epk">En partenariat avec</span><b>'+(p.lien?'<a href="'+p.lien+'" target="_blank" rel="noopener">'+p.nom+'</a>':p.nom)+'</b><p>'+p.texte+'</p></div></div>':'';
+    return '<article class="event">'+dt+'<div class="ebody"><h3>'+e.titre+'</h3><p>'+(e.lieu?e.lieu+' · ':'')+(e.texte||'')+'</p>'+(e.lien?'<a class="elink" href="'+e.lien+'" target="_blank" rel="noopener">'+(e.lienTexte||'En savoir plus')+'</a>':'')+part+'</div></article>';
+  }
+  document.getElementById('events').innerHTML=ev.length?ev.map(evHTML).join('')
     :'<div class="events-empty"><b>Les prochains événements arrivent bientôt.</b><span>Tournois, soirées, sorties du club : ils seront annoncés ici et sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">Instagram</a>.</span></div>';
 })();
 (function(){
