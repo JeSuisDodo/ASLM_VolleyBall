@@ -1013,7 +1013,7 @@ var GROUPS=[
   var T=window.TEAMS||[];
   function tile(t){return '<a href="#equipes" class="'+(t.photo?'':'nophoto')+'">'+(t.photo?'<img src="'+t.photo+'" alt="Équipe ASLM '+t.n+'" loading="lazy">':'<span class="logo"></span>')+'<span class="tag">ASLM '+t.n+'</span></a>'}
   var ord=function(t){return typeof t.n==='number'?t.n:100+(t.n==='Féminine'?0:1)};
-  document.getElementById('mosaic').innerHTML=T.slice().sort(function(a,b){return ord(a)-ord(b)}).map(tile).join('');
+  document.getElementById('mosaic').innerHTML=T.filter(function(t){return t.photo}).sort(function(a,b){return ord(a)-ord(b)}).map(tile).join('');
   /* Vie du club : ajouter des photos ici -> {src:'...', legende:'...'} */
   window.VIE=window.VIE||[];
   var vempty='<div class="events-empty"><b>Les premières photos arrivent bientôt.</b><span>Tournois, déplacements, soirées : les moments forts du club seront partagés ici. En attendant, suivez-nous sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">Instagram</a>.</span></div>';
