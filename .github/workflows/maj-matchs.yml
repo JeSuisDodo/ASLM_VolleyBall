@@ -1,4 +1,4 @@
-# Met à jour les matchs du site une fois par jour.
+# Met à jour les matchs et les publications Instagram du site une fois par jour.
 name: Mise à jour des matchs
 
 on:
@@ -26,12 +26,17 @@ jobs:
       - name: Lire les résultats sur le site de la FFvolley
         run: python3 maj_matchs.py
 
-      - name: Enregistrer matchs.json dans le dépôt
+      - name: Lire les 3 dernières publications Instagram
+        run: python3 maj_instagram.py
+        continue-on-error: true
+
+      - name: Enregistrer dans le dépôt
         run: |
           git config user.name "maj-matchs"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add matchs.json
-          git diff --cached --quiet || (git commit -m "Matchs : mise à jour du $(date +%F)" && git push)
+          git add -A insta instagram.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Matchs et Instagram : mise à jour du $(date +%F)" && git push)
 
       - name: Envoyer matchs.json sur l'hébergement OVH (FTP)
         if: env.FTP_HOST != ''

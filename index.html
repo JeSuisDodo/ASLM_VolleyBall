@@ -613,6 +613,20 @@ header .wrap{max-width:80rem}
 .sbody h3{font-size:1.8rem}
 .sbody p{color:var(--muted)}
 @media (max-width:560px){.scard{grid-template-columns:1fr}.slogo{max-width:160px}}
+
+.insta-block{display:grid;gap:14px}
+.insta-h{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.insta-h h3{display:flex;align-items:center;gap:10px}
+.insta-h h3::before{content:"";width:6px;height:1.05em;background:var(--royal);border-radius:2px}
+.insta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.ipost{display:grid;grid-template-rows:auto 1fr;border-radius:14px;overflow:hidden;background:var(--surface);border:1px solid var(--line);text-decoration:none;color:var(--fg);min-width:0}
+.ipost .iimg{position:relative;aspect-ratio:1;max-width:100%;background:var(--royal-soft)}
+.ipost img{width:100%;height:100%;object-fit:cover;display:block}
+.ipost .ivid{position:absolute;top:8px;right:8px;background:rgba(0,0,0,.6);color:#fff;font-size:.75rem;font-weight:700;padding:3px 8px;border-radius:999px}
+.ipost .itxt{padding:10px 12px;display:grid;gap:4px;align-content:start}
+.ipost .itxt p{font-size:.9rem;color:var(--fg);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ipost .itxt small{color:var(--muted);font-size:.8rem}
+@media (max-width:640px){.insta{grid-template-columns:1fr 1fr}.insta .ipost:nth-child(3){display:none}}
 </style>
 </head>
 <body>
@@ -719,6 +733,10 @@ header .wrap{max-width:80rem}
     <div class="wrap">
       <div class="head"><span class="eyebrow">En images</span><h2 id="t-vie">La vie du club</h2></div>
       <p>Tournois, déplacements, soirées et moments entre Hérons : retrouvez ici les photos de la vie du club. Plus de photos au quotidien sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">Instagram</a>.</p>
+      <div class="insta-block">
+        <div class="insta-h"><h3>Sur Instagram</h3><a class="btn btn-royal" href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">Suivre @aslmvolley</a></div>
+        <div class="insta" id="insta"></div>
+      </div>
       <div class="gallery" id="gallery"></div>
     </div>
   </section>
@@ -1057,6 +1075,23 @@ var GROUPS=[
     if(last){var mine=us(last.dom)?last.sd:last.se,oth=us(last.dom)?last.se:last.sd,w=mine>oth;
       document.querySelector('#aff-last .aff-body').innerHTML='<span class="aff-teams">'+last.dom+'<i>vs</i>'+last.ext+'</span><span class="aff-score'+(w?'':' loss')+'">'+last.sd+' - '+last.se+'</span><span class="aff-meta">'+dstr(last)+(w?' · Victoire':' · Défaite')+'</span>';}
   };
+})();
+</script>
+<script>
+/* Instagram : instagram.json est mis à jour chaque jour par maj_instagram.py */
+(function(){
+  var box=document.getElementById('insta'), teaser=document.getElementById('vie-teaser');
+  var M=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
+  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function empty(){box.innerHTML='<div class="events-empty"><b>Les dernières publications du club s\'afficheront ici.</b><span>Retrouvez-les dès maintenant sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">@aslmvolley</a>.</span></div>';box.style.display='block'}
+  empty();
+  try{fetch('instagram.json?j='+Date.now().toString().slice(0,-7),{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).then(function(d){
+    if(!d||!d.posts||!d.posts.length)return;
+    box.style.display='';
+    box.innerHTML=d.posts.map(function(p){var dt=new Date(p.date+'T12:00:00');
+      return '<a class="ipost" href="'+esc(p.url)+'" target="_blank" rel="noopener"><span class="iimg"><img src="'+esc(p.image)+'" alt="Publication Instagram du club" loading="lazy">'+(p.video?'<span class="ivid">Vidéo</span>':'')+'</span><span class="itxt"><p>'+esc(p.legende||'')+'</p><small>'+dt.getDate()+' '+M[dt.getMonth()]+' '+dt.getFullYear()+'</small></span></a>'}).join('');
+    if(!(window.VIE||[]).length&&teaser){teaser.innerHTML=d.posts.slice(0,3).map(function(p){return '<a href="#vie"><img src="'+esc(p.image)+'" alt="Publication Instagram du club" loading="lazy"></a>'}).join('');}
+  }).catch(function(){})}catch(e){}
 })();
 </script>
 <script type="application/json" id="matchs-secours">{
