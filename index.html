@@ -468,7 +468,7 @@ nav a.shop::after{display:none}
 .hero2-bg{position:absolute;inset:0;z-index:-2;background:var(--hero-img,none) center 30%/cover no-repeat;opacity:.55;transform:scale(1.04)}
 .hero2::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(13,15,58,.96) 0%,rgba(18,40,110,.86) 45%,rgba(27,92,179,.35) 100%)}
 .hero2::after{content:"";position:absolute;left:0;right:0;bottom:0;height:8px;background:repeating-linear-gradient(90deg,var(--reed) 0 60px,#fff 60px 64px,var(--royal) 64px 124px,#fff 124px 128px)}
-.hero2-crest{position:absolute;right:-4%;top:50%;width:min(46vw,560px);aspect-ratio:256/304;transform:translateY(-50%) rotate(-6deg);filter:brightness(0) invert(1);opacity:.1;z-index:-1}
+.hero2-crest{position:absolute;right:-4%;top:50%;width:min(46vw,560px);aspect-ratio:256/304;transform:translateY(-50%) rotate(-6deg);filter:brightness(0) invert(1);opacity:.14;z-index:-1}
 .hero2-in{display:grid;gap:18px;padding-block:clamp(48px,9vw,110px) clamp(40px,6vw,64px)}
 .hero2 .kicker{font-weight:700;font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;color:var(--reed)}
 .hero2-title{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(4.2rem,13vw,10rem);line-height:.78;letter-spacing:.005em;margin:0;text-shadow:0 6px 30px rgba(0,0,0,.25)}
@@ -561,7 +561,6 @@ section.home-cta[data-page]{padding-top:clamp(36px,6vw,56px)}
 
 <main>
   <div class="hero2" id="accueil" data-page="accueil">
-    <div class="hero2-bg" id="hero-bg" aria-hidden="true"></div>
     <span class="logo hero2-crest" aria-hidden="true"></span>
     <div class="wrap hero2-in">
       <span class="kicker">Club de volley adulte · Angers, Lac de Maine</span>
@@ -897,7 +896,6 @@ var GROUPS=[
 (function(){
   var withPhoto=(window.TEAMS||[]).filter(function(t){return t.photo});
   var hero=withPhoto.filter(function(t){return t.n===3})[0]||withPhoto[0];
-  if(hero)document.getElementById('hero-bg').style.setProperty('--hero-img','url("'+hero.photo+'")');
   var mos=document.getElementById('mosaic');
   mos.innerHTML=withPhoto.slice(0,4).map(function(t){return '<a href="#equipes"><img src="'+t.photo+'" alt="Équipe ASLM '+t.n+'" loading="lazy"><span>ASLM '+t.n+'</span></a>'}).join('');
   var J=['dim.','lun.','mar.','mer.','jeu.','ven.','sam.'],M=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
