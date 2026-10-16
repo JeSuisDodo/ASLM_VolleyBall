@@ -761,12 +761,19 @@ header .wrap{max-width:80rem}
   <section id="vie" data-page="vie" aria-labelledby="t-vie">
     <div class="wrap">
       <div class="head"><span class="eyebrow">En images</span><h2 id="t-vie">La vie du club</h2></div>
-      <p>Tournois, déplacements, soirées et moments entre Hérons : retrouvez ici les photos de la vie du club. Plus de photos au quotidien sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">Instagram</a>.</p>
+      <p>Tournois, déplacements, soirées et moments entre Hérons : retrouvez ici les événements et les photos de la vie du club.</p>
+      <div class="insta-block">
+        <div class="insta-h"><h3>Nos événements</h3></div>
+        <div class="events" id="events-vie"></div>
+      </div>
       <div class="insta-block">
         <div class="insta-h"><h3>Sur Instagram</h3><a class="btn btn-royal" href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">Suivre @aslmvolley</a></div>
         <div class="insta" id="insta"></div>
       </div>
-      <div class="gallery" id="gallery"></div>
+      <div class="insta-block">
+        <div class="insta-h"><h3>Photos</h3></div>
+        <div class="gallery" id="gallery"></div>
+      </div>
     </div>
   </section>
 
@@ -1063,7 +1070,7 @@ var GROUPS=[
   document.getElementById('mosaic').innerHTML=T.filter(function(t){return t.photo}).sort(function(a,b){return ord(a)-ord(b)}).map(tile).join('');
   /* Vie du club : ajouter des photos ici -> {src:'...', legende:'...'} */
   window.VIE=window.VIE||[];
-  var vempty='<div class="events-empty"><b>Les premières photos arrivent bientôt.</b><span>Tournois, déplacements, soirées : les moments forts du club seront partagés ici. En attendant, suivez-nous sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">Instagram</a>.</span></div>';
+  var vempty='<div class="events-empty"><b>Les premières photos arrivent bientôt.</b><span>Tournois, déplacements, soirées : les moments forts du club seront partagés ici.</span></div>';
   document.getElementById('gallery').innerHTML=window.VIE.length?'':vempty;
   if(window.VIE.length)document.getElementById('gallery').innerHTML=window.VIE.map(function(p){return '<figure><img src="'+p.src+'" alt="'+p.legende+'" loading="lazy"><figcaption>'+p.legende+'</figcaption></figure>'}).join('');
   document.getElementById('vie-teaser').innerHTML=window.VIE.length?'':vempty;
@@ -1098,6 +1105,7 @@ var GROUPS=[
     var part=p?'<div class="epart"><span class="eplogo">'+(p.logo?'<img src="'+p.logo+'" alt="Logo '+p.nom+'">':'<span>'+p.nom+'</span>')+'</span><div><span class="epk">En partenariat avec</span><b>'+(p.lien?'<a href="'+p.lien+'" target="_blank" rel="noopener">'+p.nom+'</a>':p.nom)+'</b><p>'+p.texte+'</p></div></div>':'';
     return '<article class="event">'+dt+'<div class="ebody"><h3>'+e.titre+'</h3><p>'+(e.lieu?e.lieu+' · ':'')+(e.texte||'')+'</p>'+(e.lien?'<a class="elink" href="'+e.lien+'" target="_blank" rel="noopener">'+(e.lienTexte||'En savoir plus')+'</a>':'')+part+'</div></article>';
   }
+  var evv=document.getElementById('events-vie');if(evv)evv.innerHTML=ev.length?ev.map(evHTML).join(''):'';
   document.getElementById('events').innerHTML=ev.length?ev.map(evHTML).join('')
     :'<div class="events-empty"><b>Les prochains événements arrivent bientôt.</b><span>Tournois, soirées, sorties du club : ils seront annoncés ici et sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">Instagram</a>.</span></div>';
 })();
@@ -1130,7 +1138,6 @@ window.INSTA_POSTS=[
   function card(x,cap){return '<div class="iembed"><h4 class="ititle">'+(x.t||'&nbsp;')+'</h4><blockquote class="instagram-media"'+''+' data-instgrm-permalink="'+x.u+'" data-instgrm-version="14"><a href="'+x.u+'" target="_blank" rel="noopener">Voir cette publication sur Instagram</a></blockquote></div>'}
   var box=document.getElementById('insta'), teaser=document.getElementById('vie-teaser');
   if(!P.length){box.innerHTML='<div class="events-empty"><b>Les dernières publications du club s\'afficheront ici.</b><span>Retrouvez-les dès maintenant sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">@aslmvolley</a>.</span></div>';box.style.display='block';return}
-  var g=document.getElementById('gallery');if(g&&!(window.VIE||[]).length)g.innerHTML='';
   box.innerHTML=P.map(function(x){return card(x,true)}).join('');
   if(teaser&&!(window.VIE||[]).length){teaser.className='insta';teaser.innerHTML=P.map(function(x){return card(x,true)}).join('');}
   var sc=document.createElement('script');sc.async=true;sc.src='https://www.instagram.com/embed.js';document.body.appendChild(sc);
