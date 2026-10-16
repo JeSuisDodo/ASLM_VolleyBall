@@ -1096,7 +1096,7 @@ window.INSTA_POSTS=[
 ];
 (function(){
   var P=(window.INSTA_POSTS||[]).map(function(p){if(typeof p==='string')p={url:p};return {u:p.url.split('?')[0].replace(/\/?$/,'/'),t:p.titre||''}});
-  function card(x,cap){return '<div class="iembed"><h4 class="ititle">'+(x.t||'&nbsp;')+'</h4><blockquote class="instagram-media"'+(cap?' data-instgrm-captioned':'')+' data-instgrm-permalink="'+x.u+'" data-instgrm-version="14"><a href="'+x.u+'" target="_blank" rel="noopener">Voir cette publication sur Instagram</a></blockquote></div>'}
+  function card(x,cap){return '<div class="iembed"><h4 class="ititle">'+(x.t||'&nbsp;')+'</h4><blockquote class="instagram-media"'+''+' data-instgrm-permalink="'+x.u+'" data-instgrm-version="14"><a href="'+x.u+'" target="_blank" rel="noopener">Voir cette publication sur Instagram</a></blockquote></div>'}
   var box=document.getElementById('insta'), teaser=document.getElementById('vie-teaser');
   if(!P.length){box.innerHTML='<div class="events-empty"><b>Les dernières publications du club s\'afficheront ici.</b><span>Retrouvez-les dès maintenant sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">@aslmvolley</a>.</span></div>';box.style.display='block';return}
   var g=document.getElementById('gallery');if(g&&!(window.VIE||[]).length)g.innerHTML='';
