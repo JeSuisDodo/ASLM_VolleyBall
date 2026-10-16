@@ -26,10 +26,6 @@ jobs:
       - name: Lire les résultats sur le site de la FFvolley
         run: python3 maj_matchs.py
 
-      - name: Lire les 3 dernières publications Instagram
-        run: python3 maj_instagram.py
-        continue-on-error: true
-
       - name: Enregistrer dans le dépôt
         run: |
           git config user.name "maj-matchs"

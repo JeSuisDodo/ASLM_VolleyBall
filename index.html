@@ -627,6 +627,10 @@ header .wrap{max-width:80rem}
 .ipost .itxt p{font-size:.9rem;color:var(--fg);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .ipost .itxt small{color:var(--muted);font-size:.8rem}
 @media (max-width:640px){.insta{grid-template-columns:1fr 1fr}.insta .ipost:nth-child(3){display:none}}
+
+.iembed{min-width:0;display:flex;justify-content:center}
+.iembed .instagram-media{min-width:0!important;width:100%!important;max-width:540px!important;margin:0!important}
+@media (max-width:900px){.insta{grid-template-columns:1fr}.insta .iembed:nth-child(3){display:flex}}
 </style>
 </head>
 <body>
@@ -1078,21 +1082,15 @@ var GROUPS=[
 })();
 </script>
 <script>
-/* Instagram : instagram.json est mis à jour chaque jour par maj_instagram.py */
+/* Instagram : publications choisies à la main. Coller ici les liens des posts (bouton « ⋯ » > Copier le lien) */
+window.INSTA_POSTS=[];
 (function(){
-  var box=document.getElementById('insta'), teaser=document.getElementById('vie-teaser');
-  var M=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
-  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-  function empty(){box.innerHTML='<div class="events-empty"><b>Les dernières publications du club s\'afficheront ici.</b><span>Retrouvez-les dès maintenant sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">@aslmvolley</a>.</span></div>';box.style.display='block'}
-  empty();
-  try{fetch('instagram.json?j='+Date.now().toString().slice(0,-7),{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).then(function(d){
-    if(!d||!d.posts||!d.posts.length)return;
-    box.style.display='';
-    box.innerHTML=d.posts.map(function(p){var dt=new Date(p.date+'T12:00:00');
-      return '<a class="ipost" href="'+esc(p.url)+'" target="_blank" rel="noopener"><span class="iimg"><img src="'+esc(p.image)+'" alt="Publication Instagram du club" loading="lazy">'+(p.video?'<span class="ivid">Vidéo</span>':'')+'</span><span class="itxt"><p>'+esc(p.legende||'')+'</p><small>'+dt.getDate()+' '+M[dt.getMonth()]+' '+dt.getFullYear()+'</small></span></a>'}).join('');
-    if(!(window.VIE||[]).length){var g=document.getElementById('gallery');if(g)g.innerHTML='';}
-    if(!(window.VIE||[]).length&&teaser){teaser.innerHTML=d.posts.slice(0,3).map(function(p){return '<a href="#vie"><img src="'+esc(p.image)+'" alt="Publication Instagram du club" loading="lazy"></a>'}).join('');}
-  }).catch(function(){})}catch(e){}
+  var box=document.getElementById('insta');
+  var P=(window.INSTA_POSTS||[]).map(function(u){return u.split('?')[0].replace(/\/?$/,'/')});
+  if(!P.length){box.innerHTML='<div class="events-empty"><b>Les dernières publications du club s\'afficheront ici.</b><span>Retrouvez-les dès maintenant sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">@aslmvolley</a>.</span></div>';box.style.display='block';return}
+  var g=document.getElementById('gallery');if(g&&!(window.VIE||[]).length)g.innerHTML='';
+  box.innerHTML=P.map(function(u){return '<div class="iembed"><blockquote class="instagram-media" data-instgrm-permalink="'+u+'" data-instgrm-version="14"><a href="'+u+'" target="_blank" rel="noopener">Voir cette publication sur Instagram</a></blockquote></div>'}).join('');
+  var sc=document.createElement('script');sc.async=true;sc.src='https://www.instagram.com/embed.js';document.body.appendChild(sc);
 })();
 </script>
 <script type="application/json" id="matchs-secours">{
