@@ -4,7 +4,7 @@
  "poules": [
   {
    "code": "DSM",
-   "nom": "Division de semaine masculine",
+   "nom": "Compétition libre masculine",
    "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&poule=DSM",
    "classement": [
     {
@@ -545,7 +545,7 @@
   },
   {
    "code": "DS1",
-   "nom": "Championnat départemental mixte, 1re division",
+   "nom": "Compétition libre mixte, 1re division",
    "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&poule=DS1",
    "classement": [
     {
@@ -1436,7 +1436,7 @@
   },
   {
    "code": "DS2",
-   "nom": "Championnat départemental mixte, 2e division",
+   "nom": "Compétition libre mixte, 2e division",
    "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&poule=DS2",
    "classement": [
     {
@@ -2327,7 +2327,7 @@
   },
   {
    "code": "DS3",
-   "nom": "Championnat départemental mixte, 3e division",
+   "nom": "Compétition libre mixte, 3e division",
    "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=PTPL49&poule=DS3",
    "classement": [
     {

@@ -23,10 +23,10 @@ SAISON = "2026/2027"
 COMITE = "PTPL49"  # Comité de volley du Maine-et-Loire
 POULES = {
     # code poule FFVB : nom affiché sur le site
-    "DSM": "Division de semaine masculine",
-    "DS1": "Championnat départemental mixte, 1re division",
-    "DS2": "Championnat départemental mixte, 2e division",
-    "DS3": "Championnat départemental mixte, 3e division",
+    "DSM": "Compétition libre masculine",
+    "DS1": "Compétition libre mixte, 1re division",
+    "DS2": "Compétition libre mixte, 2e division",
+    "DS3": "Compétition libre mixte, 3e division",
 }
 COUPES = {
     # code division FFVB : nom affiché (compétitions à élimination, sans classement)
