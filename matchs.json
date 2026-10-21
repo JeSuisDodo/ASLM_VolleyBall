@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-20T10:04:38+00:00",
+ "maj": "2026-10-21T10:08:04+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -3470,13 +3470,13 @@
     {
      "code": "COFA004",
      "date": "2026-11-15",
-     "heure": "20:00",
+     "heure": "14:00",
      "dom": "SAUMUR DEP 1",
      "ext": "VBCM DEP",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "GYMNASE GOUZY",
+     "salle": "SAINT LAMBERT",
      "tour": "1er tour de COUPE"
     },
     {
@@ -3517,7 +3517,7 @@
     },
     {
      "code": "COFA008",
-     "date": "2026-11-15",
+     "date": "2026-11-06",
      "heure": "20:00",
      "dom": "VCA DEP 1",
      "ext": "ASLM DS",
@@ -3529,8 +3529,8 @@
     },
     {
      "code": "COFA009",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-10-28",
+     "heure": "21:00",
      "dom": "SMVB R2",
      "ext": "SCO DEP",
      "sd": null,
@@ -4575,7 +4575,7 @@
     },
     {
      "code": "COMA006",
-     "date": "2026-11-15",
+     "date": "2026-10-23",
      "heure": "20:00",
      "dom": "VCA DS",
      "ext": "SCO R2",
@@ -4611,8 +4611,8 @@
     },
     {
      "code": "COMA009",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-10-27",
+     "heure": "21:00",
      "dom": "VCA DEP",
      "ext": "ST BARTH DEP 1",
      "sd": null,
