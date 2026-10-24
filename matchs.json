@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T10:03:41+00:00",
+ "maj": "2026-10-24T09:32:35+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -4579,10 +4579,10 @@
      "heure": "20:00",
      "dom": "VCA DS",
      "ext": "SCO R2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "FRANÇOIS CEVERT",
+     "sd": 0,
+     "se": 3,
+     "sets": "15:25, 19:25, 9:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
