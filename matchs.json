@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T09:49:00+00:00",
+ "maj": "2026-10-26T11:06:55+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -3485,10 +3485,10 @@
      "heure": "14:00",
      "dom": "SMVB DEP",
      "ext": "LA CHRISTINA",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "THOMAS DUPOUET",
+     "sd": 2,
+     "se": 3,
+     "sets": "25:17, 21:25, 25:23, 16:25, 11:15",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -3505,14 +3505,14 @@
     },
     {
      "code": "COFA007",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-11-13",
+     "heure": "21:00",
      "dom": "ECVB DEP",
      "ext": "VCA DS",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "DEMIANNAY",
+     "salle": "OMNISPORTS ST LEGER",
      "tour": "1er tour de COUPE"
     },
     {
@@ -3992,7 +3992,7 @@
     },
     {
      "code": "mixA004",
-     "date": "2026-11-28",
+     "date": "2026-10-28",
      "heure": "19:30",
      "dom": "SCO 6",
      "ext": "VCA 1",
@@ -4064,8 +4064,8 @@
     },
     {
      "code": "mixA010",
-     "date": "2026-11-13",
-     "heure": "20:00",
+     "date": "2026-11-09",
+     "heure": "20:30",
      "dom": "ST BARTH 1",
      "ext": "VCA 2",
      "sd": null,
@@ -4539,7 +4539,7 @@
     },
     {
      "code": "COMA003",
-     "date": "2026-11-15",
+     "date": "2026-11-05",
      "heure": "20:00",
      "dom": "LE LION DSM",
      "ext": "ST BARTH DEP 2",
