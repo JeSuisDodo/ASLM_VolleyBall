@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T10:34:02+00:00",
+ "maj": "2026-10-28T11:20:50+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -4540,7 +4540,7 @@
     {
      "code": "COMA003",
      "date": "2026-11-05",
-     "heure": "20:00",
+     "heure": "20:30",
      "dom": "LE LION DSM",
      "ext": "ST BARTH DEP 2",
      "sd": null,
@@ -4615,10 +4615,10 @@
      "heure": "21:00",
      "dom": "VCA DEP",
      "ext": "ST BARTH DEP 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "FRANÇOIS CEVERT",
+     "sd": 2,
+     "se": 3,
+     "sets": "21:25, 20:25, 25:13, 25:20, 13:15",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
