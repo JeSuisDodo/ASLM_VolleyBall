@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T11:20:50+00:00",
+ "maj": "2026-10-29T11:31:18+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -3533,10 +3533,10 @@
      "heure": "21:00",
      "dom": "SMVB R2",
      "ext": "SCO DEP",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "THOMAS DUPOUET",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:14, 25:13, 25:16",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -3996,10 +3996,10 @@
      "heure": "19:30",
      "dom": "SCO 6",
      "ext": "VCA 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "GYMNASE DE BELLE BEILLE",
+     "sd": 0,
+     "se": 3,
+     "sets": "19:25, 21:25, 22:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4519,10 +4519,10 @@
      "heure": "20:00",
      "dom": "ASPTT DSM",
      "ext": "VVB DEP 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE MERMOZ",
+     "sd": 0,
+     "se": 3,
+     "sets": "18:25, 19:25, 22:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4551,14 +4551,14 @@
     },
     {
      "code": "COMA004",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-11-18",
+     "heure": "21:00",
      "dom": "ASCCHU DSM",
      "ext": "SAUMUR DEP 2",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "GYMNASE BERGSON",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4661,12 +4661,12 @@
      "code": "COMA013",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COMA006",
+     "dom": "SCO R2",
      "ext": "SCO PNM",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE JEAN ROUSSEAU",
      "tour": "2ème tour de COUPE"
     },
     {
@@ -4685,12 +4685,12 @@
      "code": "COMA015",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COMA001",
+     "dom": "VVB DEP 1",
      "ext": "GAGNANT MATCH COMA004",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLES OMNISPORT",
      "tour": "2ème tour de COUPE"
     },
     {
@@ -4745,13 +4745,25 @@
      "code": "COMA020",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COMA009",
+     "dom": "ST BARTH DEP 1",
      "ext": "GAGNANT MATCH COMA011",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE DE LA GEMMETRIE",
      "tour": "2ème tour de COUPE"
+    },
+    {
+     "code": "COM021",
+     "date": "2027-01-03",
+     "heure": "00000",
+     "dom": "ASPTT DSM",
+     "ext": "VCA DS",
+     "sd": null,
+     "se": null,
+     "sets": "",
+     "salle": "SALLE MERMOZ",
+     "tour": "1er tour de CHALLENGE"
     },
     {
      "code": "COM022",
@@ -4782,7 +4794,7 @@
      "date": "2027-01-03",
      "heure": "15:00",
      "dom": "PERDANT MATCH COMA004",
-     "ext": "PERDANT MATCH COMA009",
+     "ext": "VCA DEP",
      "sd": null,
      "se": null,
      "sets": "",
