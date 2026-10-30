@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T11:31:18+00:00",
+ "maj": "2026-10-30T11:24:34+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -4128,10 +4128,10 @@
      "heure": "20:30",
      "dom": "ASPTT 4",
      "ext": "LONGUE 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE MERMOZ",
+     "sd": 1,
+     "se": 3,
+     "sets": "28:26, 16:25, 18:25, 24:26",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4567,10 +4567,10 @@
      "heure": "20:30",
      "dom": "MURS ERIGNE DSM",
      "ext": "VVB DEP 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DES GRANDS MOULINS",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:20, 27:25, 25:22",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
