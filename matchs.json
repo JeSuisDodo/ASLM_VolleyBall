@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T11:24:34+00:00",
+ "maj": "2026-10-31T10:56:07+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -4527,14 +4527,14 @@
     },
     {
      "code": "COMA002",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-10-30",
+     "heure": "20:30",
      "dom": "ENOA DSM",
      "ext": "SAUMUR DEP 1",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "ESPACE LONGUENÉE",
+     "salle": "ST LAMBERT",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4647,14 +4647,14 @@
     },
     {
      "code": "COMA012",
-     "date": "2026-11-15",
-     "heure": "20:00",
-     "dom": "ASLM 2",
-     "ext": "ECVB DEP",
+     "date": "2026-11-04",
+     "heure": "21:00",
+     "dom": "ECVB DEP",
+     "ext": "ASLM 2",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "SALLE JEAN LEHAY",
+     "salle": "SALLE OMNISPORT ST LEGER SOUS",
      "tour": "1er tour de COUPE"
     },
     {
