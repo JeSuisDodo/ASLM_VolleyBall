@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-31T10:56:07+00:00",
+ "maj": "2026-11-01T11:51:07+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -3518,7 +3518,7 @@
     {
      "code": "COFA008",
      "date": "2026-11-06",
-     "heure": "20:00",
+     "heure": "21:00",
      "dom": "VCA DEP 1",
      "ext": "ASLM DS",
      "sd": null,
@@ -4531,10 +4531,10 @@
      "heure": "20:30",
      "dom": "ENOA DSM",
      "ext": "SAUMUR DEP 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "ST LAMBERT",
+     "sd": 2,
+     "se": 3,
+     "sets": "25:23, 10:25, 25:22, 18:25, 3:15",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
