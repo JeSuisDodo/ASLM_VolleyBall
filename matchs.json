@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-02T13:29:46+00:00",
+ "maj": "2026-11-03T12:48:11+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -9,6 +9,16 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "ASLM 1",
+     "pts": 6,
+     "j": 2,
+     "g": 2,
+     "p": 0,
+     "sp": 6,
+     "sc": 0
+    },
+    {
+     "rang": 2,
      "equipe": "ASLM 2",
      "pts": 6,
      "j": 2,
@@ -16,16 +26,6 @@
      "p": 0,
      "sp": 6,
      "sc": 1
-    },
-    {
-     "rang": 2,
-     "equipe": "ASLM 1",
-     "pts": 3,
-     "j": 1,
-     "g": 1,
-     "p": 0,
-     "sp": 3,
-     "sc": 0
     },
     {
      "rang": 3,
@@ -41,11 +41,11 @@
      "rang": 4,
      "equipe": "USAC 1",
      "pts": 1,
-     "j": 2,
+     "j": 3,
      "g": 0,
-     "p": 2,
+     "p": 3,
      "sp": 2,
-     "sc": 6
+     "sc": 9
     },
     {
      "rang": 5,
@@ -162,10 +162,10 @@
      "heure": "20:30",
      "dom": "ASLM 1",
      "ext": "USAC 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY"
+     "sd": 3,
+     "se": 0,
+     "sets": "25:20, 25:14, 25:20",
+     "salle": ""
     },
     {
      "code": "DSMA012",
@@ -1441,6 +1441,16 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "ASPTT 5",
+     "pts": 6,
+     "j": 3,
+     "g": 2,
+     "p": 1,
+     "sp": 7,
+     "sc": 5
+    },
+    {
+     "rang": 2,
      "equipe": "ASLM 6",
      "pts": 5,
      "j": 2,
@@ -1450,7 +1460,7 @@
      "sc": 3
     },
     {
-     "rang": 2,
+     "rang": 3,
      "equipe": "ASPTT 2",
      "pts": 4,
      "j": 2,
@@ -1460,7 +1470,7 @@
      "sc": 4
     },
     {
-     "rang": 3,
+     "rang": 4,
      "equipe": "ASLM 7",
      "pts": 4,
      "j": 2,
@@ -1470,23 +1480,13 @@
      "sc": 4
     },
     {
-     "rang": 4,
+     "rang": 5,
      "equipe": "MURS ERIGNE 2",
      "pts": 4,
      "j": 2,
      "g": 1,
      "p": 1,
      "sp": 5,
-     "sc": 4
-    },
-    {
-     "rang": 5,
-     "equipe": "ASPTT 5",
-     "pts": 3,
-     "j": 2,
-     "g": 1,
-     "p": 1,
-     "sp": 4,
      "sc": 4
     },
     {
@@ -1523,11 +1523,11 @@
      "rang": 9,
      "equipe": "ASCCHU 2",
      "pts": 0,
-     "j": 1,
+     "j": 2,
      "g": 0,
-     "p": 1,
-     "sp": 1,
-     "sc": 3
+     "p": 2,
+     "sp": 2,
+     "sc": 6
     }
    ],
    "matchs": [
@@ -1625,10 +1625,10 @@
      "heure": "20:45",
      "dom": "ASCCHU 2",
      "ext": "ASPTT 5",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN MONNET"
+     "sd": 1,
+     "se": 3,
+     "sets": "25:20, 11:25, 13:25, 22:25",
+     "salle": ""
     },
     {
      "code": "DS2A013",
@@ -2362,16 +2362,36 @@
     },
     {
      "rang": 4,
-     "equipe": "STE GEMMES 1",
-     "pts": 4,
-     "j": 2,
-     "g": 1,
+     "equipe": "SCO 4",
+     "pts": 5,
+     "j": 3,
+     "g": 2,
      "p": 1,
-     "sp": 5,
-     "sc": 3
+     "sp": 6,
+     "sc": 6
     },
     {
      "rang": 5,
+     "equipe": "STE GEMMES 1",
+     "pts": 4,
+     "j": 3,
+     "g": 1,
+     "p": 2,
+     "sp": 6,
+     "sc": 6
+    },
+    {
+     "rang": 6,
+     "equipe": "LE LION 2",
+     "pts": 4,
+     "j": 3,
+     "g": 1,
+     "p": 2,
+     "sp": 5,
+     "sc": 7
+    },
+    {
+     "rang": 7,
      "equipe": "VCA 2",
      "pts": 3,
      "j": 2,
@@ -2381,17 +2401,7 @@
      "sc": 5
     },
     {
-     "rang": 6,
-     "equipe": "SCO 4",
-     "pts": 2,
-     "j": 2,
-     "g": 1,
-     "p": 1,
-     "sp": 3,
-     "sc": 5
-    },
-    {
-     "rang": 7,
+     "rang": 8,
      "equipe": "BAUGE 2",
      "pts": 2,
      "j": 2,
@@ -2401,24 +2411,14 @@
      "sc": 5
     },
     {
-     "rang": 8,
+     "rang": 9,
      "equipe": "SCO 3",
      "pts": 1,
-     "j": 2,
+     "j": 3,
      "g": 0,
-     "p": 2,
-     "sp": 2,
-     "sc": 6
-    },
-    {
-     "rang": 9,
-     "equipe": "LE LION 2",
-     "pts": 1,
-     "j": 2,
-     "g": 0,
-     "p": 2,
-     "sp": 2,
-     "sc": 6
+     "p": 3,
+     "sp": 3,
+     "sc": 9
     },
     {
      "rang": 10,
@@ -2559,10 +2559,10 @@
      "heure": "20:35",
      "dom": "STE GEMMES 1",
      "ext": "LE LION 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "GYMNASE DES BOULAYS"
+     "sd": 1,
+     "se": 3,
+     "sets": "25:19, 22:25, 6:25, 20:25",
+     "salle": ""
     },
     {
      "code": "DS3A013",
@@ -2581,10 +2581,10 @@
      "heure": "20:30",
      "dom": "SCO 4",
      "ext": "SCO 3",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN ROUSSEAU"
+     "sd": 3,
+     "se": 1,
+     "sets": "26:24, 13:25, 25:12, 26:24",
+     "salle": ""
     },
     {
      "code": "DS3A015",
