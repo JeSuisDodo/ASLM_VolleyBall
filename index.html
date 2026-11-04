@@ -1096,12 +1096,15 @@ var GROUPS=[
   var ord=function(t){return typeof t.n==='number'?t.n:100+(t.n==='Féminine'?0:1)};
   document.getElementById('mosaic').innerHTML=T.filter(function(t){return t.photo}).sort(function(a,b){return ord(a)-ord(b)}).map(tile).join('');
   /* Vie du club : ajouter des photos ici -> {src:'...', legende:'...'} */
-  window.VIE=window.VIE||[];
+  /* Photos de la vie du club : {src:'...', legende:'' (facultatif)} */
+  window.VIE=[
+    {src:'img/16f0b589fc.webp',legende:''}
+  ];
   var vempty='<div class="events-empty"><b>Les premières photos arrivent bientôt.</b><span>Tournois, déplacements, soirées : les moments forts du club seront partagés ici.</span></div>';
   document.getElementById('gallery').innerHTML=window.VIE.length?'':vempty;
-  if(window.VIE.length)document.getElementById('gallery').innerHTML=window.VIE.map(function(p){return '<figure><img src="'+p.src+'" alt="'+p.legende+'" loading="lazy"><figcaption>'+p.legende+'</figcaption></figure>'}).join('');
-  document.getElementById('vie-teaser').innerHTML=window.VIE.length?'':vempty;
-  if(window.VIE.length)document.getElementById('vie-teaser').innerHTML=window.VIE.slice(0,3).map(function(p){return '<a href="#vie"><img src="'+p.src+'" alt="'+p.legende+'" loading="lazy"></a>'}).join('');
+  if(window.VIE.length)document.getElementById('gallery').innerHTML=window.VIE.map(function(p){return '<figure><img src="'+p.src+'" alt="'+(p.legende||'Photo de la vie du club')+'" loading="lazy">'+(p.legende?'<figcaption>'+p.legende+'</figcaption>':'')+'</figure>'}).join('');
+  document.getElementById('vie-teaser').innerHTML=window.VIE.length>=3?'':vempty;
+  if(window.VIE.length>=3)document.getElementById('vie-teaser').innerHTML=window.VIE.slice(0,3).map(function(p){return '<a href="#vie"><img src="'+p.src+'" alt="'+(p.legende||'Photo de la vie du club')+'" loading="lazy"></a>'}).join('');
   /* Partenaires : ajouter ici -> {nom, lien, logo (image), texte} */
   var cd=document.querySelector('#p-cd49 img'), ff=document.querySelector('#p-ffvb img');
   window.SPONSORS=[
@@ -1119,7 +1122,6 @@ var GROUPS=[
   document.getElementById('part-strip').innerHTML=window.SPONSORS.concat(window.PARTENAIRES).map(function(p){return '<a href="#partenaires" class="pmini">'+(p.logo?'<img src="'+p.logo+'" alt="'+p.nom+'">':p.nom)+'</a>'}).join('')+'<a href="#partenaires" class="pmini pmini-add">Devenir partenaire</a>';
   /* Événements : ajouter ici -> {date:'2026-12-12', titre:'Tournoi de Noël', lieu:'Salle Jean Lehay', texte:'...'} */
   window.EVENTS=[
-    {date:'2026-11-03',titre:'Rencontre ASLM 5 contre ASLM 8',lieu:'Salle Jean Monnet',texte:"Deux équipes du club face à face en 3e division mixte de compétition libre, et une photo commune pour finir la soirée.",photo:'img/16f0b589fc.webp'},
     {date:'',quand:'Date à venir',titre:'Tournoi avec Égoïstes Ensemble',lieu:'',texte:"Un tournoi organisé en partenariat avec l'association Égoïstes Ensemble.",
      partenaire:{nom:'Égoïstes Ensemble',logo:'img/9c9ab99362.webp',lien:'https://www.helloasso.com/associations/egoistes-ensemble',texte:"« Chacun son défi. Ensemble, l'élan. » Égoïstes Ensemble facilite l'accès au sport des personnes en situation de handicap : séances adaptées au rythme de chacun, défis sportifs préparés ensemble et rencontres entre sportifs, bénévoles et partenaires. L'ASLM Volley organise un tournoi avec l'association."}},
     {date:'',quand:'Printemps 2027',titre:'Tournoi du printemps',lieu:'',texte:"Le rendez-vous convivial du club : une soirée de matchs, de rires et de bonne humeur, ouverte aux joueurs, supporters et partenaires. La date de la prochaine édition sera annoncée ici.",lien:'https://www.instagram.com/p/DYq8kuziqBv/',lienTexte:"Revoir l'édition précédente"}
@@ -1166,7 +1168,7 @@ window.INSTA_POSTS=[
   var KEY='aslm-instagram-ok';
   function card(x){return '<div class="iembed"><h4 class="ititle">'+(x.t||'&nbsp;')+'</h4><blockquote class="instagram-media" data-instgrm-permalink="'+x.u+'" data-instgrm-version="14"><a href="'+x.u+'" target="_blank" rel="noopener">Voir cette publication sur Instagram</a></blockquote></div>'}
   var box=document.getElementById('insta'), teaser=document.getElementById('vie-teaser');
-  var homeToo=teaser&&!(window.VIE||[]).length;
+  var homeToo=teaser&&(window.VIE||[]).length<3;
   if(!P.length){box.innerHTML='<div class="events-empty"><b>Les dernières publications du club s\'afficheront ici.</b><span>Retrouvez-les dès maintenant sur <a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">@aslmvolley</a>.</span></div>';box.style.display='block';return}
   function gate(){return '<div class="igate"><p><b>Publications Instagram</b>Pour les afficher, le site doit charger du contenu d\'Instagram, qui dépose ses propres cookies.</p><div class="igate-btns"><button type="button" class="btn btn-royal ig-ok">Afficher les publications</button><a href="https://www.instagram.com/aslmvolley/" target="_blank" rel="noopener">Voir sur Instagram</a></div></div>'}
   function load(){
