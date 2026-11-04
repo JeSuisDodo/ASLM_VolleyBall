@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-03T12:48:11+00:00",
+ "maj": "2026-11-04T12:59:38+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -550,6 +550,26 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "SCO 2",
+     "pts": 7,
+     "j": 3,
+     "g": 2,
+     "p": 1,
+     "sp": 8,
+     "sc": 4
+    },
+    {
+     "rang": 2,
+     "equipe": "ASPTT 3",
+     "pts": 6,
+     "j": 3,
+     "g": 2,
+     "p": 1,
+     "sp": 8,
+     "sc": 6
+    },
+    {
+     "rang": 3,
      "equipe": "ASCCHU 1",
      "pts": 5,
      "j": 2,
@@ -559,7 +579,7 @@
      "sc": 2
     },
     {
-     "rang": 2,
+     "rang": 4,
      "equipe": "BAUGE 1",
      "pts": 4,
      "j": 2,
@@ -569,7 +589,7 @@
      "sc": 4
     },
     {
-     "rang": 3,
+     "rang": 5,
      "equipe": "ASLM 4",
      "pts": 4,
      "j": 2,
@@ -577,26 +597,6 @@
      "p": 1,
      "sp": 5,
      "sc": 3
-    },
-    {
-     "rang": 4,
-     "equipe": "SCO 2",
-     "pts": 4,
-     "j": 2,
-     "g": 1,
-     "p": 1,
-     "sp": 5,
-     "sc": 3
-    },
-    {
-     "rang": 5,
-     "equipe": "ASPTT 3",
-     "pts": 3,
-     "j": 2,
-     "g": 1,
-     "p": 1,
-     "sp": 5,
-     "sc": 5
     },
     {
      "rang": 6,
@@ -620,23 +620,23 @@
     },
     {
      "rang": 8,
-     "equipe": "SCO 1",
+     "equipe": "LONGUE 1",
      "pts": 0,
-     "j": 1,
+     "j": 2,
      "g": 0,
-     "p": 1,
-     "sp": 0,
-     "sc": 3
+     "p": 2,
+     "sp": 1,
+     "sc": 6
     },
     {
      "rang": 9,
-     "equipe": "LONGUE 1",
+     "equipe": "SCO 1",
      "pts": 0,
-     "j": 1,
+     "j": 2,
      "g": 0,
-     "p": 1,
-     "sp": 0,
-     "sc": 3
+     "p": 2,
+     "sp": 1,
+     "sc": 6
     }
    ],
    "matchs": [
@@ -734,10 +734,10 @@
      "heure": "20:30",
      "dom": "SCO 1",
      "ext": "SCO 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN ROUSSEAU"
+     "sd": 1,
+     "se": 3,
+     "sets": "15:25, 25:20, 11:25, 14:25",
+     "salle": ""
     },
     {
      "code": "DS1A013",
@@ -767,10 +767,10 @@
      "heure": "20:00",
      "dom": "ASPTT 3",
      "ext": "LONGUE 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE MERMOZ"
+     "sd": 3,
+     "se": 1,
+     "sets": "25:19, 25:18, 18:25, 25:20",
+     "salle": ""
     },
     {
      "code": "DS1A017",
@@ -1441,6 +1441,16 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "MURS ERIGNE 2",
+     "pts": 7,
+     "j": 3,
+     "g": 2,
+     "p": 1,
+     "sp": 8,
+     "sc": 4
+    },
+    {
+     "rang": 2,
      "equipe": "ASPTT 5",
      "pts": 6,
      "j": 3,
@@ -1450,7 +1460,7 @@
      "sc": 5
     },
     {
-     "rang": 2,
+     "rang": 3,
      "equipe": "ASLM 6",
      "pts": 5,
      "j": 2,
@@ -1460,7 +1470,17 @@
      "sc": 3
     },
     {
-     "rang": 3,
+     "rang": 4,
+     "equipe": "ASLM 3",
+     "pts": 5,
+     "j": 3,
+     "g": 2,
+     "p": 1,
+     "sp": 7,
+     "sc": 6
+    },
+    {
+     "rang": 5,
      "equipe": "ASPTT 2",
      "pts": 4,
      "j": 2,
@@ -1470,7 +1490,7 @@
      "sc": 4
     },
     {
-     "rang": 4,
+     "rang": 6,
      "equipe": "ASLM 7",
      "pts": 4,
      "j": 2,
@@ -1480,28 +1500,8 @@
      "sc": 4
     },
     {
-     "rang": 5,
-     "equipe": "MURS ERIGNE 2",
-     "pts": 4,
-     "j": 2,
-     "g": 1,
-     "p": 1,
-     "sp": 5,
-     "sc": 4
-    },
-    {
-     "rang": 6,
-     "equipe": "ENOA 2",
-     "pts": 2,
-     "j": 1,
-     "g": 1,
-     "p": 0,
-     "sp": 3,
-     "sc": 2
-    },
-    {
      "rang": 7,
-     "equipe": "ASLM 3",
+     "equipe": "ENOA 2",
      "pts": 2,
      "j": 2,
      "g": 1,
@@ -1511,7 +1511,7 @@
     },
     {
      "rang": 8,
-     "equipe": "SCO 6",
+     "equipe": "ASCCHU 2",
      "pts": 0,
      "j": 2,
      "g": 0,
@@ -1521,13 +1521,13 @@
     },
     {
      "rang": 9,
-     "equipe": "ASCCHU 2",
+     "equipe": "SCO 6",
      "pts": 0,
-     "j": 2,
+     "j": 3,
      "g": 0,
-     "p": 2,
+     "p": 3,
      "sp": 2,
-     "sc": 6
+     "sc": 9
     }
    ],
    "matchs": [
@@ -1647,10 +1647,10 @@
      "heure": "19:30",
      "dom": "SCO 6",
      "ext": "MURS ERIGNE 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SPORTING CLUB BELLE BEILLE"
+     "sd": 0,
+     "se": 3,
+     "sets": "22:25, 21:25, 17:25",
+     "salle": ""
     },
     {
      "code": "DS2A015",
@@ -1658,10 +1658,10 @@
      "heure": "20:30",
      "dom": "ASLM 3",
      "ext": "ENOA 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY"
+     "sd": 3,
+     "se": 1,
+     "sets": "25:23, 18:25, 30:28, 25:23",
+     "salle": ""
     },
     {
      "code": "DS2A017",
@@ -2333,22 +2333,22 @@
     {
      "rang": 1,
      "equipe": "ASLM 8",
-     "pts": 6,
-     "j": 2,
-     "g": 2,
+     "pts": 9,
+     "j": 3,
+     "g": 3,
      "p": 0,
-     "sp": 6,
-     "sc": 0
+     "sp": 9,
+     "sc": 1
     },
     {
      "rang": 2,
      "equipe": "ASLM 5",
      "pts": 6,
-     "j": 2,
+     "j": 3,
      "g": 2,
-     "p": 0,
-     "sp": 6,
-     "sc": 1
+     "p": 1,
+     "sp": 7,
+     "sc": 4
     },
     {
      "rang": 3,
@@ -2570,10 +2570,10 @@
      "heure": "20:45",
      "dom": "ASLM 5",
      "ext": "ASLM 8",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN MONNET"
+     "sd": 1,
+     "se": 3,
+     "sets": "29:31, 19:25, 25:22, 20:25",
+     "salle": ""
     },
     {
      "code": "DS3A014",
