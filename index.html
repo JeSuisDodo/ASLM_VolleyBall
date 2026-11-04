@@ -665,6 +665,7 @@ header .wrap{max-width:80rem}
 .ebody h3{font-size:1.6rem}
 .ebody > p{color:var(--muted)}
 .elink{font-weight:600;justify-self:start}
+.ephoto{width:100%;max-width:640px;aspect-ratio:4/3;object-fit:cover;border-radius:12px;margin-top:6px}
 .epart{display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;align-items:center;margin-top:8px;padding:14px;border-radius:12px;background:var(--royal-soft)}
 .eplogo{display:grid;place-items:center;aspect-ratio:1;background:#fff;border-radius:10px;padding:8px;text-align:center;font-family:var(--display);font-weight:600;font-size:1.05rem;line-height:1;color:#15164e;text-transform:uppercase}
 .eplogo img{max-width:100%;max-height:100%}
@@ -1059,8 +1060,8 @@ document.querySelectorAll('[data-copy]').forEach(function(b){
 var TEAMS=[
   {n:1,g:'masc',photo:''},{n:2,g:'masc',photo:'img/02ce17ca47.webp'},
   {n:4,g:'d1',photo:'img/7091852d55.webp'},
-  {n:3,g:'d2',photo:'img/a82ef43ad8.webp'},{n:6,g:'d2',photo:'img/4164a4c1fb.webp'},{n:7,g:'d2',photo:''},
-  {n:5,g:'d3',photo:'img/29935cb212.webp'},{n:8,g:'d3',photo:'img/77f78876e8.webp'},
+  {n:3,g:'d2',photo:'img/bb3630e44a.webp'},{n:6,g:'d2',photo:'img/4164a4c1fb.webp'},{n:7,g:'d2',photo:''},
+  {n:5,g:'d3',photo:'img/29935cb212.webp'},{n:8,g:'d3',photo:'img/3a1deeaf71.webp'},
   {n:'Féminine',g:'coupe',short:'Coupe féminine',photo:'img/725f39b5f2.webp'},{n:9,g:'coupe',short:'Coupe masculine',photo:''},{n:10,g:'coupe',short:'Coupe masculine',photo:''}
 ];
 var GROUPS=[
@@ -1118,6 +1119,7 @@ var GROUPS=[
   document.getElementById('part-strip').innerHTML=window.SPONSORS.concat(window.PARTENAIRES).map(function(p){return '<a href="#partenaires" class="pmini">'+(p.logo?'<img src="'+p.logo+'" alt="'+p.nom+'">':p.nom)+'</a>'}).join('')+'<a href="#partenaires" class="pmini pmini-add">Devenir partenaire</a>';
   /* Événements : ajouter ici -> {date:'2026-12-12', titre:'Tournoi de Noël', lieu:'Salle Jean Lehay', texte:'...'} */
   window.EVENTS=[
+    {date:'2026-11-03',titre:'Rencontre ASLM 5 contre ASLM 8',lieu:'Salle Jean Monnet',texte:"Deux équipes du club face à face en 3e division mixte de compétition libre, et une photo commune pour finir la soirée.",photo:'img/16f0b589fc.webp'},
     {date:'',quand:'Date à venir',titre:'Tournoi avec Égoïstes Ensemble',lieu:'',texte:"Un tournoi organisé en partenariat avec l'association Égoïstes Ensemble.",
      partenaire:{nom:'Égoïstes Ensemble',logo:'img/9c9ab99362.webp',lien:'https://www.helloasso.com/associations/egoistes-ensemble',texte:"« Chacun son défi. Ensemble, l'élan. » Égoïstes Ensemble facilite l'accès au sport des personnes en situation de handicap : séances adaptées au rythme de chacun, défis sportifs préparés ensemble et rencontres entre sportifs, bénévoles et partenaires. L'ASLM Volley organise un tournoi avec l'association."}},
     {date:'',quand:'Printemps 2027',titre:'Tournoi du printemps',lieu:'',texte:"Le rendez-vous convivial du club : une soirée de matchs, de rires et de bonne humeur, ouverte aux joueurs, supporters et partenaires. La date de la prochaine édition sera annoncée ici.",lien:'https://www.instagram.com/p/DYq8kuziqBv/',lienTexte:"Revoir l'édition précédente"}
@@ -1129,7 +1131,7 @@ var GROUPS=[
     var dt=d?'<div class="edate"><b>'+d.getDate()+'</b><span>'+M[d.getMonth()]+'</span><small>'+d.getFullYear()+'</small></div>':'<div class="edate edate-tba"><span>'+(e.quand||'À venir')+'</span></div>';
     var p=e.partenaire;
     var part=p?'<div class="epart"><span class="eplogo">'+(p.logo?'<img src="'+p.logo+'" alt="Logo '+p.nom+'">':'<span>'+p.nom+'</span>')+'</span><div><span class="epk">En partenariat avec</span><b>'+(p.lien?'<a href="'+p.lien+'" target="_blank" rel="noopener">'+p.nom+'</a>':p.nom)+'</b><p>'+p.texte+'</p></div></div>':'';
-    return '<article class="event">'+dt+'<div class="ebody"><h3>'+e.titre+'</h3><p>'+(e.lieu?e.lieu+' · ':'')+(e.texte||'')+'</p>'+(e.lien?'<a class="elink" href="'+e.lien+'" target="_blank" rel="noopener">'+(e.lienTexte||'En savoir plus')+'</a>':'')+part+'</div></article>';
+    return '<article class="event">'+dt+'<div class="ebody"><h3>'+e.titre+'</h3><p>'+(e.lieu?e.lieu+' · ':'')+(e.texte||'')+'</p>'+(e.photo?'<img class="ephoto" src="'+e.photo+'" alt="'+e.titre+'" loading="lazy">':'')+(e.lien?'<a class="elink" href="'+e.lien+'" target="_blank" rel="noopener">'+(e.lienTexte||'En savoir plus')+'</a>':'')+part+'</div></article>';
   }
   var evv=document.getElementById('events-vie');if(evv)evv.innerHTML=ev.length?ev.map(evHTML).join(''):'';
   document.getElementById('events').innerHTML=ev.length?ev.map(evHTML).join('')
