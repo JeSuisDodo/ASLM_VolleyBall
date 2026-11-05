@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-04T12:59:38+00:00",
+ "maj": "2026-11-05T13:12:03+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -29,6 +29,16 @@
     },
     {
      "rang": 3,
+     "equipe": "ENOA 1",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 4,
+     "sc": 3
+    },
+    {
+     "rang": 4,
      "equipe": "ASPTT 1",
      "pts": 2,
      "j": 1,
@@ -38,7 +48,7 @@
      "sc": 2
     },
     {
-     "rang": 4,
+     "rang": 5,
      "equipe": "USAC 1",
      "pts": 1,
      "j": 3,
@@ -46,16 +56,6 @@
      "p": 3,
      "sp": 2,
      "sc": 9
-    },
-    {
-     "rang": 5,
-     "equipe": "ENOA 1",
-     "pts": 0,
-     "j": 1,
-     "g": 0,
-     "p": 1,
-     "sp": 1,
-     "sc": 3
     },
     {
      "rang": 6,
@@ -71,11 +71,11 @@
      "rang": 7,
      "equipe": "MURS ERIGNE 1",
      "pts": 0,
-     "j": 0,
+     "j": 1,
      "g": 0,
-     "p": 0,
+     "p": 1,
      "sp": 0,
-     "sc": 0
+     "sc": 3
     }
    ],
    "matchs": [
@@ -151,10 +151,10 @@
      "heure": "20:30",
      "dom": "MURS ERIGNE 1",
      "ext": "ENOA 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DES GRANDS MOULINS"
+     "sd": 0,
+     "se": 3,
+     "sets": "15:25, 10:25, 16:25",
+     "salle": ""
     },
     {
      "code": "DSMA011",
@@ -550,6 +550,16 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "BAUGE 1",
+     "pts": 7,
+     "j": 3,
+     "g": 3,
+     "p": 0,
+     "sp": 9,
+     "sc": 4
+    },
+    {
+     "rang": 2,
      "equipe": "SCO 2",
      "pts": 7,
      "j": 3,
@@ -559,7 +569,7 @@
      "sc": 4
     },
     {
-     "rang": 2,
+     "rang": 3,
      "equipe": "ASPTT 3",
      "pts": 6,
      "j": 3,
@@ -569,7 +579,7 @@
      "sc": 6
     },
     {
-     "rang": 3,
+     "rang": 4,
      "equipe": "ASCCHU 1",
      "pts": 5,
      "j": 2,
@@ -577,16 +587,6 @@
      "p": 0,
      "sp": 6,
      "sc": 2
-    },
-    {
-     "rang": 4,
-     "equipe": "BAUGE 1",
-     "pts": 4,
-     "j": 2,
-     "g": 2,
-     "p": 0,
-     "sp": 6,
-     "sc": 4
     },
     {
      "rang": 5,
@@ -612,11 +612,11 @@
      "rang": 7,
      "equipe": "VCA 1",
      "pts": 1,
-     "j": 2,
+     "j": 3,
      "g": 0,
-     "p": 2,
+     "p": 3,
      "sp": 3,
-     "sc": 6
+     "sc": 9
     },
     {
      "rang": 8,
@@ -745,10 +745,10 @@
      "heure": "20:30",
      "dom": "BAUGE 1",
      "ext": "VCA 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+     "sd": 3,
+     "se": 0,
+     "sets": "25:11, 25:18, 25:9",
+     "salle": ""
     },
     {
      "code": "DS1A014",
@@ -2342,6 +2342,16 @@
     },
     {
      "rang": 2,
+     "equipe": "DOUE 1",
+     "pts": 7,
+     "j": 3,
+     "g": 3,
+     "p": 0,
+     "sp": 9,
+     "sc": 4
+    },
+    {
+     "rang": 3,
      "equipe": "ASLM 5",
      "pts": 6,
      "j": 3,
@@ -2349,16 +2359,6 @@
      "p": 1,
      "sp": 7,
      "sc": 4
-    },
-    {
-     "rang": 3,
-     "equipe": "DOUE 1",
-     "pts": 5,
-     "j": 2,
-     "g": 2,
-     "p": 0,
-     "sp": 6,
-     "sc": 2
     },
     {
      "rang": 4,
@@ -2403,12 +2403,12 @@
     {
      "rang": 8,
      "equipe": "BAUGE 2",
-     "pts": 2,
-     "j": 2,
+     "pts": 3,
+     "j": 3,
      "g": 1,
-     "p": 1,
-     "sp": 3,
-     "sc": 5
+     "p": 2,
+     "sp": 5,
+     "sc": 8
     },
     {
      "rang": 9,
@@ -2592,10 +2592,10 @@
      "heure": "20:30",
      "dom": "BAUGE 2",
      "ext": "DOUE 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "GYMNASE DES MAUCARDIERES VIEIL"
+     "sd": 2,
+     "se": 3,
+     "sets": "20:25, 19:25, 25:17, 25:21, 11:15",
+     "salle": ""
     },
     {
      "code": "DS3A016",
@@ -3493,8 +3493,8 @@
     },
     {
      "code": "COFA006",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-11-13",
+     "heure": "19:30",
      "dom": "ST BARTH DEP 1",
      "ext": "VBCM R2",
      "sd": null,
@@ -3651,8 +3651,8 @@
      "code": "COFA019",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "PERDANT MATCH COF001",
-     "ext": "PERDANT MATCH COF006",
+     "dom": "3ème MP 1er tour Coupe",
+     "ext": "10ème MP 1er tour Coupe",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3663,8 +3663,8 @@
      "code": "COFA020",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "PERDANT MATCH COF002",
-     "ext": "PERDANT MATCH COF007",
+     "dom": "4ème MP 1er tour Coupe",
+     "ext": "9ème MP 1er tour Coupe",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3675,8 +3675,8 @@
      "code": "COFA021",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "PERDANT MATCH COF003",
-     "ext": "PERDANT MATCH COF008",
+     "dom": "5ème MP 1er tour Coupe",
+     "ext": "8ème MP 1er tour Coupe",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3687,20 +3687,8 @@
      "code": "COFA022",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "PERDANT MATCH COF004",
-     "ext": "PERDANT MATCH COF009",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "",
-     "tour": "1er tour de CHALLENGE"
-    },
-    {
-     "code": "COFA023",
-     "date": "2027-01-03",
-     "heure": "20:00",
-     "dom": "PERDANT MATCH COF005",
-     "ext": "PERDANT MATCH COF010",
+     "dom": "6ème MP 1er tour Coupe",
+     "ext": "7ème MP 1er tour Coupe",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3712,7 +3700,7 @@
      "date": "2027-02-14",
      "heure": "20:00",
      "dom": "GAGNANT MATCH COF019",
-     "ext": "PERDANT MATCH COF014",
+     "ext": "PERDANT MATCH COF015",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3724,7 +3712,7 @@
      "date": "2027-02-14",
      "heure": "20:00",
      "dom": "GAGNANT MATCH COF020",
-     "ext": "PERDANT MATCH COF015",
+     "ext": "PERDANT MATCH COF016",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3736,7 +3724,7 @@
      "date": "2027-02-14",
      "heure": "20:00",
      "dom": "GAGNANT MATCH COF021",
-     "ext": "PERDANT MATCH COF016",
+     "ext": "PERDANT MATCH COF017",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3748,7 +3736,7 @@
      "date": "2027-02-14",
      "heure": "20:00",
      "dom": "GAGNANT MATCH COF022",
-     "ext": "PERDANT MATCH COF017",
+     "ext": "PERDANT MATCH COF018",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3759,8 +3747,8 @@
      "code": "COFA028",
      "date": "2027-02-14",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COF023",
-     "ext": "PERDANT MATCH COF018",
+     "dom": "PERDANT MATCH COF011",
+     "ext": "1er MP 1er tour de challenge",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3771,8 +3759,8 @@
      "code": "COFA029",
      "date": "2027-02-14",
      "heure": "20:00",
-     "dom": "PERDANT MATCH COF011",
-     "ext": "1er meilleur perdant 1er tour Challenge",
+     "dom": "PERDANT MATCH COF012",
+     "ext": "2ème MP 1er tour Challenge",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3783,8 +3771,8 @@
      "code": "COFA030",
      "date": "2027-02-14",
      "heure": "20:00",
-     "dom": "PERDANT MATCH COF012",
-     "ext": "2ème meilleur perdant 1er tour Challenge",
+     "dom": "PERDANT MATCH COF013",
+     "ext": "3ème MP 1er tour Challenge",
      "sd": null,
      "se": null,
      "sets": "",
@@ -3795,8 +3783,8 @@
      "code": "COFA031",
      "date": "2027-02-14",
      "heure": "20:00",
-     "dom": "PERDANT MATCH COF013",
-     "ext": "3ème meilleur perdant 1er tour Challenge",
+     "dom": "PERDANT MATCH COF014",
+     "ext": "4ème MP 1er tour Challenge",
      "sd": null,
      "se": null,
      "sets": "",
@@ -4004,14 +3992,14 @@
     },
     {
      "code": "mixA005",
-     "date": "2026-11-13",
-     "heure": "20:00",
+     "date": "2026-11-10",
+     "heure": "20:45",
      "dom": "ASLM 7",
      "ext": "SCO 4",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "SALLE JEAN LEHAY",
+     "salle": "SALLE JEAN MONNET",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4028,8 +4016,8 @@
     },
     {
      "code": "mixA007",
-     "date": "2026-11-13",
-     "heure": "20:00",
+     "date": "2026-11-10",
+     "heure": "20:30",
      "dom": "ASLM 8",
      "ext": "SCO 3",
      "sd": null,
@@ -4076,8 +4064,8 @@
     },
     {
      "code": "mixA011",
-     "date": "2026-11-13",
-     "heure": "20:00",
+     "date": "2026-11-10",
+     "heure": "20:30",
      "dom": "ASLM 4",
      "ext": "ST BARTH 2",
      "sd": null,
@@ -4623,14 +4611,14 @@
     },
     {
      "code": "COMA010",
-     "date": "2026-11-15",
-     "heure": "20:00",
-     "dom": "ASLM 9",
-     "ext": "ENOA DEP",
+     "date": "2026-11-06",
+     "heure": "21:00",
+     "dom": "ENOA DEP",
+     "ext": "ASLM 9",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "SALLE JEAN LEHAY",
+     "salle": "ESPACE LONGUENÉE",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4651,10 +4639,10 @@
      "heure": "21:00",
      "dom": "ECVB DEP",
      "ext": "ASLM 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE OMNISPORT ST LEGER SOUS",
+     "sd": 0,
+     "se": 3,
+     "sets": "12:25, 20:25, 18:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
