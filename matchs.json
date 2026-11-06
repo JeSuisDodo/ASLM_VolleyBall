@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-05T13:12:03+00:00",
+ "maj": "2026-11-06T12:57:14+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -9,6 +9,16 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "ASLM 2",
+     "pts": 9,
+     "j": 3,
+     "g": 3,
+     "p": 0,
+     "sp": 9,
+     "sc": 1
+    },
+    {
+     "rang": 2,
      "equipe": "ASLM 1",
      "pts": 6,
      "j": 2,
@@ -16,16 +26,6 @@
      "p": 0,
      "sp": 6,
      "sc": 0
-    },
-    {
-     "rang": 2,
-     "equipe": "ASLM 2",
-     "pts": 6,
-     "j": 2,
-     "g": 2,
-     "p": 0,
-     "sp": 6,
-     "sc": 1
     },
     {
      "rang": 3,
@@ -41,11 +41,11 @@
      "rang": 4,
      "equipe": "ASPTT 1",
      "pts": 2,
-     "j": 1,
+     "j": 2,
      "g": 1,
-     "p": 0,
+     "p": 1,
      "sp": 3,
-     "sc": 2
+     "sc": 5
     },
     {
      "rang": 5,
@@ -173,10 +173,10 @@
      "heure": "20:30",
      "dom": "ASLM 2",
      "ext": "ASPTT 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN MONNET"
+     "sd": 3,
+     "se": 0,
+     "sets": "25:18, 25:13, 25:15",
+     "salle": ""
     },
     {
      "code": "DSMA014",
@@ -550,6 +550,16 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "ASCCHU 1",
+     "pts": 8,
+     "j": 3,
+     "g": 3,
+     "p": 0,
+     "sp": 9,
+     "sc": 3
+    },
+    {
+     "rang": 2,
      "equipe": "BAUGE 1",
      "pts": 7,
      "j": 3,
@@ -559,7 +569,7 @@
      "sc": 4
     },
     {
-     "rang": 2,
+     "rang": 3,
      "equipe": "SCO 2",
      "pts": 7,
      "j": 3,
@@ -569,7 +579,7 @@
      "sc": 4
     },
     {
-     "rang": 3,
+     "rang": 4,
      "equipe": "ASPTT 3",
      "pts": 6,
      "j": 3,
@@ -577,16 +587,6 @@
      "p": 1,
      "sp": 8,
      "sc": 6
-    },
-    {
-     "rang": 4,
-     "equipe": "ASCCHU 1",
-     "pts": 5,
-     "j": 2,
-     "g": 2,
-     "p": 0,
-     "sp": 6,
-     "sc": 2
     },
     {
      "rang": 5,
@@ -602,11 +602,11 @@
      "rang": 6,
      "equipe": "ASPTT 4",
      "pts": 3,
-     "j": 2,
+     "j": 3,
      "g": 1,
-     "p": 1,
-     "sp": 3,
-     "sc": 4
+     "p": 2,
+     "sp": 4,
+     "sc": 7
     },
     {
      "rang": 7,
@@ -756,10 +756,10 @@
      "heure": "20:30",
      "dom": "ASPTT 4",
      "ext": "ASCCHU 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE VOLTAIRE"
+     "sd": 1,
+     "se": 3,
+     "sets": "12:25, 23:25, 25:16, 15:25",
+     "salle": ""
     },
     {
      "code": "DS1A015",
@@ -2394,11 +2394,11 @@
      "rang": 7,
      "equipe": "VCA 2",
      "pts": 3,
-     "j": 2,
+     "j": 3,
      "g": 1,
-     "p": 1,
-     "sp": 5,
-     "sc": 5
+     "p": 2,
+     "sp": 6,
+     "sc": 8
     },
     {
      "rang": 8,
@@ -2412,6 +2412,16 @@
     },
     {
      "rang": 9,
+     "equipe": "ST BARTH 1",
+     "pts": 3,
+     "j": 3,
+     "g": 1,
+     "p": 2,
+     "sp": 4,
+     "sc": 7
+    },
+    {
+     "rang": 10,
      "equipe": "SCO 3",
      "pts": 1,
      "j": 3,
@@ -2419,16 +2429,6 @@
      "p": 3,
      "sp": 3,
      "sc": 9
-    },
-    {
-     "rang": 10,
-     "equipe": "ST BARTH 1",
-     "pts": 0,
-     "j": 2,
-     "g": 0,
-     "p": 2,
-     "sp": 1,
-     "sc": 6
     }
    ],
    "matchs": [
@@ -2548,10 +2548,10 @@
      "heure": "20:30",
      "dom": "VCA 2",
      "ext": "ST BARTH 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "FRANÇOIS CEVERT"
+     "sd": 1,
+     "se": 3,
+     "sets": "19:25, 24:26, 25:15, 20:25",
+     "salle": ""
     },
     {
      "code": "DS3A012",
