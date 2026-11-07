@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-06T12:57:14+00:00",
+ "maj": "2026-11-07T11:43:53+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -3521,10 +3521,10 @@
      "heure": "21:00",
      "dom": "VCA DEP 1",
      "ext": "ASLM DS",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "FRANÇOIS CEVERT",
+     "sd": 3,
+     "se": 2,
+     "sets": "25:23, 19:25, 23:25, 25:21, 15:10",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
