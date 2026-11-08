@@ -684,6 +684,20 @@ header .wrap{max-width:80rem}
 .igate-btns a{font-weight:600}
 .legal b{color:#fff;font-weight:600}
 .legal h3+p{margin-top:2px}
+
+/* Zoom des photos : survol (souris) + agrandissement au clic / toucher */
+.tphoto,.gallery figure,.mosaic a{overflow:hidden}
+.tphoto img,.gallery img,.mosaic img{transition:transform .35s ease;cursor:zoom-in}
+@media (hover:hover) and (pointer:fine){
+  .tcard:hover .tphoto img,.gallery figure:hover img,.mosaic a:hover img{transform:scale(1.08)}
+}
+@media (prefers-reduced-motion:reduce){.tphoto img,.gallery img,.mosaic img{transition:none}}
+.lb{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:rgba(8,10,40,.92);padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));cursor:zoom-out}
+.lb img{max-width:100%;max-height:calc(100vh - 80px);border-radius:10px;box-shadow:0 20px 60px rgba(0,0,0,.5);animation:lbIn .25s ease}
+.lb figcaption{color:#fff;font-family:var(--display);font-size:1.6rem;text-transform:uppercase;margin-top:8px;text-align:center}
+.lb button{position:absolute;top:max(14px,env(safe-area-inset-top,0px));right:max(14px,env(safe-area-inset-right,0px));width:44px;height:44px;border-radius:50%;border:0;background:#fff;color:#15164e;font-size:1.6rem;line-height:1;cursor:pointer}
+@keyframes lbIn{from{transform:scale(.92);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.lb img{animation:none}}
 </style>
 </head>
 <body>
@@ -1195,6 +1209,29 @@ window.INSTA_POSTS=[
 })();
 </script>
 <script>(function(){var y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();})();</script>
+<script>
+/* Agrandissement des photos (équipes, accueil, vie du club) */
+(function(){
+  var lb=null,last=null;
+  function close(){if(!lb)return;lb.remove();lb=null;document.body.style.overflow='';if(last)last.focus&&last.focus();}
+  function open(img){
+    last=img;close();last=img;
+    var cap=img.closest('.tcard')?(img.closest('.tcard').querySelector('.tname b')||{}).textContent:(img.closest('.mosaic a')&&img.closest('.mosaic a').querySelector('.tag')?img.closest('.mosaic a').querySelector('.tag').textContent:'');
+    lb=document.createElement('div');lb.className='lb';lb.setAttribute('role','dialog');lb.setAttribute('aria-modal','true');lb.setAttribute('aria-label','Photo agrandie');
+    lb.innerHTML='<figure style="margin:0;display:grid;justify-items:center"><img alt=""><figcaption></figcaption></figure><button type="button" aria-label="Fermer">×</button>';
+    lb.querySelector('img').src=img.currentSrc||img.src;lb.querySelector('img').alt=img.alt||'';
+    lb.querySelector('figcaption').textContent=cap||'';
+    lb.addEventListener('click',close);
+    document.body.appendChild(lb);document.body.style.overflow='hidden';lb.querySelector('button').focus();
+  }
+  document.addEventListener('click',function(e){
+    var img=e.target.closest&&e.target.closest('.tphoto img,.gallery img,.mosaic img');
+    if(!img)return;e.preventDefault();open(img);
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  window.addEventListener('hashchange',close);
+})();
+</script>
 <script type="application/json" id="matchs-secours">{
  "maj": "2026-10-15T14:00:00+02:00",
  "saison": "2026/2027",
