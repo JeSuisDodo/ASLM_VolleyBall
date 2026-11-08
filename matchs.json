@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T11:43:53+00:00",
+ "maj": "2026-11-08T11:56:13+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -4615,10 +4615,10 @@
      "heure": "21:00",
      "dom": "ENOA DEP",
      "ext": "ASLM 9",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "ESPACE LONGUENÉE",
+     "sd": 1,
+     "se": 3,
+     "sets": "22:25, 25:19, 20:25, 22:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
