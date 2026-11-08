@@ -698,6 +698,33 @@ header .wrap{max-width:80rem}
 .lb button{position:absolute;top:max(14px,env(safe-area-inset-top,0px));right:max(14px,env(safe-area-inset-right,0px));width:44px;height:44px;border-radius:50%;border:0;background:#fff;color:#15164e;font-size:1.6rem;line-height:1;cursor:pointer}
 @keyframes lbIn{from{transform:scale(.92);opacity:0}to{transform:none;opacity:1}}
 @media (prefers-reduced-motion:reduce){.lb img{animation:none}}
+
+/* ===== Animations ===== */
+@keyframes pageIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes heroUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes crestIn{from{opacity:0;transform:translateY(-50%) rotate(-14deg) scale(.9)}to{opacity:.14;transform:translateY(-50%) rotate(-6deg)}}
+@keyframes crestFloat{0%,100%{transform:translateY(-50%) rotate(-6deg)}50%{transform:translateY(-53%) rotate(-4deg)}}
+@keyframes stripe{from{background-position:0 0}to{background-position:256px 0}}
+@keyframes pop{0%{transform:scale(.6);opacity:0}70%{transform:scale(1.08)}100%{transform:none;opacity:1}}
+@keyframes underline{from{width:0}to{width:2.2em}}
+section[data-page]:not([hidden]),.hero2:not([hidden]){animation:pageIn .45s ease both}
+.hero2 .kicker,.hero2-title,.hero2-slogan,.hero2-lead{animation:heroUp .7s cubic-bezier(.2,.7,.2,1) both}
+.hero2-title{animation-delay:.08s}.hero2-slogan{animation-delay:.18s}.hero2-lead{animation-delay:.28s}
+.hero2-crest{animation:crestIn 1s ease both,crestFloat 7s ease-in-out 1s infinite}
+.hero2::after{animation:stripe 12s linear infinite}
+h2::after{animation:underline .6s ease .2s both}
+.pill.win,.pill.loss{animation:pop .45s ease both}
+.btn,.filters button,nav a,.pmini,.pcard,.scard,.aff,.tcard,.why li,.event,.product,.ct button{transition:background-color .2s,color .2s,border-color .2s,box-shadow .25s,transform .25s}
+@media (hover:hover){
+  .tcard:hover,.product:hover,.pcard:hover,.scard:hover,.aff:hover,.why li:hover{box-shadow:0 10px 26px rgba(21,22,78,.14);transform:translateY(-3px)}
+  .btn:hover{box-shadow:0 6px 16px rgba(21,22,78,.18)}
+}
+.rv{opacity:0;transform:translateY(22px)}
+.rv.in{opacity:1;transform:none;transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .rv{opacity:1;transform:none}
+}
 </style>
 </head>
 <body>
@@ -1230,6 +1257,30 @@ window.INSTA_POSTS=[
   });
   document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
   window.addEventListener('hashchange',close);
+})();
+</script>
+<script>
+/* Apparition douce au défilement (seulement pour ce qui est hors de l'écran au chargement) */
+(function(){
+  if(!('IntersectionObserver' in window))return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var SEL='.tcard,.product,.event,.why li,.aff,.scard,.pcard,.formule,.bureau li,.ct,.match,.standing,.cup,.gallery figure,.mosaic a,.vie-teaser > *,.pmini,.iembed,.steps li';
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{rootMargin:'0px 0px -8% 0px'});
+  function scan(){
+    var vh=innerHeight;
+    document.querySelectorAll(SEL).forEach(function(el){
+      if(el.dataset.rv)return;el.dataset.rv='1';
+      var r=el.getBoundingClientRect();
+      if(r.width===0||r.top<vh)return;
+      var sib=el.parentElement?Array.prototype.indexOf.call(el.parentElement.children,el):0;
+      el.style.setProperty('--d',Math.min(sib%4,3)*0.08+'s');
+      el.classList.add('rv');io.observe(el);
+    });
+  }
+  function rescan(){document.querySelectorAll('[data-rv]').forEach(function(el){if(!el.classList.contains('rv'))delete el.dataset.rv});setTimeout(scan,60)}
+  window.addEventListener('load',function(){setTimeout(scan,100)});
+  window.addEventListener('hashchange',rescan);
+  new MutationObserver(function(){clearTimeout(window.__rvT);window.__rvT=setTimeout(scan,120)}).observe(document.querySelector('main')||document.body,{childList:true,subtree:true});
 })();
 </script>
 <script type="application/json" id="matchs-secours">{
