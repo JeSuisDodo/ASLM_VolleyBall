@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-08T11:56:13+00:00",
+ "maj": "2026-11-09T13:54:01+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -3445,8 +3445,8 @@
     },
     {
      "code": "COFA002",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-11-14",
+     "heure": "19:00",
      "dom": "ENOA DEP 1",
      "ext": "ECVB R2",
      "sd": null,
@@ -4531,10 +4531,10 @@
      "heure": "20:30",
      "dom": "LE LION DSM",
      "ext": "ST BARTH DEP 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DES TILLEULS",
+     "sd": 1,
+     "se": 3,
+     "sets": "5:25, 25:23, 19:25, 21:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4623,8 +4623,8 @@
     },
     {
      "code": "COMA011",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-11-09",
+     "heure": "20:30",
      "dom": "ASLM 10",
      "ext": "VBCM DEP",
      "sd": null,
