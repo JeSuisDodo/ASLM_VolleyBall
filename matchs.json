@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-09T13:54:01+00:00",
+ "maj": "2026-11-10T13:28:07+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -20,22 +20,22 @@
     {
      "rang": 2,
      "equipe": "ASLM 1",
-     "pts": 6,
-     "j": 2,
-     "g": 2,
+     "pts": 8,
+     "j": 3,
+     "g": 3,
      "p": 0,
-     "sp": 6,
-     "sc": 0
+     "sp": 9,
+     "sc": 2
     },
     {
      "rang": 3,
      "equipe": "ENOA 1",
-     "pts": 3,
-     "j": 2,
+     "pts": 4,
+     "j": 3,
      "g": 1,
-     "p": 1,
-     "sp": 4,
-     "sc": 3
+     "p": 2,
+     "sp": 6,
+     "sc": 6
     },
     {
      "rang": 4,
@@ -129,10 +129,10 @@
      "heure": "20:30",
      "dom": "ASLM 1",
      "ext": "ENOA 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY"
+     "sd": 3,
+     "se": 2,
+     "sets": "28:26, 16:25, 20:25, 25:13, 15:13",
+     "salle": ""
     },
     {
      "code": "DSMA008",
@@ -4044,10 +4044,10 @@
      "heure": "20:30",
      "dom": "MURS ERIGNE 2",
      "ext": "BAUGE 3",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DES GRANDS MOULINS",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:18, 25:11, 25:11",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4056,10 +4056,10 @@
      "heure": "20:30",
      "dom": "ST BARTH 1",
      "ext": "VCA 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DE LA GEMMETRIE",
+     "sd": 2,
+     "se": 3,
+     "sets": "23:25, 25:20, 25:22, 21:25, 8:15",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4627,10 +4627,10 @@
      "heure": "20:30",
      "dom": "ASLM 10",
      "ext": "VBCM DEP",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY",
+     "sd": 0,
+     "se": 3,
+     "sets": "14:25, 19:25, 17:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
