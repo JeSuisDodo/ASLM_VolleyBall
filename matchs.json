@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10T13:28:07+00:00",
+ "maj": "2026-11-11T12:43:14+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -4020,10 +4020,10 @@
      "heure": "20:30",
      "dom": "ASLM 8",
      "ext": "SCO 3",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:19, 25:13, 25:20",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4068,10 +4068,10 @@
      "heure": "20:30",
      "dom": "ASLM 4",
      "ext": "ST BARTH 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:7, 25:8, 25:15",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4092,10 +4092,10 @@
      "heure": "20:00",
      "dom": "ASPTT 3",
      "ext": "LE LION 3",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE MERMOZ",
+     "sd": 3,
+     "se": 1,
+     "sets": "25:15, 25:20, 25:27, 25:10",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
