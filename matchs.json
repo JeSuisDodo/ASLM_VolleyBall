@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T13:46:58+00:00",
+ "maj": "2026-11-13T13:06:40+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -39,6 +39,16 @@
     },
     {
      "rang": 4,
+     "equipe": "LE LION 1",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1,
+     "sp": 3,
+     "sc": 4
+    },
+    {
+     "rang": 5,
      "equipe": "ASPTT 1",
      "pts": 2,
      "j": 2,
@@ -48,7 +58,7 @@
      "sc": 5
     },
     {
-     "rang": 5,
+     "rang": 6,
      "equipe": "USAC 1",
      "pts": 1,
      "j": 3,
@@ -58,24 +68,14 @@
      "sc": 9
     },
     {
-     "rang": 6,
-     "equipe": "LE LION 1",
-     "pts": 0,
-     "j": 1,
-     "g": 0,
-     "p": 1,
-     "sp": 0,
-     "sc": 3
-    },
-    {
      "rang": 7,
      "equipe": "MURS ERIGNE 1",
      "pts": 0,
-     "j": 1,
+     "j": 2,
      "g": 0,
-     "p": 1,
-     "sp": 0,
-     "sc": 3
+     "p": 2,
+     "sp": 1,
+     "sc": 6
     }
    ],
    "matchs": [
@@ -140,10 +140,10 @@
      "heure": "20:30",
      "dom": "LE LION 1",
      "ext": "MURS ERIGNE 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DES TILLEULS"
+     "sd": 3,
+     "se": 1,
+     "sets": "18:25, 25:22, 25:19, 25:20",
+     "salle": ""
     },
     {
      "code": "DSMA010",
@@ -257,14 +257,14 @@
     },
     {
      "code": "DSMA023",
-     "date": "2026-12-01",
+     "date": "2026-12-03",
      "heure": "20:30",
      "dom": "ASPTT 1",
      "ext": "LE LION 1",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "SALLE MERMOZ"
+     "salle": "SALLE VOLTAIRE"
     },
     {
      "code": "DSMA024",
@@ -3948,9 +3948,9 @@
      "heure": "20:00",
      "dom": "STE GEMMES 1",
      "ext": "ASPTT 5",
-     "sd": null,
-     "se": null,
-     "sets": "",
+     "sd": 2,
+     "se": 3,
+     "sets": "25:23, 16:25, 11:25, 25:20, 4:15",
      "salle": "",
      "tour": "1er tour de COUPE"
     },
@@ -3960,9 +3960,9 @@
      "heure": "20:00",
      "dom": "ASCCHU 2",
      "ext": "OMBREE D'ANJOU",
-     "sd": null,
-     "se": null,
-     "sets": "",
+     "sd": 1,
+     "se": 3,
+     "sets": "12:25, 25:22, 20:25, 21:25",
      "salle": "",
      "tour": "1er tour de COUPE"
     },
@@ -3972,10 +3972,10 @@
      "heure": "20:30",
      "dom": "LE LION 2",
      "ext": "ASPTT 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DES TILLEULS",
+     "sd": 2,
+     "se": 3,
+     "sets": "23:25, 25:23, 25:19, 14:25, 8:15",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -3996,10 +3996,10 @@
      "heure": "20:45",
      "dom": "ASLM 7",
      "ext": "SCO 4",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN MONNET",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:0, 25:0, 25:0",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4008,10 +4008,10 @@
      "heure": "20:00",
      "dom": "SCO 5",
      "ext": "BAUGE 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN ROUSSEAU",
+     "sd": 3,
+     "se": 1,
+     "sets": "25:19, 19:25, 25:22, 25:14",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4128,9 +4128,9 @@
      "heure": "20:00",
      "dom": "ASCCHU 1",
      "ext": "ST BARTH 3",
-     "sd": null,
-     "se": null,
-     "sets": "",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:13, 25:7, 25:11",
      "salle": "",
      "tour": "1er tour de COUPE"
     },
