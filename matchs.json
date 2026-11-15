@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T12:11:06+00:00",
+ "maj": "2026-11-15T12:44:23+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -3449,10 +3449,10 @@
      "heure": "19:00",
      "dom": "ENOA DEP 1",
      "ext": "ECVB R2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "ESPACE LONGUENÉE",
+     "sd": 0,
+     "se": 3,
+     "sets": "24:26, 16:25, 21:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4587,14 +4587,14 @@
     },
     {
      "code": "COMA008",
-     "date": "2026-11-15",
-     "heure": "20:00",
+     "date": "2026-11-19",
+     "heure": "20:30",
      "dom": "ASLM 1",
      "ext": "SCO DEP 1",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "SALLE JEAN LEHAY",
+     "salle": "SALLE JEAN MONNET",
      "tour": "1er tour de COUPE"
     },
     {
