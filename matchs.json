@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T12:44:23+00:00",
+ "maj": "2026-11-16T13:39:15+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -3437,10 +3437,10 @@
      "heure": "20:00",
      "dom": "ST BARTH DEP 2",
      "ext": "AC LONGUE DEP 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DE LA GEMMETRIE",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:0, 25:0, 25:0",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -3473,10 +3473,10 @@
      "heure": "14:00",
      "dom": "SAUMUR DEP 1",
      "ext": "VBCM DEP",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SAINT LAMBERT",
+     "sd": 3,
+     "se": 0,
+     "sets": "25:12, 25:12, 25:15",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -3545,10 +3545,10 @@
      "heure": "20:00",
      "dom": "SAUMUR DEP 2",
      "ext": "VVB DEP",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "GYMNASE GOUZY",
+     "sd": 0,
+     "se": 3,
+     "sets": "6:25, 14:25, 20:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
@@ -4104,9 +4104,9 @@
      "heure": "20:00",
      "dom": "BAUGE 2",
      "ext": "ASLM 6",
-     "sd": null,
-     "se": null,
-     "sets": "",
+     "sd": 0,
+     "se": 3,
+     "sets": "0:25, 0:25, 0:25",
      "salle": "",
      "tour": "1er tour de COUPE"
     },
@@ -4579,10 +4579,10 @@
      "heure": "19:30",
      "dom": "SCO DS",
      "ext": "SMVB DEP",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN ROUSSEAU",
+     "sd": 1,
+     "se": 3,
+     "sets": "25:13, 20:25, 17:25, 23:25",
+     "salle": "",
      "tour": "1er tour de COUPE"
     },
     {
