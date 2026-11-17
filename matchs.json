@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T13:39:15+00:00",
+ "maj": "2026-11-17T14:23:41+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -551,26 +551,26 @@
     {
      "rang": 1,
      "equipe": "ASCCHU 1",
-     "pts": 8,
-     "j": 3,
-     "g": 3,
+     "pts": 11,
+     "j": 4,
+     "g": 4,
      "p": 0,
-     "sp": 9,
-     "sc": 3
+     "sp": 12,
+     "sc": 4
     },
     {
      "rang": 2,
      "equipe": "BAUGE 1",
      "pts": 7,
-     "j": 3,
+     "j": 4,
      "g": 3,
-     "p": 0,
-     "sp": 9,
-     "sc": 4
+     "p": 1,
+     "sp": 10,
+     "sc": 7
     },
     {
      "rang": 3,
-     "equipe": "SCO 2",
+     "equipe": "ASLM 4",
      "pts": 7,
      "j": 3,
      "g": 2,
@@ -580,6 +580,16 @@
     },
     {
      "rang": 4,
+     "equipe": "SCO 2",
+     "pts": 7,
+     "j": 4,
+     "g": 2,
+     "p": 2,
+     "sp": 9,
+     "sc": 7
+    },
+    {
+     "rang": 5,
      "equipe": "ASPTT 3",
      "pts": 6,
      "j": 3,
@@ -587,16 +597,6 @@
      "p": 1,
      "sp": 8,
      "sc": 6
-    },
-    {
-     "rang": 5,
-     "equipe": "ASLM 4",
-     "pts": 4,
-     "j": 2,
-     "g": 1,
-     "p": 1,
-     "sp": 5,
-     "sc": 3
     },
     {
      "rang": 6,
@@ -789,10 +789,10 @@
      "heure": "20:45",
      "dom": "ASCCHU 1",
      "ext": "BAUGE 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN MONNET"
+     "sd": 3,
+     "se": 1,
+     "sets": "25:22, 25:27, 25:18, 25:21",
+     "salle": ""
     },
     {
      "code": "DS1A019",
@@ -811,10 +811,10 @@
      "heure": "20:30",
      "dom": "SCO 2",
      "ext": "ASLM 4",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN ROUSSEAU"
+     "sd": 1,
+     "se": 3,
+     "sets": "25:21, 20:25, 23:25, 18:25",
+     "salle": ""
     },
     {
      "code": "DS1A022",
