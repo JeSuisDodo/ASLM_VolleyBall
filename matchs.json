@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T14:23:41+00:00",
+ "maj": "2026-11-18T13:58:12+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -9,6 +9,16 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "ASLM 1",
+     "pts": 11,
+     "j": 4,
+     "g": 4,
+     "p": 0,
+     "sp": 12,
+     "sc": 3
+    },
+    {
+     "rang": 2,
      "equipe": "ASLM 2",
      "pts": 9,
      "j": 3,
@@ -16,16 +26,6 @@
      "p": 0,
      "sp": 9,
      "sc": 1
-    },
-    {
-     "rang": 2,
-     "equipe": "ASLM 1",
-     "pts": 8,
-     "j": 3,
-     "g": 3,
-     "p": 0,
-     "sp": 9,
-     "sc": 2
     },
     {
      "rang": 3,
@@ -51,11 +51,11 @@
      "rang": 5,
      "equipe": "ASPTT 1",
      "pts": 2,
-     "j": 2,
+     "j": 3,
      "g": 1,
-     "p": 1,
-     "sp": 3,
-     "sc": 5
+     "p": 2,
+     "sp": 4,
+     "sc": 8
     },
     {
      "rang": 6,
@@ -184,10 +184,10 @@
      "heure": "20:30",
      "dom": "ASPTT 1",
      "ext": "ASLM 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE MERMOZ"
+     "sd": 1,
+     "se": 3,
+     "sets": "25:22, 17:25, 21:25, 20:25",
+     "salle": ""
     },
     {
      "code": "DSMA015",
@@ -1462,15 +1462,25 @@
     {
      "rang": 3,
      "equipe": "ASLM 6",
-     "pts": 5,
-     "j": 2,
+     "pts": 6,
+     "j": 3,
      "g": 2,
-     "p": 0,
-     "sp": 6,
-     "sc": 3
+     "p": 1,
+     "sp": 8,
+     "sc": 6
     },
     {
      "rang": 4,
+     "equipe": "ASLM 7",
+     "pts": 6,
+     "j": 3,
+     "g": 2,
+     "p": 1,
+     "sp": 8,
+     "sc": 6
+    },
+    {
+     "rang": 5,
      "equipe": "ASLM 3",
      "pts": 5,
      "j": 3,
@@ -1480,7 +1490,7 @@
      "sc": 6
     },
     {
-     "rang": 5,
+     "rang": 6,
      "equipe": "ASPTT 2",
      "pts": 4,
      "j": 2,
@@ -1490,27 +1500,27 @@
      "sc": 4
     },
     {
-     "rang": 6,
-     "equipe": "ASLM 7",
-     "pts": 4,
-     "j": 2,
-     "g": 1,
-     "p": 1,
-     "sp": 5,
-     "sc": 4
-    },
-    {
      "rang": 7,
-     "equipe": "ENOA 2",
-     "pts": 2,
-     "j": 2,
+     "equipe": "SCO 6",
+     "pts": 3,
+     "j": 4,
      "g": 1,
-     "p": 1,
-     "sp": 4,
-     "sc": 5
+     "p": 3,
+     "sp": 5,
+     "sc": 10
     },
     {
      "rang": 8,
+     "equipe": "ENOA 2",
+     "pts": 2,
+     "j": 3,
+     "g": 1,
+     "p": 2,
+     "sp": 5,
+     "sc": 8
+    },
+    {
+     "rang": 9,
      "equipe": "ASCCHU 2",
      "pts": 0,
      "j": 2,
@@ -1518,16 +1528,6 @@
      "p": 2,
      "sp": 2,
      "sc": 6
-    },
-    {
-     "rang": 9,
-     "equipe": "SCO 6",
-     "pts": 0,
-     "j": 3,
-     "g": 0,
-     "p": 3,
-     "sp": 2,
-     "sc": 9
     }
    ],
    "matchs": [
@@ -1636,10 +1636,10 @@
      "heure": "20:30",
      "dom": "ASLM 6",
      "ext": "ASLM 7",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY"
+     "sd": 2,
+     "se": 3,
+     "sets": "25:10, 28:30, 22:25, 25:15, 11:15",
+     "salle": ""
     },
     {
      "code": "DS2A014",
@@ -1669,10 +1669,10 @@
      "heure": "20:45",
      "dom": "ENOA 2",
      "ext": "SCO 6",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+     "sd": 1,
+     "se": 3,
+     "sets": "14:25, 25:27, 25:21, 13:25",
+     "salle": ""
     },
     {
      "code": "DS2A018",
@@ -2333,31 +2333,31 @@
     {
      "rang": 1,
      "equipe": "ASLM 8",
-     "pts": 9,
-     "j": 3,
-     "g": 3,
+     "pts": 12,
+     "j": 4,
+     "g": 4,
      "p": 0,
-     "sp": 9,
+     "sp": 12,
      "sc": 1
     },
     {
      "rang": 2,
+     "equipe": "ASLM 5",
+     "pts": 9,
+     "j": 4,
+     "g": 3,
+     "p": 1,
+     "sp": 10,
+     "sc": 4
+    },
+    {
+     "rang": 3,
      "equipe": "DOUE 1",
      "pts": 7,
      "j": 3,
      "g": 3,
      "p": 0,
      "sp": 9,
-     "sc": 4
-    },
-    {
-     "rang": 3,
-     "equipe": "ASLM 5",
-     "pts": 6,
-     "j": 3,
-     "g": 2,
-     "p": 1,
-     "sp": 7,
      "sc": 4
     },
     {
@@ -2372,16 +2372,6 @@
     },
     {
      "rang": 5,
-     "equipe": "STE GEMMES 1",
-     "pts": 4,
-     "j": 3,
-     "g": 1,
-     "p": 2,
-     "sp": 6,
-     "sc": 6
-    },
-    {
-     "rang": 6,
      "equipe": "LE LION 2",
      "pts": 4,
      "j": 3,
@@ -2389,6 +2379,16 @@
      "p": 2,
      "sp": 5,
      "sc": 7
+    },
+    {
+     "rang": 6,
+     "equipe": "STE GEMMES 1",
+     "pts": 4,
+     "j": 4,
+     "g": 1,
+     "p": 3,
+     "sp": 6,
+     "sc": 9
     },
     {
      "rang": 7,
@@ -2424,11 +2424,11 @@
      "rang": 10,
      "equipe": "SCO 3",
      "pts": 1,
-     "j": 3,
+     "j": 4,
      "g": 0,
-     "p": 3,
+     "p": 4,
      "sp": 3,
-     "sc": 9
+     "sc": 12
     }
    ],
    "matchs": [
@@ -2625,10 +2625,10 @@
      "heure": "20:30",
      "dom": "SCO 3",
      "ext": "ASLM 5",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN ROUSSEAU"
+     "sd": 0,
+     "se": 3,
+     "sets": "21:25, 19:25, 14:25",
+     "salle": ""
     },
     {
      "code": "DS3A019",
@@ -2636,10 +2636,10 @@
      "heure": "20:30",
      "dom": "ASLM 8",
      "ext": "STE GEMMES 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY"
+     "sd": 3,
+     "se": 0,
+     "sets": "25:10, 25:10, 25:14",
+     "salle": ""
     },
     {
      "code": "DS3A020",
@@ -3555,48 +3555,48 @@
      "code": "COFA011",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COF006",
+     "dom": "ST BARTH DEP 1",
      "ext": "SCO PNF",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE DE LA GEMMETRIE",
      "tour": "2ème tour de COUPE"
     },
     {
      "code": "COFA012",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COF001",
+     "dom": "ST BARTH DEP 2",
      "ext": "AC LONGUE R1",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE DE LA GEMMETRIE",
      "tour": "2ème tour de COUPE"
     },
     {
      "code": "COFA013",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COF002",
-     "ext": "GAGNANT MATCH COF005",
+     "dom": "LA CHRISTINA",
+     "ext": "ECVB R2",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE MARCELLE FRUCHAUD",
      "tour": "2ème tour de COUPE"
     },
     {
      "code": "COFA014",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COF003",
-     "ext": "GAGNANT MATCH COF004",
+     "dom": "ASPTT DS",
+     "ext": "SAUMUR DEP 1",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE MERMOZ",
      "tour": "2ème tour de COUPE"
     },
     {
@@ -3627,24 +3627,24 @@
      "code": "COFA017",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COF007",
-     "ext": "GAGNANT MATCH COF010",
+     "dom": "VCA DS",
+     "ext": "VVB DEP",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "FRANÇOIS CEVERT",
      "tour": "2ème tour de COUPE"
     },
     {
      "code": "COFA018",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COF008",
-     "ext": "GAGNANT MATCH COF009",
+     "dom": "VCA DEP 1",
+     "ext": "SMVB R2",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "FRANÇOIS CEVERT",
      "tour": "2ème tour de COUPE"
     },
     {
@@ -4661,12 +4661,12 @@
      "code": "COMA014",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COMA002",
+     "dom": "SAUMUR DEP 1",
      "ext": "EVCB R1",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "GYMNASE GOUZY",
      "tour": "2ème tour de COUPE"
     },
     {
@@ -4685,36 +4685,36 @@
      "code": "COMA016",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COMA003",
-     "ext": "GAGNANT MATCH COMA005",
+     "dom": "ST BARTH DEP 2",
+     "ext": "MURS ERIGNE DSM",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE DE LA GEMMETRIE",
      "tour": "2ème tour de COUPE"
     },
     {
      "code": "COMA017",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COMA007",
+     "dom": "SMVB DEP",
      "ext": "AC LONGUE R1",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "THOMAS DUPOUET",
      "tour": "2ème tour de COUPE"
     },
     {
      "code": "COMA018",
      "date": "2027-01-03",
      "heure": "20:00",
-     "dom": "GAGNANT MATCH COMA010",
+     "dom": "ASLM 9",
      "ext": "ST BARTH R2",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE JEAN LEHAY",
      "tour": "2ème tour de COUPE"
     },
     {
@@ -4722,7 +4722,7 @@
      "date": "2027-01-03",
      "heure": "20:00",
      "dom": "GAGNANT MATCH COMA008",
-     "ext": "GAGNANT MATCH COMA012",
+     "ext": "ASLM 2",
      "sd": null,
      "se": null,
      "sets": "",
@@ -4734,7 +4734,7 @@
      "date": "2027-01-03",
      "heure": "20:00",
      "dom": "ST BARTH DEP 1",
-     "ext": "GAGNANT MATCH COMA011",
+     "ext": "VBCM DEP",
      "sd": null,
      "se": null,
      "sets": "",
@@ -4757,24 +4757,24 @@
      "code": "COM022",
      "date": "2027-01-03",
      "heure": "15:00",
-     "dom": "PERDANT MATCH COMA002",
-     "ext": "PERDANT MATCH COMA007",
+     "dom": "ENOA DSM",
+     "ext": "SCO DS",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "ESPACE LONGUENÉE",
      "tour": "1er tour de CHALLENGE"
     },
     {
      "code": "COM023",
      "date": "2027-01-03",
      "heure": "15:00",
-     "dom": "PERDANT MATCH COMA003",
+     "dom": "LE LION DSM",
      "ext": "PERDANT MATCH COMA008",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE DES TILLEULS",
      "tour": "1er tour de CHALLENGE"
     },
     {
@@ -4793,24 +4793,24 @@
      "code": "COM025",
      "date": "2027-01-03",
      "heure": "15:00",
-     "dom": "PERDANT MATCH COMA005",
-     "ext": "PERDANT MATCH COMA010",
+     "dom": "VVB DEP 2",
+     "ext": "ENOA DEP",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLES OMNISPORT",
      "tour": "1er tour de CHALLENGE"
     },
     {
      "code": "COM026",
      "date": "2027-01-03",
      "heure": "15:00",
-     "dom": "PERDANT MATCH COMA011",
-     "ext": "PERDANT MATCH COMA012",
+     "dom": "ASLM 10",
+     "ext": "ECVB DEP",
      "sd": null,
      "se": null,
      "sets": "",
-     "salle": "",
+     "salle": "SALLE JEAN LEHAY",
      "tour": "1er tour de CHALLENGE"
     },
     {
