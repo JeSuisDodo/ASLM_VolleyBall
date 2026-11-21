@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T14:00:24+00:00",
+ "maj": "2026-11-21T13:28:12+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -30,25 +30,15 @@
     {
      "rang": 3,
      "equipe": "ENOA 1",
-     "pts": 4,
-     "j": 3,
-     "g": 1,
+     "pts": 7,
+     "j": 4,
+     "g": 2,
      "p": 2,
-     "sp": 6,
+     "sp": 9,
      "sc": 6
     },
     {
      "rang": 4,
-     "equipe": "LE LION 1",
-     "pts": 3,
-     "j": 2,
-     "g": 1,
-     "p": 1,
-     "sp": 3,
-     "sc": 4
-    },
-    {
-     "rang": 5,
      "equipe": "USAC 1",
      "pts": 3,
      "j": 4,
@@ -56,6 +46,16 @@
      "p": 3,
      "sp": 5,
      "sc": 11
+    },
+    {
+     "rang": 5,
+     "equipe": "LE LION 1",
+     "pts": 3,
+     "j": 3,
+     "g": 1,
+     "p": 2,
+     "sp": 3,
+     "sc": 7
     },
     {
      "rang": 6,
@@ -206,10 +206,10 @@
      "heure": "20:30",
      "dom": "ENOA 1",
      "ext": "LE LION 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DE ST LAMBERT LA POTHERI"
+     "sd": 3,
+     "se": 0,
+     "sets": "26:24, 25:17, 25:22",
+     "salle": ""
     },
     {
      "code": "DSMA018",
