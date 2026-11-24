@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T15:58:06+00:00",
+ "maj": "2026-11-24T15:53:32+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -9,23 +9,23 @@
    "classement": [
     {
      "rang": 1,
-     "equipe": "ASLM 1",
-     "pts": 11,
+     "equipe": "ASLM 2",
+     "pts": 12,
      "j": 4,
      "g": 4,
      "p": 0,
      "sp": 12,
-     "sc": 3
+     "sc": 1
     },
     {
      "rang": 2,
-     "equipe": "ASLM 2",
-     "pts": 9,
-     "j": 3,
-     "g": 3,
-     "p": 0,
-     "sp": 9,
-     "sc": 1
+     "equipe": "ASLM 1",
+     "pts": 11,
+     "j": 5,
+     "g": 4,
+     "p": 1,
+     "sp": 12,
+     "sc": 6
     },
     {
      "rang": 3,
@@ -239,10 +239,10 @@
      "heure": "20:30",
      "dom": "ASLM 1",
      "ext": "ASLM 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY"
+     "sd": 0,
+     "se": 3,
+     "sets": "17:25, 18:25, 17:25",
+     "salle": ""
     },
     {
      "code": "DSMA022",
@@ -1441,6 +1441,16 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "MURS ERIGNE 2",
+     "pts": 11,
+     "j": 5,
+     "g": 3,
+     "p": 2,
+     "sp": 13,
+     "sc": 7
+    },
+    {
+     "rang": 2,
      "equipe": "ASLM 7",
      "pts": 9,
      "j": 4,
@@ -1450,7 +1460,7 @@
      "sc": 6
     },
     {
-     "rang": 2,
+     "rang": 3,
      "equipe": "ASPTT 5",
      "pts": 8,
      "j": 4,
@@ -1460,7 +1470,7 @@
      "sc": 7
     },
     {
-     "rang": 3,
+     "rang": 4,
      "equipe": "ASLM 6",
      "pts": 8,
      "j": 4,
@@ -1468,16 +1478,6 @@
      "p": 1,
      "sp": 11,
      "sc": 8
-    },
-    {
-     "rang": 4,
-     "equipe": "MURS ERIGNE 2",
-     "pts": 8,
-     "j": 4,
-     "g": 2,
-     "p": 2,
-     "sp": 10,
-     "sc": 7
     },
     {
      "rang": 5,
@@ -1523,11 +1523,11 @@
      "rang": 9,
      "equipe": "ASCCHU 2",
      "pts": 0,
-     "j": 3,
+     "j": 4,
      "g": 0,
-     "p": 3,
+     "p": 4,
      "sp": 2,
-     "sc": 9
+     "sc": 12
     }
    ],
    "matchs": [
@@ -1724,10 +1724,10 @@
      "heure": "20:45",
      "dom": "ASCCHU 2",
      "ext": "MURS ERIGNE 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN MONNET"
+     "sd": 0,
+     "se": 3,
+     "sets": "14:25, 23:25, 19:25",
+     "salle": ""
     },
     {
      "code": "DS2A024",
@@ -2333,15 +2333,25 @@
     {
      "rang": 1,
      "equipe": "ASLM 8",
-     "pts": 12,
-     "j": 4,
-     "g": 4,
+     "pts": 15,
+     "j": 5,
+     "g": 5,
      "p": 0,
-     "sp": 12,
+     "sp": 15,
      "sc": 1
     },
     {
      "rang": 2,
+     "equipe": "SCO 4",
+     "pts": 10,
+     "j": 5,
+     "g": 4,
+     "p": 1,
+     "sp": 12,
+     "sc": 8
+    },
+    {
+     "rang": 3,
      "equipe": "ASLM 5",
      "pts": 9,
      "j": 4,
@@ -2349,16 +2359,6 @@
      "p": 1,
      "sp": 10,
      "sc": 4
-    },
-    {
-     "rang": 3,
-     "equipe": "SCO 4",
-     "pts": 8,
-     "j": 4,
-     "g": 3,
-     "p": 1,
-     "sp": 9,
-     "sc": 6
     },
     {
      "rang": 4,
@@ -2372,16 +2372,26 @@
     },
     {
      "rang": 5,
-     "equipe": "ST BARTH 1",
-     "pts": 6,
-     "j": 4,
+     "equipe": "STE GEMMES 1",
+     "pts": 7,
+     "j": 5,
      "g": 2,
-     "p": 2,
-     "sp": 7,
-     "sc": 8
+     "p": 3,
+     "sp": 9,
+     "sc": 10
     },
     {
      "rang": 6,
+     "equipe": "ST BARTH 1",
+     "pts": 6,
+     "j": 5,
+     "g": 2,
+     "p": 3,
+     "sp": 7,
+     "sc": 11
+    },
+    {
+     "rang": 7,
      "equipe": "VCA 2",
      "pts": 5,
      "j": 4,
@@ -2391,24 +2401,14 @@
      "sc": 10
     },
     {
-     "rang": 7,
-     "equipe": "STE GEMMES 1",
-     "pts": 4,
-     "j": 4,
-     "g": 1,
-     "p": 3,
-     "sp": 6,
-     "sc": 9
-    },
-    {
      "rang": 8,
      "equipe": "BAUGE 2",
-     "pts": 4,
-     "j": 4,
+     "pts": 5,
+     "j": 5,
      "g": 1,
-     "p": 3,
-     "sp": 7,
-     "sc": 11
+     "p": 4,
+     "sp": 9,
+     "sc": 14
     },
     {
      "rang": 9,
@@ -2424,11 +2424,11 @@
      "rang": 10,
      "equipe": "SCO 3",
      "pts": 1,
-     "j": 4,
+     "j": 5,
      "g": 0,
-     "p": 4,
-     "sp": 3,
-     "sc": 12
+     "p": 5,
+     "sp": 4,
+     "sc": 15
     }
    ],
    "matchs": [
@@ -2654,7 +2654,7 @@
     },
     {
      "code": "DS3A021",
-     "date": "2026-11-26",
+     "date": "2027-01-07",
      "heure": "20:30",
      "dom": "VCA 2",
      "ext": "LE LION 2",
@@ -2669,10 +2669,10 @@
      "heure": "20:30",
      "dom": "ST BARTH 1",
      "ext": "ASLM 8",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DE LA GEMMETRIE"
+     "sd": 0,
+     "se": 3,
+     "sets": "18:25, 23:25, 16:25",
+     "salle": ""
     },
     {
      "code": "DS3A023",
@@ -2680,10 +2680,10 @@
      "heure": "20:35",
      "dom": "STE GEMMES 1",
      "ext": "SCO 3",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "GYMNASE DES BOULAYS"
+     "sd": 3,
+     "se": 1,
+     "sets": "25:20, 25:22, 18:25, 25:20",
+     "salle": ""
     },
     {
      "code": "DS3A024",
@@ -2702,10 +2702,10 @@
      "heure": "20:30",
      "dom": "SCO 4",
      "ext": "BAUGE 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN ROUSSEAU"
+     "sd": 3,
+     "se": 2,
+     "sets": "25:18, 23:25, 25:18, 16:25, 15:9",
+     "salle": ""
     },
     {
      "code": "DS3A026",
