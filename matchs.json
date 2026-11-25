@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T15:53:32+00:00",
+ "maj": "2026-11-25T15:36:32+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -551,15 +551,25 @@
     {
      "rang": 1,
      "equipe": "ASCCHU 1",
-     "pts": 11,
-     "j": 4,
-     "g": 4,
+     "pts": 14,
+     "j": 5,
+     "g": 5,
      "p": 0,
-     "sp": 12,
+     "sp": 15,
      "sc": 4
     },
     {
      "rang": 2,
+     "equipe": "ASLM 4",
+     "pts": 10,
+     "j": 4,
+     "g": 3,
+     "p": 1,
+     "sp": 11,
+     "sc": 5
+    },
+    {
+     "rang": 3,
      "equipe": "BAUGE 1",
      "pts": 7,
      "j": 4,
@@ -567,16 +577,6 @@
      "p": 1,
      "sp": 10,
      "sc": 7
-    },
-    {
-     "rang": 3,
-     "equipe": "ASLM 4",
-     "pts": 7,
-     "j": 3,
-     "g": 2,
-     "p": 1,
-     "sp": 8,
-     "sc": 4
     },
     {
      "rang": 4,
@@ -622,21 +622,21 @@
      "rang": 8,
      "equipe": "SCO 1",
      "pts": 2,
-     "j": 3,
+     "j": 4,
      "g": 1,
-     "p": 2,
+     "p": 3,
      "sp": 4,
-     "sc": 8
+     "sc": 11
     },
     {
      "rang": 9,
      "equipe": "VCA 1",
      "pts": 2,
-     "j": 4,
+     "j": 5,
      "g": 0,
-     "p": 4,
-     "sp": 5,
-     "sc": 12
+     "p": 5,
+     "sp": 6,
+     "sc": 15
     }
    ],
    "matchs": [
@@ -822,10 +822,10 @@
      "heure": "20:30",
      "dom": "ASLM 4",
      "ext": "VCA 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY"
+     "sd": 3,
+     "se": 1,
+     "sets": "23:25, 25:9, 25:10, 25:16",
+     "salle": ""
     },
     {
      "code": "DS1A023",
@@ -833,10 +833,10 @@
      "heure": "20:30",
      "dom": "SCO 1",
      "ext": "ASCCHU 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN ROUSSEAU"
+     "sd": 0,
+     "se": 3,
+     "sets": "9:25, 21:25, 18:25",
+     "salle": ""
     },
     {
      "code": "DS1A024",
@@ -1441,6 +1441,26 @@
    "classement": [
     {
      "rang": 1,
+     "equipe": "ASLM 7",
+     "pts": 12,
+     "j": 5,
+     "g": 4,
+     "p": 1,
+     "sp": 14,
+     "sc": 7
+    },
+    {
+     "rang": 2,
+     "equipe": "ASLM 6",
+     "pts": 11,
+     "j": 5,
+     "g": 4,
+     "p": 1,
+     "sp": 14,
+     "sc": 8
+    },
+    {
+     "rang": 3,
      "equipe": "MURS ERIGNE 2",
      "pts": 11,
      "j": 5,
@@ -1450,17 +1470,7 @@
      "sc": 7
     },
     {
-     "rang": 2,
-     "equipe": "ASLM 7",
-     "pts": 9,
-     "j": 4,
-     "g": 3,
-     "p": 1,
-     "sp": 11,
-     "sc": 6
-    },
-    {
-     "rang": 3,
+     "rang": 4,
      "equipe": "ASPTT 5",
      "pts": 8,
      "j": 4,
@@ -1470,54 +1480,44 @@
      "sc": 7
     },
     {
-     "rang": 4,
-     "equipe": "ASLM 6",
+     "rang": 5,
+     "equipe": "ASLM 3",
      "pts": 8,
      "j": 4,
      "g": 3,
      "p": 1,
-     "sp": 11,
-     "sc": 8
-    },
-    {
-     "rang": 5,
-     "equipe": "ASLM 3",
-     "pts": 5,
-     "j": 3,
-     "g": 2,
-     "p": 1,
-     "sp": 7,
-     "sc": 6
+     "sp": 10,
+     "sc": 7
     },
     {
      "rang": 6,
      "equipe": "ASPTT 2",
      "pts": 5,
-     "j": 3,
+     "j": 4,
      "g": 1,
-     "p": 2,
-     "sp": 7,
-     "sc": 7
+     "p": 3,
+     "sp": 8,
+     "sc": 10
     },
     {
      "rang": 7,
      "equipe": "SCO 6",
      "pts": 3,
-     "j": 4,
+     "j": 5,
      "g": 1,
-     "p": 3,
-     "sp": 5,
-     "sc": 10
+     "p": 4,
+     "sp": 6,
+     "sc": 13
     },
     {
      "rang": 8,
      "equipe": "ENOA 2",
      "pts": 2,
-     "j": 3,
+     "j": 4,
      "g": 1,
-     "p": 2,
+     "p": 3,
      "sp": 5,
-     "sc": 8
+     "sc": 11
     },
     {
      "rang": 9,
@@ -1713,10 +1713,10 @@
      "heure": "20:30",
      "dom": "ASPTT 2",
      "ext": "ASLM 7",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE MERMOZ"
+     "sd": 1,
+     "se": 3,
+     "sets": "25:17, 18:25, 23:25, 23:25",
+     "salle": ""
     },
     {
      "code": "DS2A023",
@@ -1735,10 +1735,10 @@
      "heure": "20:45",
      "dom": "ASLM 6",
      "ext": "ENOA 2",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN MONNET"
+     "sd": 3,
+     "se": 0,
+     "sets": "25:15, 25:19, 25:15",
+     "salle": ""
     },
     {
      "code": "DS2A025",
@@ -1746,10 +1746,10 @@
      "heure": "19:30",
      "dom": "SCO 6",
      "ext": "ASLM 3",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SPORTING CLUB BELLE BEILLE"
+     "sd": 1,
+     "se": 3,
+     "sets": "21:25, 23:25, 26:24, 16:25",
+     "salle": ""
     },
     {
      "code": "DS2A027",
@@ -2342,6 +2342,16 @@
     },
     {
      "rang": 2,
+     "equipe": "ASLM 5",
+     "pts": 12,
+     "j": 5,
+     "g": 4,
+     "p": 1,
+     "sp": 13,
+     "sc": 4
+    },
+    {
+     "rang": 3,
      "equipe": "SCO 4",
      "pts": 10,
      "j": 5,
@@ -2351,24 +2361,14 @@
      "sc": 8
     },
     {
-     "rang": 3,
-     "equipe": "ASLM 5",
-     "pts": 9,
-     "j": 4,
-     "g": 3,
-     "p": 1,
-     "sp": 10,
-     "sc": 4
-    },
-    {
      "rang": 4,
      "equipe": "DOUE 1",
      "pts": 7,
-     "j": 4,
+     "j": 5,
      "g": 3,
-     "p": 1,
+     "p": 2,
      "sp": 9,
-     "sc": 7
+     "sc": 10
     },
     {
      "rang": 5,
@@ -2691,10 +2691,10 @@
      "heure": "20:30",
      "dom": "ASLM 5",
      "ext": "DOUE 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE JEAN LEHAY"
+     "sd": 3,
+     "se": 0,
+     "sets": "25:23, 25:5, 25:21",
+     "salle": ""
     },
     {
      "code": "DS3A025",
@@ -3613,8 +3613,8 @@
     },
     {
      "code": "COFA016",
-     "date": "2027-01-03",
-     "heure": "20:00",
+     "date": "2026-12-14",
+     "heure": "21:15",
      "dom": "ASLM DS",
      "ext": "SCO R1",
      "sd": null,
@@ -4755,8 +4755,8 @@
     },
     {
      "code": "COM022",
-     "date": "2027-01-03",
-     "heure": "15:00",
+     "date": "2026-12-01",
+     "heure": "21:00",
      "dom": "ENOA DSM",
      "ext": "SCO DS",
      "sd": null,
@@ -4767,8 +4767,8 @@
     },
     {
      "code": "COM023",
-     "date": "2027-01-03",
-     "heure": "15:00",
+     "date": "2026-12-07",
+     "heure": "20:30",
      "dom": "LE LION DSM",
      "ext": "ASLM 1",
      "sd": null,
