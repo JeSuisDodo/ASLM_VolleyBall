@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T15:36:32+00:00",
+ "maj": "2026-11-26T15:15:01+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -39,6 +39,16 @@
     },
     {
      "rang": 4,
+     "equipe": "ASPTT 1",
+     "pts": 5,
+     "j": 4,
+     "g": 2,
+     "p": 2,
+     "sp": 7,
+     "sc": 9
+    },
+    {
+     "rang": 5,
      "equipe": "USAC 1",
      "pts": 3,
      "j": 4,
@@ -48,7 +58,7 @@
      "sc": 11
     },
     {
-     "rang": 5,
+     "rang": 6,
      "equipe": "LE LION 1",
      "pts": 3,
      "j": 3,
@@ -58,24 +68,14 @@
      "sc": 7
     },
     {
-     "rang": 6,
-     "equipe": "ASPTT 1",
-     "pts": 2,
-     "j": 3,
-     "g": 1,
-     "p": 2,
-     "sp": 4,
-     "sc": 8
-    },
-    {
      "rang": 7,
      "equipe": "MURS ERIGNE 1",
      "pts": 1,
-     "j": 3,
+     "j": 4,
      "g": 0,
-     "p": 3,
-     "sp": 3,
-     "sc": 9
+     "p": 4,
+     "sp": 4,
+     "sc": 12
     }
    ],
    "matchs": [
@@ -228,10 +228,10 @@
      "heure": "20:30",
      "dom": "MURS ERIGNE 1",
      "ext": "ASPTT 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DES GRANDS MOULINS"
+     "sd": 1,
+     "se": 3,
+     "sets": "21:25, 21:25, 25:23, 15:25",
+     "salle": ""
     },
     {
      "code": "DSMA020",
@@ -560,6 +560,16 @@
     },
     {
      "rang": 2,
+     "equipe": "BAUGE 1",
+     "pts": 10,
+     "j": 5,
+     "g": 4,
+     "p": 1,
+     "sp": 13,
+     "sc": 8
+    },
+    {
+     "rang": 3,
      "equipe": "ASLM 4",
      "pts": 10,
      "j": 4,
@@ -567,16 +577,6 @@
      "p": 1,
      "sp": 11,
      "sc": 5
-    },
-    {
-     "rang": 3,
-     "equipe": "BAUGE 1",
-     "pts": 7,
-     "j": 4,
-     "g": 3,
-     "p": 1,
-     "sp": 10,
-     "sc": 7
     },
     {
      "rang": 4,
@@ -612,11 +612,11 @@
      "rang": 7,
      "equipe": "LONGUE 1",
      "pts": 2,
-     "j": 3,
+     "j": 4,
      "g": 1,
-     "p": 2,
-     "sp": 4,
-     "sc": 8
+     "p": 3,
+     "sp": 5,
+     "sc": 11
     },
     {
      "rang": 8,
@@ -844,10 +844,10 @@
      "heure": "20:30",
      "dom": "BAUGE 1",
      "ext": "LONGUE 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "COMPLEXE SPORTIF DE CHATEAUCOI"
+     "sd": 3,
+     "se": 1,
+     "sets": "22:25, 25:22, 25:12, 25:16",
+     "salle": ""
     },
     {
      "code": "DS1A025",
