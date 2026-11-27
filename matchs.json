@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T15:15:01+00:00",
+ "maj": "2026-11-27T15:04:29+00:00",
  "saison": "2026/2027",
  "poules": [
   {
@@ -39,6 +39,16 @@
     },
     {
      "rang": 4,
+     "equipe": "LE LION 1",
+     "pts": 6,
+     "j": 4,
+     "g": 2,
+     "p": 2,
+     "sp": 6,
+     "sc": 8
+    },
+    {
+     "rang": 5,
      "equipe": "ASPTT 1",
      "pts": 5,
      "j": 4,
@@ -48,24 +58,14 @@
      "sc": 9
     },
     {
-     "rang": 5,
+     "rang": 6,
      "equipe": "USAC 1",
      "pts": 3,
-     "j": 4,
+     "j": 5,
      "g": 1,
-     "p": 3,
-     "sp": 5,
-     "sc": 11
-    },
-    {
-     "rang": 6,
-     "equipe": "LE LION 1",
-     "pts": 3,
-     "j": 3,
-     "g": 1,
-     "p": 2,
-     "sp": 3,
-     "sc": 7
+     "p": 4,
+     "sp": 6,
+     "sc": 14
     },
     {
      "rang": 7,
@@ -217,10 +217,10 @@
      "heure": "20:30",
      "dom": "LE LION 1",
      "ext": "USAC 1",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE DES TILLEULS"
+     "sd": 3,
+     "se": 1,
+     "sets": "25:15, 29:27, 24:26, 25:14",
+     "salle": ""
     },
     {
      "code": "DSMA019",
@@ -591,22 +591,22 @@
     {
      "rang": 5,
      "equipe": "ASPTT 3",
-     "pts": 6,
-     "j": 3,
+     "pts": 7,
+     "j": 4,
      "g": 2,
-     "p": 1,
-     "sp": 8,
-     "sc": 6
+     "p": 2,
+     "sp": 10,
+     "sc": 9
     },
     {
      "rang": 6,
      "equipe": "ASPTT 4",
-     "pts": 4,
-     "j": 4,
-     "g": 1,
+     "pts": 6,
+     "j": 5,
+     "g": 2,
      "p": 3,
-     "sp": 6,
-     "sc": 10
+     "sp": 9,
+     "sc": 12
     },
     {
      "rang": 7,
@@ -855,10 +855,10 @@
      "heure": "20:30",
      "dom": "ASPTT 4",
      "ext": "ASPTT 3",
-     "sd": null,
-     "se": null,
-     "sets": "",
-     "salle": "SALLE VOLTAIRE"
+     "sd": 3,
+     "se": 2,
+     "sets": "20:25, 26:28, 26:24, 25:20, 15:12",
+     "salle": ""
     },
     {
      "code": "DS1A027",
@@ -4292,8 +4292,8 @@
     },
     {
      "code": "mixA030",
-     "date": "2027-02-05",
-     "heure": "20:00",
+     "date": "2026-12-07",
+     "heure": "20:30",
      "dom": "ST BARTH 2",
      "ext": "VCA 3",
      "sd": null,
